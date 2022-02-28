@@ -1,28 +1,26 @@
 // Main thread
 main()
 {
-     maps\mp\_load::main();
+    maps\mp\_load::main();
 
-     game["allies"] = "marines";
-     game["axis"] = "opfor";
-     game["attackers"] = "axis";
-     game["defenders"] = "allies";
-     game["allies_soldiertype"] = "desert";
-     game["axis_soldiertype"] = "desert";
+    game["allies"] = "marines";
+    game["axis"] = "opfor";
+    game["attackers"] = "axis";
+    game["defenders"] = "allies";
+    game["allies_soldiertype"] = "desert";
+    game["axis_soldiertype"] = "desert";
 
-	setdvar("g_speed" ,"210");
-	setdvar("dr_jumpers_speed" ,"1");
+    setdvar("g_speed" ,"210");
+    setdvar("dr_jumpers_speed" ,"1");
 
-	setdvar( "r_specularcolorscale", "1" );
+    setdvar("r_specularcolorscale", "1" );
 
-	setdvar("r_glowbloomintensity0",".1");
-	setdvar("r_glowbloomintensity1",".1");
-	setdvar("r_glowskybleedintensity0",".1");
+    setdvar("r_glowbloomintensity0",".1");
+    setdvar("r_glowbloomintensity1",".1");
+    setdvar("r_glowskybleedintensity0",".1");
 
 	thread messages();
 	thread startdoor();
-
-
 }
 
 messages()
