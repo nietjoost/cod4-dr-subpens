@@ -1,5 +1,15 @@
+# Custom ignore files
 map_source/*
-!map_source/mp_dr_subpens.map        
+!map_source/mp_dr_subpens.map
+
+raw/*
+!raw/maps
+raw/maps/*
+!raw/maps/mp
+raw/maps/mp/*
+!raw/maps/mp/mp_dr_subpens.gsc
+
+# Standard files        
 DirectX/
 Docs/
 End User License Agreement (Release of Map Tools to the Public for Call of Duty 4-PC).doc
@@ -37,7 +47,6 @@ mss32.dll
 mss32.dll.bck
 pbgame.htm
 players/
-raw/
 readme.txt
 servercache.dat
 source_data/
