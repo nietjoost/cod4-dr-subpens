@@ -18,11 +18,12 @@ main()
     setdvar("r_glowbloomintensity0",".1");
     setdvar("r_glowbloomintensity1",".1");
     setdvar("r_glowskybleedintensity0",".1");
-    
+
     thread messages();
     thread startdoor();
 }
 
+// Start message
 messages()
 {
     wait 10;
@@ -30,12 +31,13 @@ messages()
     wait 1;
 }
 
+// Open start door
 startdoor()
 {
-    lootje = getent("startdoor","targetname");
+    startDoor = getent("startdoor","targetname");
     {
         wait 15;
-        lootje moveZ(-400, 5);
+        startDoor moveZ(-400, 5);
         iprintlnbold("^8Start door opened.");
         wait 2;
     }
