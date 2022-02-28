@@ -18,9 +18,9 @@ main()
     setdvar("r_glowbloomintensity0",".1");
     setdvar("r_glowbloomintensity1",".1");
     setdvar("r_glowskybleedintensity0",".1");
-
-	thread messages();
-	thread startdoor();
+    
+    thread messages();
+    thread startdoor();
 }
 
 messages()
