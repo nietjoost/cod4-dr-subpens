@@ -2,4 +2,7 @@
 *
 
 # But not these files...
-!*/map_source/mp_dr_subpens.map
+map_source
+!map_source
+map_source
+!map_source/mp_dr_subpens.map
