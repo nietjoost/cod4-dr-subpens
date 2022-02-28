@@ -1,6 +1,49 @@
-# Ignore everything
-*
-
-# But not these files...
 map_source/*
-!map_source/mp_dr_subpens.map
+!map_source/mp_dr_subpens.map        
+DirectX/
+Docs/
+End User License Agreement (Release of Map Tools to the Public for Call of Duty 4-PC).doc
+Mods/
+PB/
+Play CoD4 v1.7.lnk
+__iw3mp
+aitype/
+assetsrccache/
+assettgtcache/
+bin/
+binkw32.dll
+cod.bmp
+cod4.ico
+cod4x-uninstall.exe
+codlogo.bmp
+collmaps/
+convertcache/
+d3dx9_34.dll
+deffiles/
+devraw/
+eula.txt
+export_errors/
+installscript.vdf
+iw3mp.exe
+iw3mp.exe.b2a1520.impure
+iw3sp.exe
+localization.txt
+main/
+miles/
+miles32.dll
+model_export/
+mp_tool.exe
+mss32.dll
+mss32.dll.bck
+pbgame.htm
+players/
+raw/
+readme.txt
+servercache.dat
+source_data/
+sp_tool.exe
+temp.txt
+usermaps/
+xanim_export/
+zone/
+zone_source/
