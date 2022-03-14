@@ -1,0 +1,71 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 2.5 102 0 ) ( 2.5 108 0 ) ( -3.5 108 0 ) ch_metal_rusty_02 128 128 484 -1818.5 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3.5 106 126 ) ( 2.5 106 126 ) ( 2.5 100 126 ) ch_metal_rusty_02 128 128 484 -1818.5 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2.5 108 66 ) ( -2.5 102 66 ) ( -2.5 102 0 ) ch_metal_rusty_02 128 -128 484 -18 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3.5 102 66 ) ( 2.5 102 66 ) ( 2.5 102 0 ) ch_metal_rusty_02 128 128 1818.5 18 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2.5 102 66 ) ( 2.5 108 66 ) ( 2.5 108 0 ) ch_metal_rusty_02 128 -128 484 -18 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2.5 108 66 ) ( -3.5 108 66 ) ( -3.5 108 0 ) ch_metal_rusty_02 128 128 1818.5 18 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 19.5 -88 118 ) ( 19.5 102 118 ) ( -12.5 102 118 ) ch_metal_rusty_02 128 128 680.00195 -1817.5103 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12.5 102 122 ) ( 19.5 102 122 ) ( 19.5 -88 122 ) ch_metal_rusty_02 128 128 680.00195 -1817.5103 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -0.5 102 120 ) ( -0.5 -88 120 ) ( -0.5 -88 116 ) ch_metal_rusty_02 128 -128 680.00122 8 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12.5 -88 122 ) ( 19.5 -88 122 ) ( 19.5 -88 118 ) ch_metal_rusty_02 128 128 1817.5 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1.5 -88 122 ) ( 1.5 102 122 ) ( 1.5 102 118 ) ch_metal_rusty_02 128 -128 680 8 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 19.5 102 122 ) ( -12.5 102 122 ) ( -12.5 102 118 ) ch_metal_rusty_02 128 128 1817.5 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 19.5 -88 88 ) ( 19.5 102 88 ) ( -12.5 102 88 ) ch_metal_rusty_02 128 128 680.00195 -1817.5103 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12.5 102 92 ) ( 19.5 102 92 ) ( 19.5 -88 92 ) ch_metal_rusty_02 128 128 680.00195 -1817.5103 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -0.5 102 90 ) ( -0.5 -88 90 ) ( -0.5 -88 86 ) ch_metal_rusty_02 128 -128 680.00122 -22 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12.5 -88 92 ) ( 19.5 -88 92 ) ( 19.5 -88 88 ) ch_metal_rusty_02 128 128 1817.5 22 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1.5 -88 92 ) ( 1.5 102 92 ) ( 1.5 102 88 ) ch_metal_rusty_02 128 -128 680 -22 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 19.5 102 92 ) ( -12.5 102 92 ) ( -12.5 102 88 ) ch_metal_rusty_02 128 128 1817.5 22 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 17.5 -103 0 ) ( 17.5 37 0 ) ( -2.5 37 0 ) me_fence_chainlink 64 64 834 -1689.5107 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2.5 46 66 ) ( 17.5 46 66 ) ( 17.5 -94 66 ) me_fence_chainlink 64 64 834 -1689.5037 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2.5 46 66 ) ( -2.5 -94 66 ) ( -2.5 -94 30 ) me_fence_chainlink 64 -64 834 -18 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2.5 -88 66 ) ( 17.5 -88 66 ) ( 17.5 -88 30 ) me_fence_chainlink 64 64 1689.5 18 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2.5 -95 66 ) ( 2.5 45 66 ) ( 2.5 45 30 ) me_fence_chainlink 64 -64 834 -18 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 17.5 102 66 ) ( -2.5 102 66 ) ( -2.5 102 30 ) me_fence_chainlink 64 64 1689.5029 18 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "8.0 -45.5 85.0"
+"model" "mil_barbedwire2"
+"classname" "misc_model"
+"angles" "0 270 0"
+}
+// entity 2
+{
+"origin" "9.0 48.5 85.0"
+"model" "mil_barbedwire2"
+"classname" "misc_model"
+"angles" "0 270 0"
+}
+// entity 3
+{
+"classname" "misc_model"
+"model" "mil_barbedwire2"
+"origin" "9.0 48.5 49.0"
+"angles" "0 270 0"
+}
+// entity 4
+{
+"classname" "misc_model"
+"model" "mil_barbedwire2"
+"origin" "8.0 -45.5 49.0"
+"angles" "0 270 0"
+}

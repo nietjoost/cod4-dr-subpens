@@ -9,6 +9,11 @@ raw/maps/*
 raw/maps/mp/*
 !raw/maps/mp/mp_dr_subpens.gsc
 
+map_source/*
+!map_source/prefabs
+map_source/prefabs/*
+!map_source/prefabs/1 - my prefabs
+
 # Standard files        
 DirectX/
 Docs/
