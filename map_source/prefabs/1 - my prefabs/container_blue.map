@@ -13,13 +13,4 @@ iwmap 4
  ( 23 192 32 ) ( -41 192 32 ) ( -41 192 0 ) me_cargocontainerblue_extdoor_snow 80 -89 -1000 -178 180 0 lightmap_gray 16384 16384 0 0 0 0
  ( -40 64 32 ) ( -40 0 32 ) ( -40 0 0 ) me_cargocontainerblue_ext_wall 192 -89 384 -178 180 0 lightmap_gray 16384 16384 0 0 0 0
 }
-// brush 1
-{
- ( -165 192 -156 ) ( -167 192 -156 ) ( -167 0 -156 ) me_cargocontainergreen_trimwide 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -167 0 -144 ) ( -167 192 -144 ) ( -165 192 -144 ) me_cargocontainergreen_trimwide 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -167 0 -144 ) ( -165 0 -144 ) ( -165 0 -156 ) me_cargocontainergreen_trimwide 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -165 0 -144 ) ( -165 192 -144 ) ( -165 192 -156 ) me_cargocontainergreen_trimwide 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -165 192 -144 ) ( -167 192 -144 ) ( -167 192 -156 ) me_cargocontainergreen_trimwide 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -167 192 -144 ) ( -167 0 -144 ) ( -167 0 -156 ) me_cargocontainergreen_trimwide 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
-}
 }
