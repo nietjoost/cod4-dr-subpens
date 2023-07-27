@@ -19,8 +19,16 @@ main()
     setdvar("r_glowbloomintensity1",".1");
     setdvar("r_glowskybleedintensity0",".1");
 
-    thread messages();
-    thread startdoor();
+    level thread music();
+    level thread messages();
+    level thread startdoor();
+}
+
+// Play music
+music()
+{
+    wait 4;
+    ambientPlay( "song1" );
 }
 
 // Start message

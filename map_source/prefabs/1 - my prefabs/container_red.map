@@ -1,0 +1,16 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 26.5 64.5 0.5 ) ( -37.5 64.5 0.5 ) ( -37.5 0.5 0.5 ) me_cargocontainer_exteriorwall 80 -192 -923.5 -383.5 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -37.5 0.5 89.5 ) ( -37.5 64.5 89.5 ) ( 26.5 64.5 89.5 ) me_cargocontainer_exttrimwide 128 16 947.5 287.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -37.5 0.5 32.5 ) ( 26.5 0.5 32.5 ) ( 26.5 0.5 0.5 ) me_cargocontainer_ext_door_snow 80 -89 -923.5 -177.5 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 43.5 0.5 32.5 ) ( 43.5 64.5 32.5 ) ( 43.5 64.5 0.5 ) me_cargocontainer_exteriorwall 192 -89 383.5 -177.5 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 26.5 192.5 32.5 ) ( -37.5 192.5 32.5 ) ( -37.5 192.5 0.5 ) me_cargocontainer_exteriordoor_wet 80 -89 -923.5 -177.5 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36.5 64.5 32.5 ) ( -36.5 0.5 32.5 ) ( -36.5 0.5 0.5 ) me_cargocontainer_exteriorwall 192 -89 383.5 -177.5 180 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

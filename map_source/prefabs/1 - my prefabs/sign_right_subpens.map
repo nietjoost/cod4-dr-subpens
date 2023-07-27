@@ -1,0 +1,61 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -2812 520 448 ) ( -2820 520 448 ) ( -2820 512 448 ) me_woodboard_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2820 512 512 ) ( -2820 520 512 ) ( -2812 520 512 ) me_woodboard_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2820 514 512 ) ( -2812 514 512 ) ( -2812 514 508 ) me_woodboard_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2812 512 512 ) ( -2812 520 512 ) ( -2812 520 508 ) me_woodboard_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2812 517 512 ) ( -2820 517 512 ) ( -2820 517 508 ) me_woodboard_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2820 520 512 ) ( -2820 512 512 ) ( -2820 512 508 ) me_woodboard_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   mil_decal_arrow
+   lightmap_gray
+   2 2 16 8
+   (
+	v -2844 518 544 t 0 -0 -177.5 -34
+	v -2844 518 512 t 0 -1024 -177.5 -32
+   )
+   (
+	v -2788 518 544 t 896 -0 -174 -34
+	v -2788 518 512 t 896 -1024 -174 -32
+   )
+  }
+ }
+// brush 2
+{
+ ( -2788 516 512 ) ( -2844 516 512 ) ( -2844 515 512 ) ch_factory_corrugatedsiding3 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2844 514 544 ) ( -2844 515 544 ) ( -2788 515 544 ) ch_factory_corrugatedsiding3 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2844 513.5 544 ) ( -2788 513.5 544 ) ( -2788 513.5 543 ) ch_factory_corrugatedsiding3 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2788 514 544 ) ( -2788 515 544 ) ( -2788 515 543 ) ch_factory_corrugatedsiding3 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2788 517.5 544 ) ( -2844 517.5 544 ) ( -2844 517.5 543 ) ch_factory_corrugatedsiding3 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2844 515 544 ) ( -2844 514 544 ) ( -2844 514 543 ) ch_factory_corrugatedsiding3 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   mil_decal_arrow
+   lightmap_gray
+   2 2 16 8
+   (
+	v -2844 513 512 t 0 -0 -177.5 -32
+	v -2844 513 544 t 0 -1024 -177.5 -34
+   )
+   (
+	v -2788 513 512 t 896 -0 -174 -32
+	v -2788 513 544 t 896 -1024 -174 -34
+   )
+  }
+ }
+}
