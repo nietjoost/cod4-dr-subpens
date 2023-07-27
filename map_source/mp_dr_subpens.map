@@ -9883,7 +9883,6 @@ iwmap 4
  {
   mesh
   {
-  toolFlags;
    me_ground_sand1
    lightmap_gray
    16 16 16 8
