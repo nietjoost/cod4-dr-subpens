@@ -19,7 +19,7 @@ main()
     setdvar("r_glowbloomintensity1",".1");
     setdvar("r_glowskybleedintensity0",".1");
 
-    level thread music();
+    //level thread music();
     level thread messages();
     level thread startdoor();
 }

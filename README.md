@@ -21,11 +21,11 @@ The mod's gameplay encourages teamwork, coordination, and quick thinking, as Run
 
 | <img src="assets/github/screenshot_1.png?raw=true" /> |
 | :---------------------------------------------------: |
-|                        In-game                        |
+|                        Radiant                        |
 
 | <img src="assets/github/screenshot_2.png?raw=true" /> |
 | :---------------------------------------------------: |
-|                        In-game                        |
+|                        Radiant                        |
 
 | <img src="assets/github/screenshot_3.png?raw=true" /> |
 | :---------------------------------------------------: |
