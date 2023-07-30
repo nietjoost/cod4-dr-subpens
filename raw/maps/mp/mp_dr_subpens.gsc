@@ -19,6 +19,9 @@ main()
     setdvar("r_glowbloomintensity1",".1");
     setdvar("r_glowskybleedintensity0",".1");
 
+    // Custom vars
+    level.door_old = false;
+
     // Precache
     level._effect[ "frag_exp" ]	= loadfx( "explosions/grenadeExp_dirt" );
 
@@ -30,6 +33,9 @@ main()
     level thread SetupTrap1();
     level thread SetupTrap2();
     level thread SetupTrap3();
+
+    // Room functions
+    level thread SetupRoomOld();
 }
 
 // Play music
@@ -161,6 +167,27 @@ SetupTrap3()
 		wait ((duration)-0.1);
         wait 1;
 	}
+}
+
+
+// Room code
+SetupRoomOld()
+{
+    // Set room settings
+    doorOldTrigger = GetEnt("roomOldTrigger", "targetname");
+    doorOldObjects = GetEntArray("roomOldDoor", "targetname");
+
+    // Wait for use
+    doorOldTrigger waittill("trigger", player);
+    doorOldTrigger delete();
+    level.door_old = true;
+    player PlayerMessage("You have chosen the room ^1OLD");
+
+    // Start old room
+    for (i = 0; i < doorOldObjects.size; i++)
+    {
+        doorOldObjects[i] moveZ(-400, 5);
+    }
 }
 
 
