@@ -29,6 +29,7 @@ main()
     // Traps functions
     level thread SetupTrap1();
     level thread SetupTrap2();
+    level thread SetupTrap3();
 }
 
 // Play music
@@ -121,6 +122,42 @@ SetupTrap2()
         wait 1;
 
         trap2Object3 rotateYaw(360,duration);
+		wait ((duration)-0.1);
+        wait 1;
+	}
+}
+
+
+SetupTrap3()
+{
+    // Set trap settings
+    trap3 = GetEnt("trap3", "targetname");
+    trap3Object1 = GetEnt("trap3Object1", "targetname");
+    trap3Object2 = GetEnt("trap3Object2", "targetname");
+    trap3Object3 = GetEnt("trap3Object3", "targetname");
+    trap3Object4 = GetEnt("trap3Object4", "targetname");
+
+    // Wait for use
+    trap3 waittill("trigger", player);
+    trap3 delete();
+    player PlayerMessage("You activated trap 3");
+
+    // Start trap
+    duration = 1.5;
+    for(;;)
+	{
+  		trap3Object1 rotateRoll(360,duration);
+		wait ((duration)-0.1);
+        wait 1;
+
+        trap3Object2 rotateRoll(360,duration);
+		wait ((duration)-0.1);
+        wait 1;
+
+        trap3Object3 rotateRoll(360,duration);
+		wait ((duration)-0.1);
+
+        trap3Object4 rotateRoll(360,duration);
 		wait ((duration)-0.1);
         wait 1;
 	}
