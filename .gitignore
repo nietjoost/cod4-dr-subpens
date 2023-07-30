@@ -1,13 +1,13 @@
 # Custom ignore files
 map_source/*
 !map_source/mp_dr_subpens.map
+
+zone_source/*
 !zone_source/english/assetinfo/mp_dr_subpens.csv
 !zone_source/english/assetinfo/mp_dr_subpens_load.csv
 !zone_source/english/assetinfo/mp_dr_subpens_load_total.csv
 !zone_source/english/assetinfo/mp_dr_subpens.csv
 !zone_source/english/assetlist/mp_dr_subpens_load.csv
-
-!bin/CoD4CompileTools/mp_dr_subpens.settings
 
 raw/*
 !raw/maps
@@ -70,3 +70,5 @@ zone/
 zone_source/
 
 Cod 4 - models.txt
+
+!bin/CoD4CompileTools/mp_dr_subpens.settings
