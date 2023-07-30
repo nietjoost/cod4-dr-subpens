@@ -19,6 +19,9 @@ main()
     setdvar("r_glowbloomintensity1",".1");
     setdvar("r_glowskybleedintensity0",".1");
 
+    // Precache
+    level._effect[ "frag_exp" ]	= loadfx( "explosions/grenadeExp_dirt" );
+
     //level thread music();
     level thread messages();
     level thread startdoor();
@@ -58,7 +61,36 @@ startdoor()
 // TRAPS
 SetupTrap1()
 {
+    // Set trap settings
+    trap1 = GetEnt("trap1", "targetname");
+    trap1ExplosionsLocations = GetEntArray("trap1ExplosionsLocations", "targetname");
+    trap1ExplosionHurt = GetEntArray("trap1ExplosionHurt", "targetname");
 
+    // Disable the hurt trigger
+    for (i = 0; i < trap1ExplosionHurt.size; i++)
+    {
+        trap1ExplosionHurt[i].dmg = 0;
+    }
+
+    // Wait for use
+    trap1 waittill("trigger", player);
+    player iprintln("You activated trap 1");
+
+    // Start trap
+    for (i = 0; i < trap1ExplosionsLocations.size; i++)
+    {
+        playFX ( level._effect[ "frag_exp" ], trap1ExplosionsLocations[i].origin);	
+	    trap1ExplosionsLocations[i] playsound("clusterbomb_explode_default");
+        trap1ExplosionHurt[i].dmg = 100;
+
+        wait 0.1;
+
+        trap1ExplosionHurt[i].dmg = 0;
+    }
+
+    // Reset trap use
+    wait 10;
+    level thread SetupTrap1();
 }
 
 
@@ -73,11 +105,9 @@ SetupTrap2()
     // Wait for use
     trap2 waittill("trigger", player);
     trap2 delete();
+    player iprintln("You activated trap 2");
 
     // Start trap
-    player iprintln("You activated trap 2");
-    player braxi\_rank::giveRankXP("trap_activation");
-
     duration = 0.5;
     for(;;)
 	{
