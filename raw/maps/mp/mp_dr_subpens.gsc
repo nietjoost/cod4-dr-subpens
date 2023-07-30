@@ -22,6 +22,10 @@ main()
     //level thread music();
     level thread messages();
     level thread startdoor();
+
+    // Traps functions
+    level thread SetupTrap1();
+    level thread SetupTrap2();
 }
 
 // Play music
@@ -49,4 +53,44 @@ startdoor()
         iprintlnbold("^8Start door opened.");
         wait 2;
     }
+}
+
+// TRAPS
+SetupTrap1()
+{
+
+}
+
+
+SetupTrap2()
+{
+    // Set trap settings
+    trap2 = GetEnt("trap2", "targetname");
+    trap2Object1 = GetEnt("trap2Object1", "targetname");
+    trap2Object2 = GetEnt("trap2Object2", "targetname");
+    trap2Object3 = GetEnt("trap2Object3", "targetname");
+
+    // Wait for use
+    trap2 waittill("trigger", player);
+    trap2 delete();
+
+    // Start trap
+    player iprintln("You activated trap 2");
+    player braxi\_rank::giveRankXP("trap_activation");
+
+    duration = 0.5;
+    for(;;)
+	{
+  		trap2Object1 rotateYaw(360,duration);
+		wait ((duration)-0.1);
+        wait 1;
+
+        trap2Object2 rotateYaw(360,duration);
+		wait ((duration)-0.1);
+        wait 1;
+
+        trap2Object3 rotateYaw(360,duration);
+		wait ((duration)-0.1);
+        wait 1;
+	}
 }
