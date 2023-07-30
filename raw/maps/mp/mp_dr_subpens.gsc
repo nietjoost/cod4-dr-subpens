@@ -143,7 +143,7 @@ SetupTrap3()
     player PlayerMessage("You activated trap 3");
 
     // Start trap
-    duration = 1.5;
+    duration = 1;
     for(;;)
 	{
   		trap3Object1 rotateRoll(360,duration);
