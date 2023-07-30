@@ -74,7 +74,8 @@ SetupTrap1()
 
     // Wait for use
     trap1 waittill("trigger", player);
-    player iprintln("You activated trap 1");
+    player PlayerMessage("You activated trap 1");
+    player PlayerMessage("This trap can be activated again after 10 seconds!");
 
     // Start trap
     for (i = 0; i < trap1ExplosionsLocations.size; i++)
@@ -105,7 +106,7 @@ SetupTrap2()
     // Wait for use
     trap2 waittill("trigger", player);
     trap2 delete();
-    player iprintln("You activated trap 2");
+    player PlayerMessage("You activated trap 2");
 
     // Start trap
     duration = 0.5;
@@ -123,4 +124,12 @@ SetupTrap2()
 		wait ((duration)-0.1);
         wait 1;
 	}
+}
+
+
+// Utils functions
+PlayerMessage(msg)
+{
+    prefix = "^6[Subpens]^7 ";
+    self iprintln(prefix + msg);
 }
