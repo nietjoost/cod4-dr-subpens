@@ -2,11 +2,12 @@
 map_source/*
 !map_source/mp_dr_subpens.map
 
-zone_source/*
+zone_source/english/assetinfo/*
 !zone_source/english/assetinfo/mp_dr_subpens.csv
 !zone_source/english/assetinfo/mp_dr_subpens_load.csv
 !zone_source/english/assetinfo/mp_dr_subpens_load_total.csv
-!zone_source/english/assetinfo/mp_dr_subpens.csv
+zone_source/english/assetlist/*
+!zone_source/english/assetlist/mp_dr_subpens.csv
 !zone_source/english/assetlist/mp_dr_subpens_load.csv
 
 raw/*
