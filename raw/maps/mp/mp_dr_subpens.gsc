@@ -33,6 +33,7 @@ main()
     level thread SetupTrap1();
     level thread SetupTrap2();
     level thread SetupTrap3();
+    level thread SetupTrap5();
 
     // Room functions
     level thread SetupRoomOld();
@@ -153,22 +154,46 @@ SetupTrap3()
     for(;;)
 	{
   		trap3Object1 rotateRoll(360,duration);
+        trap3Object3 rotateRoll(360,duration);
 		wait ((duration)-0.1);
         wait 1;
 
         trap3Object2 rotateRoll(360,duration);
-		wait ((duration)-0.1);
-        wait 1;
-
-        trap3Object3 rotateRoll(360,duration);
-		wait ((duration)-0.1);
-
         trap3Object4 rotateRoll(360,duration);
 		wait ((duration)-0.1);
         wait 1;
 	}
 }
 
+SetupTrap5()
+{
+    // Set trap settings
+    trap5 = GetEnt("trap5", "targetname");
+    trap5Object1 = GetEnt("trap5Object1", "targetname");
+
+    // Wait for use
+    trap5 waittill("trigger", player);
+    trap5 delete();
+    player PlayerMessage("You activated trap 5");
+
+    // Start trap
+    duration = 1;
+    for(;;)
+	{
+        trap5Object1 moveZ(200, duration);
+        wait duration;
+
+        trap5Object1 moveZ(-200, duration);
+        wait duration;
+
+        wait duration;
+
+  		trap5Object1 rotateYaw(360,duration);
+		wait ((duration)-0.1);
+
+        wait 3;
+	}
+}
 
 // Room code
 SetupRoomOld()
