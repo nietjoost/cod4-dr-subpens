@@ -23993,7 +23993,7 @@ iwmap 4
 "classname" "trigger_use"
 "targetname" "trap3"
 "hintstring" "Press ^3USE^7 to activate trap 3"
-"origin" "1066.000 -2285.800 144.000"
+"origin" "546.000 -2285.800 144.000"
 // brush 0
 {
  ( 548 -2280 136 ) ( 532 -2280 136 ) ( 532 -2296 136 ) trigger 64 64 -520 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
@@ -24532,5 +24532,128 @@ iwmap 4
  ( -2205.5 -119 -405 ) ( -2205.5 -706 -405 ) ( -2205.5 -706 -404 ) trigger 64 64 1592 4 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -3232.5 -152 -81 ) ( -1362.5 -152 -81 ) ( -1362.5 -152 -80 ) trigger 64 64 -520.5 4 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -2211.5 -401 -82 ) ( -2211.5 186 -82 ) ( -2211.5 186 -81 ) trigger 64 64 1592 4 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1513
+{
+"targetname" "trap4ExplosionsLocations"
+"model" "weapon_c4_mp"
+"origin" "-2016.0 -1960.0 16.0"
+"classname" "script_model"
+}
+// entity 1514
+{
+"targetname" "trap4ExplosionsLocations"
+"classname" "script_model"
+"origin" "-2016.0 -2024.0 16.0"
+"model" "weapon_c4_mp"
+}
+// entity 1515
+{
+"targetname" "trap4ExplosionsLocations"
+"classname" "script_model"
+"origin" "-2016.0 -2088.0 16.0"
+"model" "weapon_c4_mp"
+}
+// entity 1516
+{
+"targetname" "trap4ExplosionsLocations"
+"classname" "script_model"
+"origin" "-2016.0 -2152.0 16.0"
+"model" "weapon_c4_mp"
+}
+// entity 1517
+{
+"targetname" "trap4ExplosionsLocations"
+"classname" "script_model"
+"origin" "-2016.0 -2216.0 16.0"
+"model" "weapon_c4_mp"
+}
+// entity 1518
+{
+"targetname" "trap4ExplosionsLocations"
+"model" "weapon_c4_mp"
+"origin" "-2152.0 -1960.0 16.0"
+"classname" "script_model"
+}
+// entity 1519
+{
+"targetname" "trap4ExplosionsLocations"
+"classname" "script_model"
+"origin" "-2152.0 -2024.0 16.0"
+"model" "weapon_c4_mp"
+}
+// entity 1520
+{
+"targetname" "trap4ExplosionsLocations"
+"classname" "script_model"
+"origin" "-2152.0 -2088.0 16.0"
+"model" "weapon_c4_mp"
+}
+// entity 1521
+{
+"targetname" "trap4ExplosionsLocations"
+"classname" "script_model"
+"origin" "-2152.0 -2152.0 16.0"
+"model" "weapon_c4_mp"
+}
+// entity 1522
+{
+"targetname" "trap4ExplosionsLocations"
+"classname" "script_model"
+"origin" "-2152.0 -2216.0 16.0"
+"model" "weapon_c4_mp"
+}
+// entity 1523
+{
+"targetname" "trap4ExplosionHurt"
+"dmg" "100"
+"classname" "trigger_hurt"
+// brush 0
+{
+ ( -2015 -2188 16 ) ( -2023 -2188 16 ) ( -2023 -2196 16 ) trigger 64 64 -2884 1260 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2019.5 -2196 100.5 ) ( -2019.5 -2188 100.5 ) ( -2011.5 -2188 100.5 ) trigger 64 64 -2884 1260 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2024 -2255 28 ) ( -2016 -2255 28 ) ( -2016 -2255 24 ) trigger 64 64 -2884 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1999 -2202 28 ) ( -1999 -2194 28 ) ( -1999 -2194 24 ) trigger 64 64 -1260 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2000 -1904 28 ) ( -2008 -1904 28 ) ( -2008 -1904 24 ) trigger 64 64 -2884 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2032 -2188 28 ) ( -2032 -2196 28 ) ( -2032 -2196 24 ) trigger 64 64 -1260 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1524
+{
+"targetname" "trap4ExplosionHurt"
+"dmg" "100"
+"classname" "trigger_hurt"
+// brush 0
+{
+ ( -2151 -2188 16 ) ( -2159 -2188 16 ) ( -2159 -2196 16 ) trigger 64 64 -3020 1260 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2155.5 -2196 144.5 ) ( -2155.5 -2188 144.5 ) ( -2147.5 -2188 144.5 ) trigger 64 64 -3020 1260 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2160 -2255 28 ) ( -2152 -2255 28 ) ( -2152 -2255 24 ) trigger 64 64 -3020 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2111 -2202 28 ) ( -2111 -2194 28 ) ( -2111 -2194 24 ) trigger 64 64 -1260 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2136 -1904 28 ) ( -2144 -1904 28 ) ( -2144 -1904 24 ) trigger 64 64 -3020 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2176 -2188 28 ) ( -2176 -2196 28 ) ( -2176 -2196 24 ) trigger 64 64 -1260 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1525
+{
+"angles" "0 270.02 0"
+"classname" "misc_model"
+"origin" "-2078.0 -2285.8 144.0"
+"model" "com_laptop_rugged_open"
+}
+// entity 1526
+{
+"classname" "trigger_use"
+"targetname" "trap4"
+"hintstring" "Press ^3USE^7 to activate trap 4"
+"origin" "546.000 -2285.800 144.000"
+// brush 0
+{
+ ( -2076 -2280 136 ) ( -2092 -2280 136 ) ( -2092 -2296 136 ) trigger 64 64 -3144 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2088 -2296 192 ) ( -2088 -2280 192 ) ( -2072 -2280 192 ) trigger 64 64 -3144 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2084 -2304 192 ) ( -2068 -2304 192 ) ( -2068 -2304 176 ) trigger 64 64 -3144 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2064 -2296 192 ) ( -2064 -2280 192 ) ( -2064 -2280 176 ) trigger 64 64 40 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2072 -2272 192 ) ( -2088 -2272 192 ) ( -2088 -2272 176 ) trigger 64 64 -3144 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2096 -2280 192 ) ( -2096 -2296 192 ) ( -2096 -2296 176 ) trigger 64 64 40 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }

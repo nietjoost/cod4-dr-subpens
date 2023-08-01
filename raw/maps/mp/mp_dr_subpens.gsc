@@ -33,6 +33,7 @@ main()
     level thread SetupTrap1();
     level thread SetupTrap2();
     level thread SetupTrap3();
+    level thread SetupTrap4();
     level thread SetupTrap5();
 
     // Room functions
@@ -163,6 +164,57 @@ SetupTrap3()
 		wait ((duration)-0.1);
         wait 1;
 	}
+}
+
+SetupTrap4()
+{
+    // Set trap settings
+    trap4 = GetEnt("trap4", "targetname");
+    trap4ExplosionsLocations = GetEntArray("trap4ExplosionsLocations", "targetname");
+    trap4ExplosionHurt = GetEntArray("trap4ExplosionHurt", "targetname");
+
+    // Disable the hurt trigger
+    for (i = 0; i < trap4ExplosionHurt.size; i++)
+    {
+        trap4ExplosionHurt[i].dmg = 0;
+    }
+
+    // Wait for use
+    trap4 waittill("trigger", player);
+    player PlayerMessage("You activated trap 4");
+    player PlayerMessage("This trap can be activated again after 60 seconds!");
+
+    // Start trap
+    for (i = 0; i < trap4ExplosionsLocations.size; i++)
+    {
+        trap4ExplosionsLocations[i] moveZ(10, 1);
+    }
+
+    wait 3;
+
+    trap4ExplosionHurt[0].dmg = 100;
+    trap4ExplosionHurt[1].dmg = 100;
+    
+    for (i = 0; i < trap4ExplosionsLocations.size; i++)
+    {
+        playFX ( level._effect[ "frag_exp" ], trap4ExplosionsLocations[i].origin);	
+	    trap4ExplosionsLocations[i] playsound("clusterbomb_explode_default");
+    }
+
+    wait 0.1;
+    trap4ExplosionHurt[0].dmg = 0;
+    trap4ExplosionHurt[1].dmg = 0;
+
+    wait 1.5;
+
+    for (i = 0; i < trap4ExplosionsLocations.size; i++)
+    {
+        trap4ExplosionsLocations[i] moveZ(-10, 1);
+    }
+
+    // Reset trap use
+    wait 58;
+    level thread SetupTrap4();
 }
 
 SetupTrap5()
