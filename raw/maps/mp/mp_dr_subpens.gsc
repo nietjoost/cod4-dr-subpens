@@ -41,6 +41,9 @@ main()
 
     level thread SetupOldRoom();
     level thread SetupSniperRoom();
+
+    // Teleport function
+    level thread teleportpos1to2();
 }
 
 // Play music
@@ -293,6 +296,22 @@ SetupSniperRoom()
 
     // Reset room
     level thread SetupSniperRoom();
+}
+
+
+// Teleport functions
+teleportpos1to2()
+{
+    teleportpos1to2Trigger = GetEnt("teleportpos1to2Trigger", "targetname");
+    teleportpos1to2Object = GetEnt("teleportpos1to2Object", "targetname");
+    
+    for (;;)
+    {
+        teleportpos1to2Trigger waittill("trigger", player);
+        player SetOrigin(teleportpos1to2Object.origin);
+        player SetPlayerAngles(teleportpos1to2Object.angles);
+        wait 0.1;
+    }
 }
 
 
