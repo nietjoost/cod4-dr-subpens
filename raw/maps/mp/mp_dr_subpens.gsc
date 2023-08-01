@@ -35,9 +35,12 @@ main()
     level thread SetupTrap3();
     level thread SetupTrap4();
     level thread SetupTrap5();
-
+    
     // Room functions
-    level thread SetupRoomOld();
+    level.doorSniperTrigger = GetEnt("roomSniperTrigger", "targetname");
+
+    level thread SetupOldRoom();
+    level thread SetupSniperRoom();
 }
 
 // Play music
@@ -248,7 +251,7 @@ SetupTrap5()
 }
 
 // Room code
-SetupRoomOld()
+SetupOldRoom()
 {
     // Set room settings
     doorOldTrigger = GetEnt("roomOldTrigger", "targetname");
@@ -257,7 +260,13 @@ SetupRoomOld()
     // Wait for use
     doorOldTrigger waittill("trigger", player);
     doorOldTrigger delete();
+
+    // Setting before start
     level.door_old = true;
+    level.doorSniperTrigger delete();
+
+    // Message
+    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1OLD");
     player PlayerMessage("You have chosen the room ^1OLD");
 
     // Start old room
@@ -265,6 +274,25 @@ SetupRoomOld()
     {
         doorOldObjects[i] moveZ(-400, 5);
     }
+}
+
+SetupSniperRoom()
+{
+    // Wait for use
+    level.doorSniperTrigger waittill("trigger", player);
+    
+    // Check old to be sure
+    if (level.door_old)
+        return;
+
+    // Message
+    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1SNIPER");
+    player PlayerMessage("You have chosen the room ^1SNIPER");
+
+    // Start sniper room
+
+    // Reset room
+    level thread SetupSniperRoom();
 }
 
 
