@@ -21,6 +21,7 @@ main()
 
     // Custom vars
     level.door_old = false;
+    level.player_in_room = false;
 
     // Precache
     level._effect[ "frag_exp" ]	= loadfx( "explosions/grenadeExp_dirt" );
@@ -263,9 +264,17 @@ SetupOldRoom()
 
     // Wait for use
     doorOldTrigger waittill("trigger", player);
-    doorOldTrigger delete();
+
+    // Check if a player is already in room
+    if (level.player_in_room == true)
+    {
+        player PlayerMessage("^1 Someone is already in a room.");
+        level thread SetupOldRoom();
+        return;
+    }
 
     // Setting before start
+    doorOldTrigger delete();
     level.door_old = true;
     level.doorSniperTrigger delete();
 
@@ -283,11 +292,12 @@ SetupOldRoom()
 SetupSniperRoom()
 {   
     // Setup spawns
-    sniperspawn1 = GetEntArray("sniperspawn1", "targetname");
-    sniperspawn2 = GetEntArray("sniperspawn2", "targetname");
+    sniperspawn1 = GetEnt("sniperspawn1", "targetname");
+    sniperspawn2 = GetEnt("sniperspawn2", "targetname");
 
     // Wait for use
     level.doorSniperTrigger waittill("trigger", player);
+    level.player_in_room = true;
     
     // Check old to be sure
     if (level.door_old)
@@ -298,8 +308,8 @@ SetupSniperRoom()
     player PlayerMessage("You have chosen the room ^1SNIPER");
 
     // Start sniper room
-    player SetOrigin(sniperspawn1.origin );
-    player setplayerangles(sniperspawn1.angles );
+    player SetOrigin(sniperspawn1.origin);
+    player setplayerangles(sniperspawn1.angles);
     player TakeAllWeapons();
     player GiveWeapon("m40a3_mp");
     player GiveWeapon( "remington700_mp" ); 
@@ -308,21 +318,22 @@ SetupSniperRoom()
     wait .05;
     player SwitchToWeapon("m40a3_mp");  
     wait(0.05);
-    level.activ SetOrigin (sniperspawn2.origin);
-    level.activ setplayerangles (sniperspawn2.angles);
-    level.activ TakeAllWeapons();
-    level.activ GiveWeapon( "m40a3_mp" );
-    level.activ GiveWeapon( "remington700_mp" );
-    level.activ GiveMaxAmmo("m40a3_mp");
-    level.activ GiveMaxAmmo( "remington700_mp" );
+    //level.activ SetOrigin (sniperspawn2.origin);
+    //level.activ setplayerangles (sniperspawn2.angles);
+    //level.activ TakeAllWeapons();
+    //level.activ GiveWeapon("m40a3_mp");
+    //level.activ GiveWeapon("remington700_mp");
+    //level.activ GiveMaxAmmo("m40a3_mp");
+    //level.activ GiveMaxAmmo("remington700_mp");
     wait .05;
-    level.activ SwitchToWeapon("m40a3_mp");  
+    //level.activ SwitchToWeapon("m40a3_mp");  
     wait(0.05);
     player switchToWeapon( "m40a3_mp" );
-    level.activ SwitchToWeapon( "m40a3_mp" );
+    //level.activ SwitchToWeapon( "m40a3_mp" );
 
     // Reset room
     player waittill( "death" );
+    level.player_in_room = false;
     level thread SetupSniperRoom();
 }
 
