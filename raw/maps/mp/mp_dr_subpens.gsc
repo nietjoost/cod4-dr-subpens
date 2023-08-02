@@ -281,7 +281,11 @@ SetupOldRoom()
 }
 
 SetupSniperRoom()
-{
+{   
+    // Setup spawns
+    sniperspawn1 = GetEntArray("sniperspawn1", "targetname");
+    sniperspawn2 = GetEntArray("sniperspawn2", "targetname");
+
     // Wait for use
     level.doorSniperTrigger waittill("trigger", player);
     
@@ -294,8 +298,31 @@ SetupSniperRoom()
     player PlayerMessage("You have chosen the room ^1SNIPER");
 
     // Start sniper room
+    player SetOrigin(sniperspawn1.origin );
+    player setplayerangles(sniperspawn1.angles );
+    player TakeAllWeapons();
+    player GiveWeapon("m40a3_mp");
+    player GiveWeapon( "remington700_mp" ); 
+    player GiveMaxAmmo("m40a3_mp");
+    player GiveMaxAmmo( "remington700_mp" );
+    wait .05;
+    player SwitchToWeapon("m40a3_mp");  
+    wait(0.05);
+    level.activ SetOrigin (sniperspawn2.origin);
+    level.activ setplayerangles (sniperspawn2.angles);
+    level.activ TakeAllWeapons();
+    level.activ GiveWeapon( "m40a3_mp" );
+    level.activ GiveWeapon( "remington700_mp" );
+    level.activ GiveMaxAmmo("m40a3_mp");
+    level.activ GiveMaxAmmo( "remington700_mp" );
+    wait .05;
+    level.activ SwitchToWeapon("m40a3_mp");  
+    wait(0.05);
+    player switchToWeapon( "m40a3_mp" );
+    level.activ SwitchToWeapon( "m40a3_mp" );
 
     // Reset room
+    player waittill( "death" );
     level thread SetupSniperRoom();
 }
 

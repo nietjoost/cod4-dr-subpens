@@ -24848,3 +24848,23 @@ iwmap 4
 "classname" "node_scripted"
 "angles" "0 360 0"
 }
+// entity 1537
+{
+"model" "prefabs\\1 - my prefabs\\shipment_main.map"
+"origin" "4289.5 -2464.0 -186.5"
+"classname" "misc_prefab"
+}
+// entity 1538
+{
+"targetname" "sniperspawn1"
+"angles" "0 315 0"
+"classname" "node_scripted"
+"origin" "3621.5 -1791.0 27.0"
+}
+// entity 1539
+{
+"targetname" "sniperspawn2"
+"angles" "0 135 0"
+"classname" "node_scripted"
+"origin" "4925.5 -2975.0 27.0"
+}

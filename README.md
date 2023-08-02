@@ -15,6 +15,7 @@ The mod's gameplay encourages teamwork, coordination, and quick thinking, as Run
 - Multiple paths
 - Multiple shortcuts
 - Multiple end-game rooms
+- Full Shipment sniper room
 - D&B background music ;)
 
 ## Showcase
