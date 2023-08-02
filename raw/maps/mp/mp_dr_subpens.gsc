@@ -44,6 +44,7 @@ main()
 
     // Teleport function
     level thread teleportpos1to2();
+    level thread teleportpos2to1();
 }
 
 // Play music
@@ -310,6 +311,20 @@ teleportpos1to2()
         teleportpos1to2Trigger waittill("trigger", player);
         player SetOrigin(teleportpos1to2Object.origin);
         player SetPlayerAngles(teleportpos1to2Object.angles);
+        wait 0.1;
+    }
+}
+
+teleportpos2to1()
+{
+    teleportpos2to1Trigger = GetEnt("teleportpos2to1Trigger", "targetname");
+    teleportpos2to1Object = GetEnt("teleportpos2to1Object", "targetname");
+    
+    for (;;)
+    {
+        teleportpos2to1Trigger waittill("trigger", player);
+        player SetOrigin(teleportpos2to1Object.origin);
+        player SetPlayerAngles(teleportpos2to1Object.angles);
         wait 0.1;
     }
 }

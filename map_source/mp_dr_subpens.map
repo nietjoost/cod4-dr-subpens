@@ -24798,6 +24798,7 @@ iwmap 4
 }
 // entity 1532
 {
+"origin" "-4059.500 482.000 369.000"
 "hintstring" "Press ^3USE ^7to teleport to the next room"
 "targetname" "teleportpos1to2Trigger"
 "classname" "trigger_use"
@@ -24815,6 +24816,35 @@ iwmap 4
 {
 "angles" "0.000 90.000 0.000"
 "classname" "node_scripted"
-"origin" "-5520.0 -2160.0 163.0"
+"origin" "-5520.0 -2032.0 163.0"
 "targetname" "teleportpos1to2Object"
+}
+// entity 1534
+{
+"model" "com_firehydrant"
+"origin" "-5525.5 -2222.0 164.0"
+"classname" "misc_model"
+}
+// entity 1535
+{
+"origin" "-4059.500 482.000 369.000"
+"hintstring" "Press ^3USE ^7to teleport to the start room"
+"targetname" "teleportpos2to1Trigger"
+"classname" "trigger_use"
+// brush 0
+{
+ ( -5514 -2204 147 ) ( -5522 -2204 147 ) ( -5522 -2236 147 ) trigger 64 64 -1466 2704 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5518 -2236 235 ) ( -5518 -2204 235 ) ( -5510 -2204 235 ) trigger 64 64 -1466 2704 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5526 -2240 191 ) ( -5518 -2240 191 ) ( -5518 -2240 187 ) trigger 64 64 -1466 205 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5506 -2236 191 ) ( -5506 -2204 191 ) ( -5506 -2204 187 ) trigger 64 64 -2704 205 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5518 -2200 191 ) ( -5526 -2200 191 ) ( -5526 -2200 187 ) trigger 64 64 -1466 205 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5534 -2204 191 ) ( -5534 -2236 191 ) ( -5534 -2236 187 ) trigger 64 64 -2704 205 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1536
+{
+"targetname" "teleportpos2to1Object"
+"origin" "-3912.0 484.0 368.0"
+"classname" "node_scripted"
+"angles" "0 360 0"
 }
