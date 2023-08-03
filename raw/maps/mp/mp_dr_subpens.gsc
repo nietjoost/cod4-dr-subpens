@@ -37,6 +37,8 @@ main()
     level thread SetupTrap4();
     level thread SetupTrap5();
     level thread SetupTrap6();
+    level thread SetupTrap7();
+    level thread SetupTrap8();
     
     // Room functions
     level.doorSniperTrigger = GetEnt("roomSniperTrigger", "targetname");
@@ -272,6 +274,36 @@ SetupTrap6()
         trap6Object1[i] thread MoveObjectUpAndDown();
         wait 0.5;
     }
+}
+
+SetupTrap7()
+{
+    // Set trap settings
+    trap7 = GetEnt("trap7", "targetname");
+    trap7Object1 = GetEnt("trap7Object1", "targetname");
+
+    // Wait for use
+    trap7 waittill("trigger", player);
+    trap7 delete();
+    player PlayerMessage("You activated trap 7");
+
+    // Start trap
+    trap7Object1 delete();
+}
+
+SetupTrap8()
+{
+    // Set trap settings
+    trap8 = GetEnt("trap8", "targetname");
+    //trap8Object1 = GetEnt("trap8Object1", "targetname");
+
+    // Wait for use
+    trap8 waittill("trigger", player);
+    trap8 delete();
+    player PlayerMessage("You activated trap 8");
+
+    // Start trap
+
 }
 
 MoveObjectUpAndDown()
