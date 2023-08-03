@@ -36,6 +36,7 @@ main()
     level thread SetupTrap3();
     level thread SetupTrap4();
     level thread SetupTrap5();
+    level thread SetupTrap6();
     
     // Room functions
     level.doorSniperTrigger = GetEnt("roomSniperTrigger", "targetname");
@@ -241,18 +242,49 @@ SetupTrap5()
     for(;;)
 	{
         trap5Object1 moveZ(200, duration);
-        wait duration;
+        wait duration + 0.5;
 
         trap5Object1 moveZ(-200, duration);
-        wait duration;
+        wait duration + 0.5;
 
-        wait duration;
+        wait duration + 0.5;
 
   		trap5Object1 rotateYaw(360,duration);
-		wait ((duration)-0.1);
 
-        wait 3;
+        wait 3.5;
 	}
+}
+
+SetupTrap6()
+{
+    // Set trap settings
+    trap6 = GetEnt("trap6", "targetname");
+    trap6Object1 = GetEntArray("trap6Object1", "targetname");
+
+    // Wait for use
+    trap6 waittill("trigger", player);
+    trap6 delete();
+    player PlayerMessage("You activated trap 6");
+
+    // Start trap
+    for (i = 0; i < trap6Object1.size; i++)
+    {
+        trap6Object1[i] thread MoveObjectUpAndDown();
+        wait 0.5;
+    }
+}
+
+MoveObjectUpAndDown()
+{
+    duration = 2;
+
+    for (;;)
+    {
+        self moveZ(300, duration);
+        wait 1;
+        self moveZ(-300, duration);
+        wait 1;
+    }
 }
 
 // Room code
