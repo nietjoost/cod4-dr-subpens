@@ -41,7 +41,7 @@ main()
     level thread SetupTrap8();
     
     // Room functions
-    level.doorSniperTrigger = GetEnt("roomSniperTrigger", "targetname");
+    level.roomSniperTrigger = GetEnt("roomSniperTrigger", "targetname");
     level.roomKnifeTrigger = GetEnt("roomKnifeTrigger", "targetname");
 
     level thread SetupOldRoom();
@@ -347,7 +347,7 @@ SetupOldRoom()
     // Setting before start
     doorOldTrigger delete();
     level.door_old = true;
-    level.doorSniperTrigger delete();
+    level.roomSniperTrigger delete();
     level.roomKnifeTrigger delete();
 
     // Message
@@ -368,7 +368,7 @@ SetupSniperRoom()
     sniperspawn2 = GetEnt("sniperspawn2", "targetname");
 
     // Wait for use
-    level.doorSniperTrigger waittill("trigger", player);
+    level.roomSniperTrigger waittill("trigger", player);
     level.acti = GetActivator();
 
     // Checks before continnue
@@ -421,7 +421,7 @@ SetupKnifeRoom()
     knifespawn2 = GetEnt("sniperspawn2", "targetname");
 
     // Wait for use
-    level.doorSniperTrigger waittill("trigger", player);
+    level.roomKnifeTrigger waittill("trigger", player);
     level.acti = GetActivator();
 
     // Checks before continnue
