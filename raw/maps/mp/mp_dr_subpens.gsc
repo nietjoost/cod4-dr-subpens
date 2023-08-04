@@ -366,11 +366,21 @@ SetupSniperRoom()
 
     // Wait for use
     level.doorSniperTrigger waittill("trigger", player);
-    level.player_in_room = true;
-    
-    // Check old to be sure
+    level.acti = GetActivator();
+
+    // Checks before continnue
     if (level.door_old)
         return;
+
+    if (level.acti == undefined)
+    {
+        level thread SetupSniperRoom();
+        player PlayerMessage("^1No activator found");
+        return;
+    }
+
+    // Set room is in use
+    level.player_in_room = true;
 
     // Message
     iprintlnBold("^5" + player.name + " ^7has chosen the room ^1SNIPER");
@@ -379,26 +389,11 @@ SetupSniperRoom()
     // Start sniper room
     player SetOrigin(sniperspawn1.origin);
     player setplayerangles(sniperspawn1.angles);
-    player TakeAllWeapons();
-    player GiveWeapon("m40a3_mp");
-    player GiveWeapon( "remington700_mp" ); 
-    player GiveMaxAmmo("m40a3_mp");
-    player GiveMaxAmmo( "remington700_mp" );
-    wait .05;
-    player SwitchToWeapon("m40a3_mp");  
-    wait(0.05);
-    //level.activ SetOrigin (sniperspawn2.origin);
-    //level.activ setplayerangles (sniperspawn2.angles);
-    //level.activ TakeAllWeapons();
-    //level.activ GiveWeapon("m40a3_mp");
-    //level.activ GiveWeapon("remington700_mp");
-    //level.activ GiveMaxAmmo("m40a3_mp");
-    //level.activ GiveMaxAmmo("remington700_mp");
-    wait .05;
-    //level.activ SwitchToWeapon("m40a3_mp");  
-    wait(0.05);
-    player switchToWeapon( "m40a3_mp" );
-    //level.activ SwitchToWeapon( "m40a3_mp" );
+    level.acti SetOrigin(sniperspawn1.origin);
+    level.acti setplayerangles(sniperspawn1.angles);
+
+    player thread SpawnSniperRoomLogic();
+    level.acti thread SpawnSniperRoomLogic();
 
     // Reset room
     player waittill( "death" );
@@ -406,6 +401,30 @@ SetupSniperRoom()
     level thread SetupSniperRoom();
 }
 
+SpawnSniperRoomLogic()
+{
+    self TakeAllWeapons();
+    self GiveWeapon("m40a3_mp");
+    self GiveWeapon( "remington700_mp" ); 
+    self GiveMaxAmmo("m40a3_mp");
+    self GiveMaxAmmo( "remington700_mp" );
+    self RoomCountDown();
+}  
+
+RoomCountDown()
+{
+    self FreezeControls(true);
+    self SetOrigin(self.origin + (0,0,20));
+    self iprintlnBold("^13");
+    wait 1;
+    self iprintlnBold("^62");
+    wait 1;
+    self iprintlnBold("^51");
+    wait 1;
+    self iprintlnBold("^2GO!");
+    self FreezeControls(false);
+    self SwitchToWeapon("m40a3_mp"); 
+}
 
 // Teleport functions
 teleportpos1to2()
@@ -442,4 +461,17 @@ PlayerMessage(msg)
 {
     prefix = "^6[Subpens]^7 ";
     self iprintln(prefix + msg);
+}
+
+GetActivator()
+{
+    for ( i = 0; i < level.players.size; i++ )
+    {	
+        p = level.players[i];
+        if (p.pers["team"] == "axis")
+        {
+            return;
+        }
+    }
+    return undefined;
 }

@@ -8717,7 +8717,7 @@ iwmap 4
  ( -3784 -918 248 ) ( -3624 -918 248 ) ( -3624 -918 240 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -3620 -919 248 ) ( -3620 -727 248 ) ( -3620 -727 240 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -3621 -722.5 248 ) ( -3781 -722.5 248 ) ( -3781 -722.5 240 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -3790 -730 248 ) ( -3790 -922 248 ) ( -3790 -922 240 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4070 -699 248 ) ( -4070 -891 248 ) ( -4070 -891 240 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 657
 {
@@ -24951,8 +24951,8 @@ iwmap 4
 }
 // entity 1529
 {
-"hintstring" "Press ^3USE^7 to choose the bounce room"
-"targetname" "roomBounceTrigger"
+"hintstring" "Press ^3USE^7 to choose the knife room"
+"targetname" "roomKnifeTrigger"
 "classname" "trigger_use"
 // brush 0
 {
@@ -25405,4 +25405,10 @@ iwmap 4
  ( -3984 -64 224 ) ( -4016 -64 224 ) ( -4016 -64 64 ) ch_concretewall17 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -4016 -64 128 ) ( -4016 -80 128 ) ( -4016 -80 -32 ) ch_concretewall17 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
+}
+// entity 1566
+{
+"model" "viewmodel_knife"
+"origin" "-4864.0 503.5 129.0"
+"classname" "misc_model"
 }
