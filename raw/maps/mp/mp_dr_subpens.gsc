@@ -295,7 +295,7 @@ SetupTrap8()
 {
     // Set trap settings
     trap8 = GetEnt("trap8", "targetname");
-    //trap8Object1 = GetEnt("trap8Object1", "targetname");
+    trap8Object1 = GetEntArray("trap8Object1", "targetname");
 
     // Wait for use
     trap8 waittill("trigger", player);
@@ -303,7 +303,11 @@ SetupTrap8()
     player PlayerMessage("You activated trap 8");
 
     // Start trap
-
+    for (i = 0; i < trap8Object1.size; i++)
+    {
+        trap8Object1[i] thread MoveObjectUpAndDown();
+        wait 0.5;
+    }
 }
 
 MoveObjectUpAndDown()
@@ -318,6 +322,7 @@ MoveObjectUpAndDown()
         wait 1;
     }
 }
+
 
 // Room code
 SetupOldRoom()
