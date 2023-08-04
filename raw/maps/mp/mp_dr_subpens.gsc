@@ -42,9 +42,11 @@ main()
     
     // Room functions
     level.doorSniperTrigger = GetEnt("roomSniperTrigger", "targetname");
+    level.roomKnifeTrigger = GetEnt("roomKnifeTrigger", "targetname");
 
     level thread SetupOldRoom();
     level thread SetupSniperRoom();
+    level thread SetupKnifeRoom();
 
     // Teleport function
     level thread teleportpos1to2();
@@ -346,6 +348,7 @@ SetupOldRoom()
     doorOldTrigger delete();
     level.door_old = true;
     level.doorSniperTrigger delete();
+    level.roomKnifeTrigger delete();
 
     // Message
     iprintlnBold("^5" + player.name + " ^7has chosen the room ^1OLD");
@@ -389,8 +392,8 @@ SetupSniperRoom()
     // Start sniper room
     player SetOrigin(sniperspawn1.origin);
     player setplayerangles(sniperspawn1.angles);
-    level.acti SetOrigin(sniperspawn1.origin);
-    level.acti setplayerangles(sniperspawn1.angles);
+    level.acti SetOrigin(sniperspawn2.origin);
+    level.acti setplayerangles(sniperspawn2.angles);
 
     player thread SpawnSniperRoomLogic();
     level.acti thread SpawnSniperRoomLogic();
@@ -409,21 +412,59 @@ SpawnSniperRoomLogic()
     self GiveMaxAmmo("m40a3_mp");
     self GiveMaxAmmo( "remington700_mp" );
     self RoomCountDown();
-}  
+}
 
-RoomCountDown()
+SetupKnifeRoom()
+{   
+    // Setup spawns
+    knifespawn1 = GetEnt("sniperspawn1", "targetname");
+    knifespawn2 = GetEnt("sniperspawn2", "targetname");
+
+    // Wait for use
+    level.doorSniperTrigger waittill("trigger", player);
+    level.acti = GetActivator();
+
+    // Checks before continnue
+    if (level.door_old)
+        return;
+
+    if (level.acti == undefined)
+    {
+        level thread SetupKnifeRoom();
+        player PlayerMessage("^1No activator found");
+        return;
+    }
+
+    // Set room is in use
+    level.player_in_room = true;
+
+    // Message
+    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1KNIFE");
+    player PlayerMessage("You have chosen the room ^1KNIFE");
+
+    // Start sniper room
+    player SetOrigin(knifespawn1.origin);
+    player setplayerangles(knifespawn1.angles);
+    level.acti SetOrigin(knifespawn2.origin);
+    level.acti setplayerangles(knifespawn2.angles);
+
+    player thread SpawnKnifeRoomLogic();
+    level.acti thread SpawnKnifeRoomLogic();
+
+    // Reset room
+    player waittill( "death" );
+    level.player_in_room = false;
+    level thread SetupKnifeRoom();
+}
+
+SpawnKnifeRoomLogic()
 {
-    self FreezeControls(true);
-    self SetOrigin(self.origin + (0,0,20));
-    self iprintlnBold("^13");
-    wait 1;
-    self iprintlnBold("^62");
-    wait 1;
-    self iprintlnBold("^51");
-    wait 1;
-    self iprintlnBold("^2GO!");
-    self FreezeControls(false);
-    self SwitchToWeapon("m40a3_mp"); 
+    self TakeAllWeapons();
+    self giveWeapon("colt45_mp");
+    self switchToWeapon("colt45_mp");
+    self setWeaponAmmoStock("colt45_mp", 0);
+    self setWeaponAmmoClip("colt45_mp", 0);
+    self RoomCountDown();
 }
 
 // Teleport functions
@@ -461,6 +502,21 @@ PlayerMessage(msg)
 {
     prefix = "^6[Subpens]^7 ";
     self iprintln(prefix + msg);
+}
+
+RoomCountDown()
+{
+    self FreezeControls(true);
+    self SetOrigin(self.origin + (0,0,20));
+    self iprintlnBold("^13");
+    wait 1;
+    self iprintlnBold("^62");
+    wait 1;
+    self iprintlnBold("^51");
+    wait 1;
+    self iprintlnBold("^2GO!");
+    self FreezeControls(false);
+    self SwitchToWeapon("m40a3_mp"); 
 }
 
 GetActivator()
