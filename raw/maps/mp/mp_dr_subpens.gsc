@@ -43,14 +43,17 @@ main()
     // Room functions
     level.roomSniperTrigger = GetEnt("roomSniperTrigger", "targetname");
     level.roomKnifeTrigger = GetEnt("roomKnifeTrigger", "targetname");
+    level.roomBounceTrigger = GetEnt("roomBounceTrigger", "targetname");
 
     level thread SetupOldRoom();
     level thread SetupSniperRoom();
     level thread SetupKnifeRoom();
+    level thread SetupBounceRoom();
 
     // Teleport function
     level thread teleportpos1to2();
     level thread teleportpos2to1();
+    level thread BounceTeleport();
 }
 
 // Play music
@@ -349,6 +352,7 @@ SetupOldRoom()
     level.door_old = true;
     level.roomSniperTrigger delete();
     level.roomKnifeTrigger delete();
+    level.roomBounceTrigger delete();
 
     // Message
     iprintlnBold("^5" + player.name + " ^7has chosen the room ^1OLD");
@@ -391,9 +395,9 @@ SetupSniperRoom()
 
     // Start sniper room
     player SetOrigin(sniperspawn1.origin);
-    player setplayerangles(sniperspawn1.angles);
+    player SetPlayerAngles(sniperspawn1.angles);
     level.acti SetOrigin(sniperspawn2.origin);
-    level.acti setplayerangles(sniperspawn2.angles);
+    level.acti SetPlayerAngles(sniperspawn2.angles);
 
     player thread SpawnSniperRoomLogic();
     level.acti thread SpawnSniperRoomLogic();
@@ -415,7 +419,7 @@ SpawnSniperRoomLogic()
 }
 
 SetupKnifeRoom()
-{   
+{
     // Setup spawns
     knifespawn1 = GetEnt("sniperspawn1", "targetname");
     knifespawn2 = GetEnt("sniperspawn2", "targetname");
@@ -444,9 +448,9 @@ SetupKnifeRoom()
 
     // Start sniper room
     player SetOrigin(knifespawn1.origin);
-    player setplayerangles(knifespawn1.angles);
+    player SetPlayerAngles(knifespawn1.angles);
     level.acti SetOrigin(knifespawn2.origin);
-    level.acti setplayerangles(knifespawn2.angles);
+    level.acti SetPlayerAngles(knifespawn2.angles);
 
     player thread SpawnKnifeRoomLogic();
     level.acti thread SpawnKnifeRoomLogic();
@@ -460,11 +464,56 @@ SetupKnifeRoom()
 SpawnKnifeRoomLogic()
 {
     self TakeAllWeapons();
-    self giveWeapon("colt45_mp");
-    self switchToWeapon("colt45_mp");
-    self setWeaponAmmoStock("colt45_mp", 0);
-    self setWeaponAmmoClip("colt45_mp", 0);
+    self giveWeapon("knife_mp");
+    self switchToWeapon("knife_mp");
     self RoomCountDown();
+}
+
+SetupBounceRoom()
+{
+    // Setup spawns
+    bouncespawn1 = GetEnt("bouncespawn1", "targetname");
+    bouncespawn2 = GetEnt("bouncespawn2", "targetname");
+
+    // Wait for use
+    level.roomBounceTrigger waittill("trigger", player);
+    level.acti = GetActivator();
+
+    // Checks before continnue
+    if (level.door_old)
+        return;
+
+    //if (level.acti == undefined)
+    //{
+        //level thread SetupBounceRoom();
+        //player PlayerMessage("^1No activator found");
+        //return;
+    //}
+
+    // Set room is in use
+    level.player_in_room = true;
+
+    // Message
+    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1BOUNCE");
+    player PlayerMessage("You have chosen the room ^1BOUNCE");
+
+    // Start sniper room
+    player SetOrigin(bouncespawn1.origin);
+    player SetPlayerAngles(bouncespawn1.angles);
+    //level.acti SetOrigin(bouncespawn2.origin);
+    //level.acti SetPlayerAngles(bouncespawn2.angles);
+
+    player thread SpawnKnifeRoomLogic();
+    //level.acti thread SpawnKnifeRoomLogic();
+
+    // Teleport back if touch
+    player.tp = bouncespawn1;
+    //level.acti.tp = bouncespawn2;
+
+    // Reset room
+    player waittill( "death" );
+    level.player_in_room = false;
+    level thread SetupBounceRoom();
 }
 
 // Teleport functions
@@ -493,6 +542,18 @@ teleportpos2to1()
         player SetOrigin(teleportpos2to1Object.origin);
         player SetPlayerAngles(teleportpos2to1Object.angles);
         wait 0.1;
+    }
+}
+
+BounceTeleport()
+{
+    for (;;)
+    {
+        bouncetp = GetEnt("bouncetp", "targetname");
+        bouncetp waittill("trigger", player);
+
+        player SetOrigin(player.tp.origin);
+        player SetPlayerAngles(player.tp.angles);
     }
 }
 
