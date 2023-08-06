@@ -14978,6 +14978,78 @@ iwmap 4
  ( 2752.2502 47.749878 62.5 ) ( 2752.25 48.250061 62.5 ) ( 2752.25 48.250061 53 ) clip_full 64.023438 -64 -2866.2817 0 180 0 lightmap_gray 16384 16384 0 0 0 0
  ( 2751.2502 112.75003 62.5 ) ( 2750.7502 112.74997 62.5 ) ( 2750.7502 112.74997 53 ) clip_full 64 64 3743.75 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
+// brush 1310
+{
+ ( 3138.5 -460 -0.5 ) ( 3105.5 -442.5 -0.5 ) ( 3029 -592.5 -0.5 ) clip 64 64 -99.877487 -1463.6909 -27.100183 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3109.5 -444 37.5 ) ( 3155.5 -468 37.5 ) ( 3086 -608 51.5 ) clip 64 64 -99.877487 -1463.6909 -27.100183 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3040 -583.5 62 ) ( 3073 -601 62 ) ( 3073 -601 -0.5 ) clip 56.992126 64 297.51227 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3079 -621 62 ) ( 3155.5 -471 62 ) ( 3155.5 -471 -0.5 ) clip 56.972488 64 -64.634766 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3155.5 -468 37.5 ) ( 3109.5 -444 37.5 ) ( 3109.5 -447 -0.5 ) clip 56.99292 64 374.83414 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3116.5 -433.5 62 ) ( 3040 -583.5 62 ) ( 3040 -583.5 -0.5 ) clip 56.970493 64 -48.136913 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1311
+{
+ ( 3501.4197 -669.03888 -0.5 ) ( 3494.5725 -632.32056 -0.5 ) ( 3329.5591 -665.82739 -0.5 ) clip 64 64 -1754.9675 -3743.7073 -78.600266 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3495.8911 -636.38507 37.5 ) ( 3505.7412 -687.32416 37.5 ) ( 3352.9146 -720.08289 51.5 ) clip 64 64 -1755.2949 -3743.4192 -78.600052 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3343.4521 -668.83038 62 ) ( 3350.3008 -705.55121 62 ) ( 3350.3008 -705.55121 -0.5 ) clip 63.416676 -64 -2382.7009 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3338.3811 -722.69733 62 ) ( 3503.3945 -689.19189 62 ) ( 3503.3945 -689.19189 -0.5 ) clip 62.674267 64 3950.4504 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3505.7412 -687.32416 37.5 ) ( 3495.8911 -636.38507 37.5 ) ( 3493.543 -638.25098 -0.5 ) clip 63.109676 -64 -2389.9829 0 180 -0.049808353 lightmap_gray 16384 16384 0 0 0 0
+ ( 3508.4663 -635.32605 62 ) ( 3343.4521 -668.83038 62 ) ( 3343.4521 -668.83038 -0.5 ) clip 62.673279 64 3932.3994 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1312
+{
+ ( 3641 -355 -156 ) ( 3552 -355 -156 ) ( 3552 -543 -156 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3552 -543 181 ) ( 3552 -355 181 ) ( 3641 -355 181 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3552 -543 181 ) ( 3641 -543 181 ) ( 3641 -543 -156 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3638 -542.5 181 ) ( 3638 -354.5 181 ) ( 3638 -354.5 -156 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3641 -355 181 ) ( 3552 -355 181 ) ( 3552 -355 -156 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3552 -355 181 ) ( 3552 -543 181 ) ( 3552 -543 -156 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1313
+{
+ ( 3514 -317 -0.5 ) ( 3536 -286.5 -0.5 ) ( 3397.5 -190.5 -0.5 ) clip 64 64 -4854.3838 -3506.7568 -124.89997 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3534 -290.5 37.5 ) ( 3504 -332.5 37.5 ) ( 3374.5 -245 51.5 ) clip 64 64 -4854.1538 -3506.5691 -124.89997 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3413.5 -211 62 ) ( 3391.5 -241.5 62 ) ( 3391.5 -241.5 -0.5 ) clip 52.3661 -64 -2317.2043 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3362.5 -236 62 ) ( 3501 -332.5 62 ) ( 3501 -332.5 -0.5 ) clip 52.498089 64 3875.209 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3504 -332.5 37.5 ) ( 3534 -290.5 37.5 ) ( 3531 -290 -0.5 ) clip 52.43084 -64 -2225.8906 0 180 0.013114156 lightmap_gray 16384 16384 0 0 0 0
+ ( 3543.5 -299 62 ) ( 3405 -202.5 62 ) ( 3405 -202.5 -0.5 ) clip 52.497673 64 3898.2742 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1314
+{
+ ( 3503.5 -387.5 -0.5 ) ( 3494.5 -351 -0.5 ) ( 3332 -395 -0.5 ) clip 64 64 -1822.6729 -3727.3142 -75 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3496 -355 37.5 ) ( 3509 -405 37.5 ) ( 3358.5 -448 51.5 ) clip 64 64 -1822.5585 -3727.0977 -75 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3362 -395 62 ) ( 3371 -431.5 62 ) ( 3371 -431.5 -0.5 ) clip 62.625 -64 -2627.3342 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3344 -451.5 62 ) ( 3507 -407.5 62 ) ( 3507 -407.5 -0.5 ) clip 61.794392 64 3947.4971 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3505 -405 37.5 ) ( 3492 -355 37.5 ) ( 3490 -357 -0.5 ) clip 62.417213 -64 -2637.9224 0 180 -0.056168467 lightmap_gray 16384 16384 0 0 0 0
+ ( 3509 -353.5 62 ) ( 3346 -397 62 ) ( 3346 -397 -0.5 ) clip 61.795288 64 3926.4763 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1315
+{
+ ( 3369.7664 -496.86584 -0.5 ) ( 3354.6267 -531.27441 -0.5 ) ( 3510.2202 -595.56641 -0.5 ) clip 64 64 -2267.5662 2858.2893 67.399956 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3355.877 -527.18958 37.5 ) ( 3376.0857 -479.64417 37.5 ) ( 3521.5615 -537.40521 51.5 ) clip 64 64 -2267.3933 2858.689 67.399643 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3486.45 -577.25946 62 ) ( 3501.5898 -542.85205 62 ) ( 3501.5898 -542.85205 -0.5 ) clip 59.034832 64 -3426.3108 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3535.1826 -543.47961 62 ) ( 3379.1987 -478.88452 62 ) ( 3379.1987 -478.88452 -0.5 ) clip 59.134979 -64 -2957.5361 0 -180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3379.2549 -482.08469 37.5 ) ( 3359.0466 -529.62994 37.5 ) ( 3361.8521 -529.26501 -0.5 ) clip 59.351536 64 -3377.0217 0 0 -0.012527113 lightmap_gray 16384 16384 0 0 0 0
+ ( 3344.6626 -520.44653 62 ) ( 3500.3467 -585.43878 62 ) ( 3500.3467 -585.43878 -0.5 ) clip 59.022682 -64 -2945.8989 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1316
+{
+ ( 3113.5 -776 -4 ) ( 2939.5 -622 -4 ) ( 2861 -710.5 -4 ) clip 64 64 -257.48914 -2179.3235 -41.599995 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2859.5 -710.5 62.5 ) ( 2938 -622 62.5 ) ( 3112 -776 62.5 ) clip 64 64 -257.48914 -2179.3235 -41.599995 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2862 -706.5 116 ) ( 3036 -860.5 116 ) ( 3036 -860.5 -4 ) clip 47.857262 64 715.94989 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3030.5 -861.5 116 ) ( 3109 -773 116 ) ( 3109 -773 -4 ) clip 47.857216 64 -258.29037 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3111 -791.5 116 ) ( 2937 -637.5 116 ) ( 2937 -637.5 -4 ) clip 47.857563 64 794.62823 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2942.5 -623.5 116 ) ( 2864 -712 116 ) ( 2864 -712 -4 ) clip 47.856972 64 -103.92603 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1317
+{
+ ( 3113 -43 -6 ) ( 2998.5 -112 -6 ) ( 3135.5 -339.5 -6 ) clip 64 64 -544.73279 1582.0378 31 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3143 -339.5 99 ) ( 3006 -112 99 ) ( 3120.5 -43 99 ) clip 64 64 -544.73279 1582.0378 31 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3135.5 -339.5 115.5 ) ( 3250 -270.5 115.5 ) ( 3250 -270.5 -6 ) clip 54.858395 64 514.52002 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3201.5 -296.5 115.5 ) ( 3064.5 -69 115.5 ) ( 3064.5 -69 -6 ) clip 54.858959 64 7.2819052 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3091.5 -30.5 115.5 ) ( 2977 -99 115.5 ) ( 2977 -99 -6 ) clip 54.858395 64 378.21982 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2983 -127.5 115.5 ) ( 3120 -354.5 115.5 ) ( 3120 -354.5 -6 ) clip 54.85891 64 -61.75 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
 }
 // entity 1
 {
@@ -30115,7 +30187,6 @@ iwmap 4
 }
 // entity 2125
 {
-"angles" "35.2505 126.896 -2.01638"
 "modelscale" "1.17"
 "model" "foliage_tree_grey_oak_lg_a"
 "origin" "5397.5 -3465.2 48.6"
@@ -30123,7 +30194,6 @@ iwmap 4
 }
 // entity 2126
 {
-"angles" "345.536 19.0214 -32.5581"
 "modelscale" "1.11"
 "model" "foliage_tree_grey_oak_med_a_shadow"
 "origin" "5334.1 -3545.4 62.8"
@@ -30131,7 +30201,6 @@ iwmap 4
 }
 // entity 2127
 {
-"angles" "35.2894 128.725 -0.959912"
 "modelscale" "1.11"
 "model" "foliage_tree_grey_oak_xl_a"
 "origin" "5336.9 -3639.3 114.7"
@@ -30783,5 +30852,339 @@ iwmap 4
 "modelscale" "0.88"
 "model" "jeepride_sprawl_grass_01"
 "origin" "3746.7 -3749.9 0.0"
+"classname" "misc_model"
+}
+// entity 2209
+{
+"model" "com_water_tower"
+"origin" "2511.0 -3225.7 -113.5"
+"classname" "misc_model"
+}
+// entity 2210
+{
+"model" "com_water_tank1_stand"
+"origin" "2237.5 -3196.4 0.0"
+"classname" "misc_model"
+}
+// entity 2211
+{
+"model" "com_water_tank1"
+"origin" "2233.7 -3191.7 -36.5"
+"classname" "misc_model"
+}
+// entity 2212
+{
+"model" "me_rooftop_tank_01"
+"origin" "2240.7 -2996.3 0.0"
+"classname" "misc_model"
+}
+// entity 2213
+{
+"classname" "misc_model"
+"origin" "2336.7 -2996.3 0.0"
+"model" "me_rooftop_tank_01"
+}
+// entity 2214
+{
+"classname" "misc_model"
+"origin" "2448.7 -2996.3 0.0"
+"model" "me_rooftop_tank_01"
+}
+// entity 2215
+{
+"classname" "misc_model"
+"origin" "2544.7 -2996.3 0.0"
+"model" "me_rooftop_tank_01"
+}
+// entity 2216
+{
+"classname" "misc_model"
+"origin" "2640.7 -2996.3 0.0"
+"model" "me_rooftop_tank_01"
+}
+// entity 2217
+{
+"model" "me_rooftop_tank_01"
+"origin" "2144.7 -2996.3 0.0"
+"classname" "misc_model"
+}
+// entity 2218
+{
+"model" "cargocontainer_20ft_blue"
+"origin" "2192.4 -2661.9 0.0"
+"classname" "misc_model"
+}
+// entity 2219
+{
+"model" "cargocontainer_20ft_green"
+"origin" "2401.5 -2606.6 0.0"
+"classname" "misc_model"
+}
+// entity 2220
+{
+"model" "cargocontainer_20ft_red"
+"origin" "2609.4 -2333.6 0.0"
+"classname" "misc_model"
+}
+// entity 2221
+{
+"model" "cargocontainer_20ft_white"
+"origin" "2768.9 -2223.2 0.0"
+"classname" "misc_model"
+}
+// entity 2222
+{
+"angles" "0 315 0"
+"model" "cargocontainer_20ft_green"
+"origin" "3083.1 -1434.1 0.0"
+"classname" "misc_model"
+}
+// entity 2223
+{
+"angles" "0 60.028 0"
+"model" "cargocontainer_20ft_red"
+"origin" "3281.3 -1732.1 0.0"
+"classname" "misc_model"
+}
+// entity 2224
+{
+"angles" "0 15.028 0"
+"model" "cargocontainer_20ft_white"
+"origin" "3591.8 -1363.7 0.0"
+"classname" "misc_model"
+}
+// entity 2225
+{
+"model" "com_pipe_4x256_gas"
+"origin" "2117.6 -2977.4 116.0"
+"classname" "misc_model"
+}
+// entity 2226
+{
+"model" "com_pipe_4x256_gas"
+"origin" "2373.6 -2977.4 116.0"
+"classname" "misc_model"
+}
+// entity 2227
+{
+"model" "com_pipe_4x128_gas"
+"origin" "2565.5 -2977.5 116.0"
+"classname" "misc_model"
+}
+// entity 2228
+{
+"angles" "270 337.822 22.1777"
+"model" "com_pipe_4_90angle_gas"
+"origin" "2641.5 -2977.4 115.8"
+"classname" "misc_model"
+}
+// entity 2229
+{
+"classname" "misc_model"
+"origin" "2641.5 -2978.0 76.0"
+"model" "com_pipe_4x64_gas"
+"angles" "90 0 0"
+}
+// entity 2230
+{
+"model" "com_pipe_4x32_gas"
+"origin" "1974.0 -2977.5 116.0"
+"classname" "misc_model"
+}
+// entity 2231
+{
+"classname" "misc_model"
+"origin" "2545.0 -2978.0 84.5"
+"model" "com_pipe_4x64_gas"
+"angles" "90 0 0"
+}
+// entity 2232
+{
+"classname" "misc_model"
+"origin" "2449.0 -2978.0 84.5"
+"model" "com_pipe_4x64_gas"
+"angles" "90 0 0"
+}
+// entity 2233
+{
+"classname" "misc_model"
+"origin" "2337.0 -2978.0 84.5"
+"model" "com_pipe_4x64_gas"
+"angles" "90 0 0"
+}
+// entity 2234
+{
+"classname" "misc_model"
+"origin" "2241.0 -2978.0 84.5"
+"model" "com_pipe_4x64_gas"
+"angles" "90 0 0"
+}
+// entity 2235
+{
+"classname" "misc_model"
+"origin" "2145.0 -2978.0 84.5"
+"model" "com_pipe_4x64_gas"
+"angles" "90 0 0"
+}
+// entity 2236
+{
+"classname" "misc_model"
+"origin" "-2015.0 -2254.0 64.0"
+"model" "com_pipe_8_fit_gas"
+"angles" "0 90 0"
+}
+// entity 2237
+{
+"classname" "misc_model"
+"origin" "-2143.0 -2254.0 64.0"
+"model" "com_pipe_8_fit_gas"
+"angles" "0 90 0"
+}
+// entity 2238
+{
+"angles" "15.26 199.967 29.7569"
+"modelscale" "0.83"
+"model" "ch_roadrock_05"
+"origin" "5319.6 -3867.9 223.2"
+"classname" "misc_model"
+}
+// entity 2239
+{
+"angles" "346.392 350.074 -53.3599"
+"modelscale" "0.84"
+"model" "ch_roadrock_05"
+"origin" "4978.1 -3893.9 164.2"
+"classname" "misc_model"
+}
+// entity 2240
+{
+"angles" "350.754 186.656 54.0083"
+"modelscale" "1.11"
+"model" "ch_roadrock_07"
+"origin" "4900.7 -3970.9 272.3"
+"classname" "misc_model"
+}
+// entity 2241
+{
+"angles" "34.1498 151.118 45.5019"
+"modelscale" "0.89"
+"model" "ch_roadrock_06"
+"origin" "5107.5 -3912.7 190.6"
+"classname" "misc_model"
+}
+// entity 2242
+{
+"angles" "27.7015 158.046 49.071"
+"model" "ch_roadrock_01"
+"origin" "4588.9 -3980.9 286.3"
+"classname" "misc_model"
+}
+// entity 2243
+{
+"angles" "17.1257 167.326 52.6311"
+"modelscale" "1.05"
+"model" "ch_roadrock_07"
+"origin" "4115.4 -3963.8 262.4"
+"classname" "misc_model"
+}
+// entity 2244
+{
+"angles" "327.105 207.423 46.3074"
+"modelscale" "1.20"
+"model" "ch_roadrock_02"
+"origin" "3575.7 -4028.2 352.8"
+"classname" "misc_model"
+}
+// entity 2245
+{
+"angles" "351.011 186.467 54.0382"
+"modelscale" "0.90"
+"model" "ch_roadrock_06"
+"origin" "3414.6 -3944.8 235.7"
+"classname" "misc_model"
+}
+// entity 2246
+{
+"angles" "340.187 345.135 -51.9369"
+"modelscale" "1.09"
+"model" "ch_roadrock_06"
+"origin" "3803.4 -3900.9 174.0"
+"classname" "misc_model"
+}
+// entity 2247
+{
+"angles" "308.197 244.815 20.2818"
+"modelscale" "1.15"
+"model" "ch_roadrock_02"
+"origin" "4426.7 -3906.0 181.1"
+"classname" "misc_model"
+}
+// entity 2248
+{
+"angles" "322.349 213.323 42.8953"
+"modelscale" "0.84"
+"model" "ch_roadrock_02"
+"origin" "3190.0 -4092.6 443.2"
+"classname" "misc_model"
+}
+// entity 2249
+{
+"angles" "345.562 349.436 -53.2053"
+"modelscale" "0.98"
+"model" "ch_roadrock_05"
+"origin" "2725.6 -3901.5 174.8"
+"classname" "misc_model"
+}
+// entity 2250
+{
+"angles" "23.2671 162.171 50.8478"
+"modelscale" "0.98"
+"model" "ch_roadrock_05"
+"origin" "2320.3 -3998.7 311.4"
+"classname" "misc_model"
+}
+// entity 2251
+{
+"angles" "54.4798 85.9636 -3.28712"
+"modelscale" "1.03"
+"model" "ch_roadrock_05"
+"origin" "2675.8 -4000.8 314.3"
+"classname" "misc_model"
+}
+// entity 2252
+{
+"angles" "53.8355 76.9473 -10.6013"
+"modelscale" "0.92"
+"model" "ch_roadrock_06"
+"origin" "3048.3 -3994.3 305.1"
+"classname" "misc_model"
+}
+// entity 2253
+{
+"angles" "359.457 359.613 -54.5453"
+"model" "ch_roadrock_01"
+"origin" "2285.9 -3792.4 21.6"
+"classname" "misc_model"
+}
+// entity 2254
+{
+"angles" "307.783 246.711 18.7876"
+"modelscale" "1.18"
+"model" "ch_roadrock_02"
+"origin" "2459.5 -3941.8 231.5"
+"classname" "misc_model"
+}
+// entity 2255
+{
+"angles" "44.8981 96.6186 4.68214"
+"model" "ch_roadrock_01"
+"origin" "5307.9 -3953.1 304.6"
+"classname" "misc_model"
+}
+// entity 2256
+{
+"angles" "358.516 272.405 31.6585"
+"model" "ch_roadrock_01"
+"origin" "5712.2 -3945.8 397.5"
 "classname" "misc_model"
 }
