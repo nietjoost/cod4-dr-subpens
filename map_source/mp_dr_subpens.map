@@ -14933,6 +14933,33 @@ iwmap 4
  ( 4770 -396.5 280 ) ( 4730 -396.5 280 ) ( 4730 -396.5 224 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 4729.5 -392 280 ) ( 4729.5 -472 280 ) ( 4729.5 -472 224 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
+// brush 1305
+{
+ ( 4146 368 228 ) ( 4111.5 368 228 ) ( 4111.5 348.5 228 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3823.5 351 272 ) ( 3823.5 370.5 272 ) ( 3858 370.5 272 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4105 -1481.5 0.5 ) ( 4139.5 -1481.5 0.5 ) ( 4139.5 -1481.5 0 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3890 348 120 ) ( 3890 367.5 120 ) ( 3890 367.5 119.5 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4130.5 624.5 0.5 ) ( 4096 624.5 0.5 ) ( 4096 624.5 0 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3873.5 -1172.5 0.5 ) ( 3873.5 -1192 0.5 ) ( 3873.5 -1192 0 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1306
+{
+ ( 5739.5 -1737.5 228 ) ( 5739.5 -1703 228 ) ( 5720 -1703 228 ) ch_stonewall_01 128.00272 128 -2408.571 -5371.5181 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5722.5 -1415 272 ) ( 5742 -1415 272 ) ( 5742 -1449.5 272 ) ch_stonewall_01 128 128 -2408.4912 -5371.5166 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3890 -1696.5 0.5 ) ( 3890 -1731 0.5 ) ( 3890 -1731 0 ) ch_stonewall_01 127.99864 -128 -2408.4607 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5719.5 -1481.5 120 ) ( 5739 -1481.5 120 ) ( 5739 -1481.5 119.5 ) ch_stonewall_01 128 128 5371.5 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5675.5 -1722 0.5 ) ( 5675.5 -1687.5 0.5 ) ( 5675.5 -1687.5 0 ) ch_stonewall_01 128 -128 -2408.4946 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4199 -1465 0.5 ) ( 4179.5 -1465 0.5 ) ( 4179.5 -1465 0 ) ch_stonewall_01 128 128 5371.5 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1307
+{
+ ( 5739.5 352 228 ) ( 5739.5 386.5 228 ) ( 5720 386.5 228 ) ch_stonewall_01 128.00182 128 -4498.0425 -5371.5181 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5722.5 674.5 272 ) ( 5742 674.5 272 ) ( 5742 640 272 ) ch_stonewall_01 128 128 -4497.9912 -5371.5166 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3890 393 0.5 ) ( 3890 358.5 0.5 ) ( 3890 358.5 0 ) ch_stonewall_01 127.99638 -128 -4497.8882 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5719.5 608 120 ) ( 5739 608 120 ) ( 5739 608 119.5 ) ch_stonewall_01 128 128 5371.5 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5651.5 367 0.5 ) ( 5651.5 401.5 0.5 ) ( 5651.5 401.5 0 ) ch_stonewall_01 128 -128 -4497.9946 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4199 624.5 0.5 ) ( 4179.5 624.5 0.5 ) ( 4179.5 624.5 0 ) ch_stonewall_01 128 128 5371.5 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
 }
 // entity 1
 {
@@ -25770,13 +25797,13 @@ iwmap 4
 // entity 1569
 {
 "model" "prefabs\\blackout\\bldg_river_shack_05.map"
-"origin" "2372.6 25.1 0.0"
+"origin" "2264.6 -238.9 0.0"
 "classname" "misc_prefab"
 }
 // entity 1570
 {
 "model" "prefabs\\blackout\\bldg_river_shack_02.map"
-"origin" "2928.2 140.2 0.0"
+"origin" "2918.7 117.2 0.0"
 "classname" "misc_prefab"
 }
 // entity 1571
@@ -26040,4 +26067,408 @@ iwmap 4
  ( 4762 -393 192 ) ( 4746 -393 192 ) ( 4746 -393 176 ) trigger 64 64 3684 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 4724.5 -431 192 ) ( 4724.5 -447 192 ) ( 4724.5 -447 176 ) trigger 64 64 1889.5 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
+}
+// entity 1608
+{
+"angles" "4.8 330 -1.49697e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "4019.5 177.4 238.6"
+"classname" "misc_model"
+}
+// entity 1609
+{
+"angles" "4.8 15 -1.19392e-008"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "3987.5 -207.4 238.6"
+"classname" "misc_model"
+}
+// entity 1610
+{
+"angles" "4.8 60 -4.65661e-007"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "3971.9 -656.1 238.6"
+"classname" "misc_model"
+}
+// entity 1611
+{
+"angles" "4.8 225 3.22096e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "3989.2 -1079.1 238.6"
+"classname" "misc_model"
+}
+// entity 1612
+{
+"angles" "4.8 195 3.96255e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "3997.5 -1359.4 238.6"
+"classname" "misc_model"
+}
+// entity 1613
+{
+"angles" "4.8 360 4.34359e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "4019.5 -1407.3 238.6"
+"classname" "misc_model"
+}
+// entity 1614
+{
+"angles" "4.8 150 2.63258e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "4389.3 -1320.1 238.6"
+"classname" "misc_model"
+}
+// entity 1615
+{
+"angles" "4.8 210 6.10289e-007"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "4701.4 -1359.1 238.6"
+"classname" "misc_model"
+}
+// entity 1616
+{
+"angles" "4.8 150 -3.83674e-007"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "4981.3 -1320.1 238.6"
+"classname" "misc_model"
+}
+// entity 1617
+{
+"angles" "4.8 195 -2.21413e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "5405.5 -1375.4 238.6"
+"classname" "misc_model"
+}
+// entity 1618
+{
+"angles" "4.8 15 3.2236e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "5459.5 502.9 238.6"
+"classname" "misc_model"
+}
+// entity 1619
+{
+"angles" "4.8 180 3.82561e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "5437.5 550.8 238.6"
+"classname" "misc_model"
+}
+// entity 1620
+{
+"angles" "4.8 330 1.45075e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "5067.7 463.6 238.6"
+"classname" "misc_model"
+}
+// entity 1621
+{
+"angles" "4.8 30 2.29466e-008"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "4755.6 502.6 238.6"
+"classname" "misc_model"
+}
+// entity 1622
+{
+"angles" "4.8 330 -1.48192e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "4475.7 463.6 238.6"
+"classname" "misc_model"
+}
+// entity 1623
+{
+"angles" "4.8 15 -2.78189e-006"
+"model" "projectile_cbu97_clusterbomb"
+"origin" "4051.5 518.9 238.6"
+"classname" "misc_model"
+}
+// entity 1624
+{
+"angles" "0 270 0"
+"model" "aftermath_roadblock_01"
+"origin" "5377.3 -376.6 228.0"
+"classname" "misc_model"
+}
+// entity 1625
+{
+"angles" "0 270 0"
+"model" "aftermath_roadblock_01"
+"origin" "5377.3 -492.6 228.0"
+"classname" "misc_model"
+}
+// entity 1626
+{
+"model" "cobra_town_bridge_support"
+"origin" "3594.9 -450.5 -156.0"
+"classname" "misc_model"
+}
+// entity 1627
+{
+"angles" "0 155 0"
+"model" "vehicle_80s_hatch1_red_destructible"
+"origin" "3437.0 -529.5 0.0"
+"classname" "misc_model"
+}
+// entity 1628
+{
+"angles" "0 325 0"
+"model" "vehicle_80s_hatch1_green_destructible"
+"origin" "3451.5 -267.6 0.0"
+"classname" "misc_model"
+}
+// entity 1629
+{
+"angles" "0 9.99998 0"
+"model" "vehicle_80s_hatch1_brndest"
+"origin" "3420.9 -678.3 0.0"
+"classname" "misc_model"
+}
+// entity 1630
+{
+"angles" "0 15 0"
+"model" "vehicle_80s_hatch1_yel_destroyed"
+"origin" "3432.6 -400.3 0.0"
+"classname" "misc_model"
+}
+// entity 1631
+{
+"angles" "0 65 0"
+"model" "vehicle_80s_wagon1_yel_destroyed"
+"origin" "3099.9 -523.5 0.0"
+"classname" "misc_model"
+}
+// entity 1632
+{
+"angles" "0 120 0"
+"model" "vehicle_bm21_mobile_dstry"
+"origin" "3088.9 -204.1 0.0"
+"classname" "misc_model"
+}
+// entity 1633
+{
+"angles" "0 140 0"
+"model" "vehicle_bmp_dsty_static"
+"origin" "2996.2 -756.5 0.0"
+"classname" "misc_model"
+}
+// entity 1634
+{
+"angles" "0 180 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "3744.3 -991.9 0.0"
+"classname" "misc_model"
+}
+// entity 1635
+{
+"classname" "misc_model"
+"origin" "3809.6 -991.9 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 90 0"
+}
+// entity 1636
+{
+"angles" "0 180 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "3648.3 -991.9 0.0"
+"classname" "misc_model"
+}
+// entity 1637
+{
+"classname" "misc_model"
+"origin" "3713.6 -991.9 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 90 0"
+}
+// entity 1638
+{
+"angles" "0 180 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "3520.3 -991.9 0.0"
+"classname" "misc_model"
+}
+// entity 1639
+{
+"classname" "misc_model"
+"origin" "3585.6 -991.9 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 90 0"
+}
+// entity 1640
+{
+"angles" "0 180 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "3392.3 -991.9 0.0"
+"classname" "misc_model"
+}
+// entity 1641
+{
+"classname" "misc_model"
+"origin" "3457.6 -991.9 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 90 0"
+}
+// entity 1642
+{
+"angles" "0 180 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "3264.3 -991.9 0.0"
+"classname" "misc_model"
+}
+// entity 1643
+{
+"classname" "misc_model"
+"origin" "3329.6 -991.9 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 90 0"
+}
+// entity 1644
+{
+"angles" "0 180 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "3136.3 -991.9 0.0"
+"classname" "misc_model"
+}
+// entity 1645
+{
+"classname" "misc_model"
+"origin" "3201.6 -991.9 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 90 0"
+}
+// entity 1646
+{
+"angles" "0 180 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "3008.3 -991.9 0.0"
+"classname" "misc_model"
+}
+// entity 1647
+{
+"classname" "misc_model"
+"origin" "3073.6 -991.9 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 90 0"
+}
+// entity 1648
+{
+"angles" "0 180 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "2880.3 -991.9 0.0"
+"classname" "misc_model"
+}
+// entity 1649
+{
+"classname" "misc_model"
+"origin" "2945.6 -991.9 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 90 0"
+}
+// entity 1650
+{
+"angles" "0 180 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "2752.3 -991.9 0.0"
+"classname" "misc_model"
+}
+// entity 1651
+{
+"classname" "misc_model"
+"origin" "2817.6 -991.9 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 90 0"
+}
+// entity 1652
+{
+"angles" "0 90 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "2752.4 -861.1 0.0"
+"classname" "misc_model"
+}
+// entity 1653
+{
+"classname" "misc_model"
+"origin" "2752.3 -926.4 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 360 0"
+}
+// entity 1654
+{
+"angles" "0 90 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "2752.4 -733.1 0.0"
+"classname" "misc_model"
+}
+// entity 1655
+{
+"classname" "misc_model"
+"origin" "2752.3 -798.4 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 360 0"
+}
+// entity 1656
+{
+"angles" "0 90 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "2752.4 -605.1 0.0"
+"classname" "misc_model"
+}
+// entity 1657
+{
+"classname" "misc_model"
+"origin" "2752.3 -670.4 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 360 0"
+}
+// entity 1658
+{
+"angles" "0 90 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "2752.4 -477.1 0.0"
+"classname" "misc_model"
+}
+// entity 1659
+{
+"classname" "misc_model"
+"origin" "2752.3 -542.4 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 360 0"
+}
+// entity 1660
+{
+"model" "ch_mil_fence_02"
+"origin" "2752.5 -243.4 0.0"
+"classname" "misc_model"
+}
+// entity 1661
+{
+"angles" "0 270 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "2755.6 -242.4 0.0"
+"classname" "misc_model"
+}
+// entity 1662
+{
+"classname" "misc_model"
+"origin" "2755.7 -177.1 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 180 0"
+}
+// entity 1663
+{
+"angles" "0 270 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "2755.6 -114.4 0.0"
+"classname" "misc_model"
+}
+// entity 1664
+{
+"classname" "misc_model"
+"origin" "2755.7 -49.1 -39.5"
+"model" "icbm_fence_cut_static"
+"angles" "0 180 0"
+}
+// entity 1665
+{
+"angles" "0 270 0"
+"model" "me_chainlink_fence_pole2"
+"origin" "2755.6 13.6 0.0"
+"classname" "misc_model"
 }
