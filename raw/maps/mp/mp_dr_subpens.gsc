@@ -49,6 +49,7 @@ main()
     level thread SetupSniperRoom();
     level thread SetupKnifeRoom();
     level thread SetupBounceRoom();
+    level thread PickupSniper();
 
     // Teleport function
     level thread teleportpos1to2();
@@ -483,12 +484,12 @@ SetupBounceRoom()
     if (level.door_old)
         return;
 
-    //if (level.acti == undefined)
-    //{
-        //level thread SetupBounceRoom();
-        //player PlayerMessage("^1No activator found");
-        //return;
-    //}
+    if (level.acti == undefined)
+    {
+        level thread SetupBounceRoom();
+        player PlayerMessage("^1No activator found");
+        return;
+    }
 
     // Set room is in use
     level.player_in_room = true;
@@ -500,20 +501,38 @@ SetupBounceRoom()
     // Start sniper room
     player SetOrigin(bouncespawn1.origin);
     player SetPlayerAngles(bouncespawn1.angles);
-    //level.acti SetOrigin(bouncespawn2.origin);
-    //level.acti SetPlayerAngles(bouncespawn2.angles);
+    level.acti SetOrigin(bouncespawn2.origin);
+    level.acti SetPlayerAngles(bouncespawn2.angles);
 
     player thread SpawnKnifeRoomLogic();
-    //level.acti thread SpawnKnifeRoomLogic();
+    level.acti thread SpawnKnifeRoomLogic();
 
     // Teleport back if touch
     player.tp = bouncespawn1;
-    //level.acti.tp = bouncespawn2;
+    level.acti.tp = bouncespawn2;
 
     // Reset room
     player waittill( "death" );
     level.player_in_room = false;
     level thread SetupBounceRoom();
+}
+
+PickupSniper()
+{
+    bounceSniper = GetEnt("bounceSniper", "targetname");
+
+    for (;;)
+    {
+        bounceSniper waittill("trigger", player);
+
+        player TakeAllWeapons();
+        player GiveWeapon("m40a3_mp");
+        player GiveWeapon( "remington700_mp" ); 
+        player GiveMaxAmmo("m40a3_mp");
+        player GiveMaxAmmo( "remington700_mp" );
+        wait 0.01;
+        player switchToWeapon("m40a3_mp");
+    }
 }
 
 // Teleport functions
@@ -547,16 +566,16 @@ teleportpos2to1()
 
 BounceTeleport()
 {
+    bouncetp = GetEnt("bouncetp", "targetname");
+
     for (;;)
     {
-        bouncetp = GetEnt("bouncetp", "targetname");
         bouncetp waittill("trigger", player);
 
         player SetOrigin(player.tp.origin);
         player SetPlayerAngles(player.tp.angles);
     }
 }
-
 
 // Utils functions
 PlayerMessage(msg)
