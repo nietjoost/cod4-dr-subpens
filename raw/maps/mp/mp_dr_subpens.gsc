@@ -25,6 +25,7 @@ main()
 
     // Precache
     level._effect[ "frag_exp" ]	= loadfx( "explosions/grenadeExp_dirt" );
+    precacheItem("ak74u_mp");
 
     //level thread music();
     level thread messages();
@@ -44,12 +45,15 @@ main()
     level.roomSniperTrigger = GetEnt("roomSniperTrigger", "targetname");
     level.roomKnifeTrigger = GetEnt("roomKnifeTrigger", "targetname");
     level.roomBounceTrigger = GetEnt("roomBounceTrigger", "targetname");
+    level.roomWeaponTrigger = GetEnt("roomWeaponTrigger", "targetname");
+    level.roomRaceTrigger = GetEnt("roomRaceTrigger", "targetname");
 
     level thread SetupOldRoom();
     level thread SetupSniperRoom();
     level thread SetupKnifeRoom();
     level thread SetupBounceRoom();
     level thread PickupSniper();
+    level thread SetupWeaponRoom();
 
     // Teleport function
     level thread teleportpos1to2();
@@ -354,6 +358,8 @@ SetupOldRoom()
     level.roomSniperTrigger delete();
     level.roomKnifeTrigger delete();
     level.roomBounceTrigger delete();
+    level.roomWeaponTrigger delete();
+    level.roomRaceTrigger delete();
 
     // Message
     iprintlnBold("^5" + player.name + " ^7has chosen the room ^1OLD");
@@ -416,7 +422,7 @@ SpawnSniperRoomLogic()
     self GiveWeapon( "remington700_mp" ); 
     self GiveMaxAmmo("m40a3_mp");
     self GiveMaxAmmo( "remington700_mp" );
-    self RoomCountDown();
+    self RoomCountDown("m40a3_mp");
 }
 
 SetupKnifeRoom()
@@ -453,8 +459,8 @@ SetupKnifeRoom()
     level.acti SetOrigin(knifespawn2.origin);
     level.acti SetPlayerAngles(knifespawn2.angles);
 
-    player thread SpawnKnifeRoomLogic();
-    level.acti thread SpawnKnifeRoomLogic();
+    player thread SpawnWeaponRoomLogic("knife_mp");
+    level.acti thread SpawnWeaponRoomLogic("knife_mp");
 
     // Reset room
     player waittill( "death" );
@@ -462,12 +468,14 @@ SetupKnifeRoom()
     level thread SetupKnifeRoom();
 }
 
-SpawnKnifeRoomLogic()
+SpawnWeaponRoomLogic(weapon)
 {
     self TakeAllWeapons();
-    self giveWeapon("knife_mp");
-    self switchToWeapon("knife_mp");
-    self RoomCountDown();
+    self giveWeapon(weapon);
+    self GiveMaxAmmo(weapon);
+    wait 0.1;
+    self switchToWeapon(weapon);
+    self RoomCountDown(weapon);
 }
 
 SetupBounceRoom()
@@ -504,8 +512,8 @@ SetupBounceRoom()
     level.acti SetOrigin(bouncespawn2.origin);
     level.acti SetPlayerAngles(bouncespawn2.angles);
 
-    player thread SpawnKnifeRoomLogic();
-    level.acti thread SpawnKnifeRoomLogic();
+    player thread SpawnWeaponRoomLogic("knife_mp");
+    level.acti thread SpawnWeaponRoomLogic("knife_mp");
 
     // Teleport back if touch
     player.tp = bouncespawn1;
@@ -530,9 +538,52 @@ PickupSniper()
         player GiveWeapon( "remington700_mp" ); 
         player GiveMaxAmmo("m40a3_mp");
         player GiveMaxAmmo( "remington700_mp" );
-        wait 0.01;
+        wait 0.1;
         player switchToWeapon("m40a3_mp");
     }
+}
+
+SetupWeaponRoom()
+{
+    // Setup spawns
+    weaponRoomSpawn1 = GetEnt("weaponRoomSpawn1", "targetname");
+    weaponRoomSpawn2 = GetEnt("weaponRoomSpawn2", "targetname");
+
+    // Wait for use
+    level.roomWeaponTrigger waittill("trigger", player);
+    level.acti = GetActivator();
+
+    // Checks before continnue
+    if (level.door_old)
+        return;
+
+    if (level.acti == undefined)
+    {
+        level thread SetupWeaponRoom();
+        player PlayerMessage("^1No activator found");
+        return;
+    }
+
+    // Set room is in use
+    level.player_in_room = true;
+
+    // Message
+    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1weapon");
+    player PlayerMessage("You have chosen the room ^1weapon");
+
+    // Start sniper room
+    player SetOrigin(weaponRoomSpawn1.origin);
+    player SetPlayerAngles(weaponRoomSpawn1.angles);
+    level.acti SetOrigin(weaponRoomSpawn2.origin);
+    level.acti SetPlayerAngles(weaponRoomSpawn2.angles);
+
+    player thread SpawnWeaponRoomLogic("ak74u_mp");
+    level.acti thread SpawnWeaponRoomLogic("mp5_mp");
+
+    // Reset room
+    player waittill( "death" );
+    level.player_in_room = false;
+    level thread SetupWeaponRoom();
 }
 
 // Teleport functions
@@ -584,7 +635,7 @@ PlayerMessage(msg)
     self iprintln(prefix + msg);
 }
 
-RoomCountDown()
+RoomCountDown(weapon)
 {
     self FreezeControls(true);
     self SetOrigin(self.origin + (0,0,20));
@@ -596,7 +647,8 @@ RoomCountDown()
     wait 1;
     self iprintlnBold("^2GO!");
     self FreezeControls(false);
-    self SwitchToWeapon("m40a3_mp"); 
+    wait 0.1;
+    self SwitchToWeapon(weapon); 
 }
 
 GetActivator()
