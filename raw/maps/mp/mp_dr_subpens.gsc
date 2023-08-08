@@ -54,6 +54,7 @@ main()
     level thread SetupBounceRoom();
     level thread PickupSniper();
     level thread SetupWeaponRoom();
+    level thread SetupRaceRoom();
 
     // Teleport function
     level thread teleportpos1to2();
@@ -586,6 +587,59 @@ SetupWeaponRoom()
     level thread SetupWeaponRoom();
 }
 
+SetupRaceRoom()
+{
+    // Setup spawns
+    raceRoomSpawn1 = GetEnt("raceRoomSpawn1", "targetname");
+    raceRoomSpawn2 = GetEnt("raceRoomSpawn2", "targetname");
+
+    // Wait for use
+    level.roomRaceTrigger waittill("trigger", player);
+    //level.acti = GetActivator();
+
+    // Set TP back
+    level thread RaceTeleport();
+    player.tp = raceRoomSpawn1;
+    //level.acti.tp = raceRoomSpawn2;
+
+    // Checks before continnue
+    if (level.door_old)
+        return;
+
+    //if (level.acti == undefined)
+    //{
+        //level thread SetupRaceRoom();
+        //player PlayerMessage("^1No activator found");
+        //return;
+    //}
+
+    // Set room is in use
+    level.player_in_room = true;
+
+    // Message
+    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1weapon");
+    player PlayerMessage("You have chosen the room ^1weapon");
+
+    // Start sniper room
+    player SetOrigin(raceRoomSpawn1.origin);
+    player SetPlayerAngles(raceRoomSpawn1.angles);
+    //level.acti SetOrigin(raceRoomSpawn2.origin);
+    //level.acti SetPlayerAngles(raceRoomSpawn2.angles);
+
+    player thread SpawnWeaponRoomLogic("knife_mp");
+    //level.acti thread SpawnWeaponRoomLogic("knife_mp");
+
+    // Finish line
+    raceFinishLine = GetEnt("raceFinishLine", "targetname");
+    raceFinishLine waittill("trigger", winner);
+    winner PlayerMessage("You won the race!");
+
+    // Reset room
+    player waittill( "death" );
+    level.player_in_room = false;
+    level thread SetupRaceRoom();
+}
+
 // Teleport functions
 teleportpos1to2()
 {
@@ -622,6 +676,19 @@ BounceTeleport()
     for (;;)
     {
         bouncetp waittill("trigger", player);
+
+        player SetOrigin(player.tp.origin);
+        player SetPlayerAngles(player.tp.angles);
+    }
+}
+
+RaceTeleport()
+{
+    racetp = GetEnt("racetp", "targetname");
+
+    for (;;)
+    {
+        racetp waittill("trigger", player);
 
         player SetOrigin(player.tp.origin);
         player SetPlayerAngles(player.tp.angles);
