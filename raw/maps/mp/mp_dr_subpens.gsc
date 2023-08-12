@@ -577,7 +577,7 @@ SetupWeaponRoom()
     level.activ SetPlayerAngles(weaponRoomSpawn2.angles);
 
     player thread SpawnWeaponRoomLogic("ak74u_mp");
-    level.activ thread SpawnWeaponRoomLogic("mp5_mp");
+    level.activ thread SpawnWeaponRoomLogic("ak74u_mp");
 
     // Reset room
     player waittill( "death" );
@@ -610,12 +610,12 @@ SetupRaceRoom()
     player.tp = raceRoomSpawn1;
     level.activ.tp = raceRoomSpawn2;
 
-    //if (level.activ == undefined)
-    //{
-        //level thread SetupRaceRoom();
-        //player PlayerMessage("^1No activator found");
-        //return;
-    //}
+    if (level.player_in_room)
+    {
+        level thread SetupSniperRoom();
+        player PlayerMessage("^1A room is already in-use.");
+        return;
+    }
 
     // Set room is in use
     level.player_in_room = true;
@@ -627,16 +627,43 @@ SetupRaceRoom()
     // Start sniper room
     player SetOrigin(raceRoomSpawn1.origin);
     player SetPlayerAngles(raceRoomSpawn1.angles);
-    //level.activ SetOrigin(raceRoomSpawn2.origin);
-    //level.activ SetPlayerAngles(raceRoomSpawn2.angles);
+    level.activ SetOrigin(raceRoomSpawn2.origin);
+    level.activ SetPlayerAngles(raceRoomSpawn2.angles);
 
     player thread SpawnWeaponRoomLogic("knife_mp");
-    //level.activ thread SpawnWeaponRoomLogic("knife_mp");
+    level.activ thread SpawnWeaponRoomLogic("knife_mp");
 
     // Finish line
     raceFinishLine = GetEnt("raceFinishLine", "targetname");
     raceFinishLine waittill("trigger", winner);
-    winner PlayerMessage("You won the race!");
+
+    winnerTP = GetEnt("raceRoomSpawn3", "targetname");
+    loserTP = GetEnt("raceRoomSpawn4", "targetname");
+
+    if (winner.name == player.name)
+    {
+        // Jumper won
+        player PlayerMessage("You won the race!");
+        level.activ PlayerMessage("^1You lost the race!");
+        player SetOrigin(winnerTP.origin);
+        player SetPlayerAngles(winnerTP.angles);
+        player GiveWeaponFn("m40a3_mp");
+        level.activ SetOrigin(loserTP.origin);
+        level.activ SetPlayerAngles(loserTP.angles);
+        level.activ Jail();
+    }
+    else
+    {
+        // Activator won
+        level.activ PlayerMessage("You won the race!");
+        player PlayerMessage("^1You lost the race!");
+        level.activ SetOrigin(winnerTP.origin);
+        level.activ SetPlayerAngles(winnerTP.angles);
+        level.activ GiveWeapon("m40a3_mp");
+        player SetOrigin(loserTP.origin);
+        player SetPlayerAngles(loserTP.angles);
+        player Jail();
+    }
 
     // Reset room
     player waittill( "death" );
@@ -722,15 +749,18 @@ RoomCountDown(weapon)
     self SwitchToWeapon(weapon); 
 }
 
-GetActivator()
+Jail()
 {
-    for ( i = 0; i < level.players.size; i++ )
-    {	
-        p = level.players[i];
-        if (p.pers["team"] == "axis")
-        {
-            return;
-        }
-    }
-    return undefined;
+    self FreezeControls(true);
+    self SetOrigin(self.origin + (0,0,40));
+    wait 15;
+    self FreezeControls(false);
+}
+
+GiveWeaponFn(weapon)
+{
+    self GiveWeapon(weapon);
+    self GiveMaxAmmo(weapon);
+    wait 0.1;
+    self switchToWeapon(weapon);
 }

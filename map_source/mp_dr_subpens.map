@@ -15550,6 +15550,15 @@ iwmap 4
  ( -2752 -2888 480 ) ( -2832 -2888 480 ) ( -2832 -2888 272 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -2824 -2880 480 ) ( -2824 -2928 480 ) ( -2824 -2928 272 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
+// brush 1374
+{
+ ( -1720.5 -2808 275 ) ( -1736 -2808 275 ) ( -1736 -2827 275 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1736 -2827 275.5 ) ( -1736 -2808 275.5 ) ( -1720.5 -2808 275.5 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1703.5 -3560 275.5 ) ( -1688 -3560 275.5 ) ( -1688 -3560 275 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1287.5 -3613 275.5 ) ( 1287.5 -3594 275.5 ) ( 1287.5 -3594 275 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1720.5 -2808 275.5 ) ( -1736 -2808 275.5 ) ( -1736 -2808 275 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1736 -2808 275.5 ) ( -1736 -2827 275.5 ) ( -1736 -2827 275 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
 }
 // entity 1
 {
@@ -31790,20 +31799,6 @@ iwmap 4
 }
 // entity 2269
 {
-"classname" "trigger_multiple"
-"targetname" "racetp"
-// brush 0
-{
- ( 723 -2730 276 ) ( 619 -2730 276 ) ( 619 -2826 276 ) trigger 64 64 -4272 2832 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 617.5 -2832 276.5 ) ( 617.5 -2736 276.5 ) ( 721.5 -2736 276.5 ) trigger 64 64 -4272 2832 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 327 -3552 257 ) ( 431 -3552 257 ) ( 431 -3552 225 ) trigger 64 64 -4272 -225 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 1280 -2833.5 257 ) ( 1280 -2737.5 257 ) ( 1280 -2737.5 225 ) trigger 64 64 -2832 -225 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 720 -2816 257 ) ( 616 -2816 257 ) ( 616 -2816 225 ) trigger 64 64 -4272 -225 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -1728 -4234 257 ) ( -1728 -4330 257 ) ( -1728 -4330 225 ) trigger 64 64 -2832 -225 0 0 lightmap_gray 16384 16384 0 0 0 0
-}
-}
-// entity 2270
-{
 "targetname" "raceFinishLine"
 "classname" "trigger_multiple"
 // brush 0
@@ -31816,124 +31811,112 @@ iwmap 4
  ( -1544 -3232 288 ) ( -1544 -3264 288 ) ( -1544 -3264 256 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 2271
-{
-"classname" "trigger_multiple"
-// brush 0
-{
- ( 723 -2730 275.5 ) ( 619 -2730 275.5 ) ( 619 -2826 275.5 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 617 -2832 276 ) ( 617 -2736 276 ) ( 721 -2736 276 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 327 -3552 256.5 ) ( 431 -3552 256.5 ) ( 431 -3552 224.5 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 1280 -2833.5 256.5 ) ( 1280 -2737.5 256.5 ) ( 1280 -2737.5 224.5 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 720 -2816 256.5 ) ( 616 -2816 256.5 ) ( 616 -2816 224.5 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -1728 -4234 256.5 ) ( -1728 -4330 256.5 ) ( -1728 -4330 224.5 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
-}
-}
-// entity 2272
+// entity 2270
 {
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 "origin" "-2231.2 -3194.2 275.0"
 "classname" "misc_prefab"
 }
-// entity 2273
+// entity 2271
 {
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 "origin" "-2231.2 -2998.2 275.0"
 "classname" "misc_prefab"
 }
-// entity 2274
+// entity 2272
 {
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 "origin" "-2231.2 -3390.2 275.0"
 "classname" "misc_prefab"
 }
-// entity 2275
+// entity 2273
 {
 "angles" "0 180 0"
 "classname" "misc_prefab"
 "origin" "-2818.8 -2983.8 275.0"
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 }
-// entity 2276
+// entity 2274
 {
 "angles" "0 180 0"
 "classname" "misc_prefab"
 "origin" "-2818.8 -3375.8 275.0"
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 }
-// entity 2277
+// entity 2275
 {
 "angles" "0 180 0"
 "classname" "misc_prefab"
 "origin" "-2818.8 -3179.8 275.0"
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 }
-// entity 2278
+// entity 2276
 {
 "angles" "0 90 0"
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 "origin" "-2321.8 -2893.2 275.0"
 "classname" "misc_prefab"
 }
-// entity 2279
+// entity 2277
 {
 "angles" "0 90 0"
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 "origin" "-2517.8 -2893.2 275.0"
 "classname" "misc_prefab"
 }
-// entity 2280
+// entity 2278
 {
 "angles" "0 90 0"
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 "origin" "-2713.8 -2893.2 275.0"
 "classname" "misc_prefab"
 }
-// entity 2281
+// entity 2279
 {
 "angles" "0 270 0"
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 "origin" "-2728.2 -3480.8 275.0"
 "classname" "misc_prefab"
 }
-// entity 2282
+// entity 2280
 {
 "angles" "0 270 0"
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 "origin" "-2532.2 -3480.8 275.0"
 "classname" "misc_prefab"
 }
-// entity 2283
+// entity 2281
 {
 "angles" "0 270 0"
 "model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
 "origin" "-2336.2 -3480.8 275.0"
 "classname" "misc_prefab"
 }
-// entity 2284
-{
-"classname" "trigger_multiple"
-// brush 0
-{
- ( 723 -2730 275 ) ( 619 -2730 275 ) ( 619 -2826 275 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 617 -2832 275.5 ) ( 617 -2736 275.5 ) ( 721 -2736 275.5 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 327 -3552 256 ) ( 431 -3552 256 ) ( 431 -3552 224 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 1280 -2833.5 256 ) ( 1280 -2737.5 256 ) ( 1280 -2737.5 224 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 720 -2816 256 ) ( 616 -2816 256 ) ( 616 -2816 224 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -1728 -4234 256 ) ( -1728 -4330 256 ) ( -1728 -4330 224 ) ch_stonewall_01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
-}
-}
-// entity 2285
+// entity 2282
 {
 "targetname" "raceRoomSpawn4"
 "angles" "0 180 0"
 "origin" "-2528.0 -3200.0 320.5"
 "classname" "node_scripted"
 }
-// entity 2286
+// entity 2283
 {
 "classname" "node_scripted"
 "origin" "-2736.0 -3200.0 291.0"
 "angles" "0 360 0"
 "targetname" "raceRoomSpawn3"
+}
+// entity 2284
+{
+"targetname" "racetp"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( -1690 -2808 275.5 ) ( -1704 -2808 275.5 ) ( -1704 -2821.5 275.5 ) trigger 64 64 -3 7 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1736.5 -2821.5 276 ) ( -1736.5 -2808 276 ) ( -1722.5 -2808 276 ) trigger 64 64 -3 7 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1704 -3560 -35 ) ( -1690 -3560 -35 ) ( -1690 -3560 -35.5 ) trigger 64 64 -3 68 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1288 -3563 285 ) ( 1288 -3549.5 285 ) ( 1288 -3549.5 284.5 ) trigger 64 64 -7 68 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1722 -2808 -35 ) ( -1736 -2808 -35 ) ( -1736 -2808 -35.5 ) trigger 64 64 -3 68 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1736 -2808 285 ) ( -1736 -2821.5 285 ) ( -1736 -2821.5 284.5 ) trigger 64 64 -7 68 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
 }
