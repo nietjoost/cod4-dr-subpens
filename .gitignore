@@ -73,3 +73,11 @@ zone_source/
 Cod 4 - models.txt
 
 !bin/CoD4CompileTools/mp_dr_subpens.settings
+
+autoupdate.lock
+
+cod4x18_dedrun.exe
+
+globalconfig.cfg
+
+serverstatus.xml

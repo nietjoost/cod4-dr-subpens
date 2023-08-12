@@ -380,17 +380,16 @@ SetupSniperRoom()
     sniperspawn2 = GetEnt("sniperspawn2", "targetname");
 
     // Wait for use
-    level.roomSniperTrigger waittill("trigger", player);
-    level.acti = GetActivator();
+    level.roomSniperTrigger waittill("trigger", player); 
 
     // Checks before continnue
     if (level.door_old)
         return;
 
-    if (level.acti == undefined)
+    if (level.player_in_room)
     {
         level thread SetupSniperRoom();
-        player PlayerMessage("^1No activator found");
+        player PlayerMessage("^1A room is already in-use.");
         return;
     }
 
@@ -404,11 +403,11 @@ SetupSniperRoom()
     // Start sniper room
     player SetOrigin(sniperspawn1.origin);
     player SetPlayerAngles(sniperspawn1.angles);
-    level.acti SetOrigin(sniperspawn2.origin);
-    level.acti SetPlayerAngles(sniperspawn2.angles);
+    level.activ SetOrigin(sniperspawn2.origin);
+    level.activ SetPlayerAngles(sniperspawn2.angles);
 
     player thread SpawnSniperRoomLogic();
-    level.acti thread SpawnSniperRoomLogic();
+    level.activ thread SpawnSniperRoomLogic();
 
     // Reset room
     player waittill( "death" );
@@ -433,17 +432,16 @@ SetupKnifeRoom()
     knifespawn2 = GetEnt("sniperspawn2", "targetname");
 
     // Wait for use
-    level.roomKnifeTrigger waittill("trigger", player);
-    level.acti = GetActivator();
+    level.roomKnifeTrigger waittill("trigger", player);  
 
     // Checks before continnue
     if (level.door_old)
         return;
 
-    if (level.acti == undefined)
+    if (level.player_in_room)
     {
-        level thread SetupKnifeRoom();
-        player PlayerMessage("^1No activator found");
+        level thread SetupSniperRoom();
+        player PlayerMessage("^1A room is already in-use.");
         return;
     }
 
@@ -457,11 +455,11 @@ SetupKnifeRoom()
     // Start sniper room
     player SetOrigin(knifespawn1.origin);
     player SetPlayerAngles(knifespawn1.angles);
-    level.acti SetOrigin(knifespawn2.origin);
-    level.acti SetPlayerAngles(knifespawn2.angles);
+    level.activ SetOrigin(knifespawn2.origin);
+    level.activ SetPlayerAngles(knifespawn2.angles);
 
     player thread SpawnWeaponRoomLogic("knife_mp");
-    level.acti thread SpawnWeaponRoomLogic("knife_mp");
+    level.activ thread SpawnWeaponRoomLogic("knife_mp");
 
     // Reset room
     player waittill( "death" );
@@ -487,16 +485,16 @@ SetupBounceRoom()
 
     // Wait for use
     level.roomBounceTrigger waittill("trigger", player);
-    level.acti = GetActivator();
+    
 
     // Checks before continnue
     if (level.door_old)
         return;
 
-    if (level.acti == undefined)
+    if (level.player_in_room)
     {
-        level thread SetupBounceRoom();
-        player PlayerMessage("^1No activator found");
+        level thread SetupSniperRoom();
+        player PlayerMessage("^1A room is already in-use.");
         return;
     }
 
@@ -510,15 +508,15 @@ SetupBounceRoom()
     // Start sniper room
     player SetOrigin(bouncespawn1.origin);
     player SetPlayerAngles(bouncespawn1.angles);
-    level.acti SetOrigin(bouncespawn2.origin);
-    level.acti SetPlayerAngles(bouncespawn2.angles);
+    level.activ SetOrigin(bouncespawn2.origin);
+    level.activ SetPlayerAngles(bouncespawn2.angles);
 
     player thread SpawnWeaponRoomLogic("knife_mp");
-    level.acti thread SpawnWeaponRoomLogic("knife_mp");
+    level.activ thread SpawnWeaponRoomLogic("knife_mp");
 
     // Teleport back if touch
     player.tp = bouncespawn1;
-    level.acti.tp = bouncespawn2;
+    level.activ.tp = bouncespawn2;
 
     // Reset room
     player waittill( "death" );
@@ -552,16 +550,16 @@ SetupWeaponRoom()
 
     // Wait for use
     level.roomWeaponTrigger waittill("trigger", player);
-    level.acti = GetActivator();
+    
 
     // Checks before continnue
     if (level.door_old)
         return;
 
-    if (level.acti == undefined)
+    if (level.player_in_room)
     {
-        level thread SetupWeaponRoom();
-        player PlayerMessage("^1No activator found");
+        level thread SetupSniperRoom();
+        player PlayerMessage("^1A room is already in-use.");
         return;
     }
 
@@ -575,11 +573,11 @@ SetupWeaponRoom()
     // Start sniper room
     player SetOrigin(weaponRoomSpawn1.origin);
     player SetPlayerAngles(weaponRoomSpawn1.angles);
-    level.acti SetOrigin(weaponRoomSpawn2.origin);
-    level.acti SetPlayerAngles(weaponRoomSpawn2.angles);
+    level.activ SetOrigin(weaponRoomSpawn2.origin);
+    level.activ SetPlayerAngles(weaponRoomSpawn2.angles);
 
     player thread SpawnWeaponRoomLogic("ak74u_mp");
-    level.acti thread SpawnWeaponRoomLogic("mp5_mp");
+    level.activ thread SpawnWeaponRoomLogic("mp5_mp");
 
     // Reset room
     player waittill( "death" );
@@ -595,18 +593,24 @@ SetupRaceRoom()
 
     // Wait for use
     level.roomRaceTrigger waittill("trigger", player);
-    //level.acti = GetActivator();
-
-    // Set TP back
-    level thread RaceTeleport();
-    player.tp = raceRoomSpawn1;
-    //level.acti.tp = raceRoomSpawn2;
 
     // Checks before continnue
     if (level.door_old)
         return;
 
-    //if (level.acti == undefined)
+    if (level.player_in_room)
+    {
+        level thread SetupSniperRoom();
+        player PlayerMessage("^1A room is already in-use.");
+        return;
+    }
+
+    // Set TP back
+    level thread RaceTeleport();
+    player.tp = raceRoomSpawn1;
+    level.activ.tp = raceRoomSpawn2;
+
+    //if (level.activ == undefined)
     //{
         //level thread SetupRaceRoom();
         //player PlayerMessage("^1No activator found");
@@ -623,11 +627,11 @@ SetupRaceRoom()
     // Start sniper room
     player SetOrigin(raceRoomSpawn1.origin);
     player SetPlayerAngles(raceRoomSpawn1.angles);
-    //level.acti SetOrigin(raceRoomSpawn2.origin);
-    //level.acti SetPlayerAngles(raceRoomSpawn2.angles);
+    //level.activ SetOrigin(raceRoomSpawn2.origin);
+    //level.activ SetPlayerAngles(raceRoomSpawn2.angles);
 
     player thread SpawnWeaponRoomLogic("knife_mp");
-    //level.acti thread SpawnWeaponRoomLogic("knife_mp");
+    //level.activ thread SpawnWeaponRoomLogic("knife_mp");
 
     // Finish line
     raceFinishLine = GetEnt("raceFinishLine", "targetname");
