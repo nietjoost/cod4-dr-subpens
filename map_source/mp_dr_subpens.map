@@ -12655,7 +12655,7 @@ iwmap 4
  ( -5386 576 64 ) ( -5377 576 64 ) ( -5377 576 -82 ) ch_ground_mud01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -5377 576 64 ) ( -5377 584 64 ) ( -5377 584 -82 ) ch_concretewall07 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -5761 2216 64 ) ( -5770 2216 64 ) ( -5770 2216 -82 ) ch_ground_mud01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -5674 584 64 ) ( -5674 576 64 ) ( -5674 576 -82 ) ch_ground_mud01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5802 552 64 ) ( -5802 544 64 ) ( -5802 544 -82 ) ch_ground_mud01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 1062
 {
@@ -15558,6 +15558,33 @@ iwmap 4
  ( 1287.5 -3613 275.5 ) ( 1287.5 -3594 275.5 ) ( 1287.5 -3594 275 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1720.5 -2808 275.5 ) ( -1736 -2808 275.5 ) ( -1736 -2808 275 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1736 -2808 275.5 ) ( -1736 -2827 275.5 ) ( -1736 -2827 275 ) clip_full 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1375
+{
+ ( 6295.5 685 0 ) ( 6137.5 685 0 ) ( 6137.5 428 0 ) me_ground_sand1 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6137.5 428 0.5 ) ( 6137.5 685 0.5 ) ( 6295.5 685 0.5 ) me_ground_sand1 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6553.5 -20 0.5 ) ( 6711.5 -20 0.5 ) ( 6711.5 -20 0 ) me_ground_sand1 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 8951.5 -1812 0.5 ) ( 8951.5 -1555 0.5 ) ( 8951.5 -1555 0 ) me_ground_sand1 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6295.5 686 0.5 ) ( 6137.5 686 0.5 ) ( 6137.5 686 0 ) me_ground_sand1 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6137 685 0.5 ) ( 6137 428 0.5 ) ( 6137 428 0 ) me_ground_sand1 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1376
+{
+ ( 2032 -2496 240 ) ( 1520 -2496 240 ) ( 1520 -2752 240 ) ch_concretewall08 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1490 -2752 643 ) ( 1490 -2496 643 ) ( 2002 -2496 643 ) ch_grass_01_decal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 -4768 256 ) ( 1920 -4768 256 ) ( 1920 -4768 128 ) ch_concretewall08 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1946 -2753 256 ) ( 1946 -2497 256 ) ( 1946 -2497 128 ) ch_concretewall08 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1513.5 -4096 256 ) ( 1001.5 -4096 256 ) ( 1001.5 -4096 128 ) ch_concretewall08 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5664 -2368 256 ) ( -5664 -2624 256 ) ( -5664 -2624 128 ) ch_concretewall08 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1377
+{
+ ( 2032 -2528 432 ) ( 1520 -2528 432 ) ( 1520 -2784 432 ) ch_grass_01_decal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1490 -2752.5 432.5 ) ( 1490 -2496.5 432.5 ) ( 2002 -2496.5 432.5 ) ch_grass_01_decal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 -4768 256 ) ( 1920 -4768 256 ) ( 1920 -4768 128 ) ch_grass_01_decal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6106 -2785 256 ) ( 6106 -2529 256 ) ( 6106 -2529 128 ) ch_grass_01_decal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1513.5 -4096 256 ) ( 1001.5 -4096 256 ) ( 1001.5 -4096 128 ) ch_grass_01_decal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1920 -2368 256 ) ( 1920 -2624 256 ) ( 1920 -2624 128 ) ch_grass_01_decal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
 // entity 1
@@ -31919,4 +31946,5280 @@ iwmap 4
  ( -1722 -2808 -35 ) ( -1736 -2808 -35 ) ( -1736 -2808 -35.5 ) trigger 64 64 -3 68 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1736 -2808 285 ) ( -1736 -2821.5 285 ) ( -1736 -2821.5 284.5 ) trigger 64 64 -7 68 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
+}
+// entity 2285
+{
+"angles" "0 351.73 0"
+"modelscale" "0.80"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6238.6 559.2 0.5"
+"classname" "misc_model"
+}
+// entity 2286
+{
+"angles" "0 198.93 0"
+"modelscale" "1.05"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6562.1 311.6 0.5"
+"classname" "misc_model"
+}
+// entity 2287
+{
+"angles" "0 18.43 0"
+"modelscale" "0.93"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6608.0 594.4 0.5"
+"classname" "misc_model"
+}
+// entity 2288
+{
+"angles" "0 346.41 0"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6691.3 516.7 0.5"
+"classname" "misc_model"
+}
+// entity 2289
+{
+"angles" "0 86.42 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6756.6 240.7 0.5"
+"classname" "misc_model"
+}
+// entity 2290
+{
+"angles" "0 144.9 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6406.8 326.7 0.5"
+"classname" "misc_model"
+}
+// entity 2291
+{
+"angles" "0 338.22 0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6578.2 497.1 0.5"
+"classname" "misc_model"
+}
+// entity 2292
+{
+"angles" "0 229.76 0"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6539.6 346.1 0.5"
+"classname" "misc_model"
+}
+// entity 2293
+{
+"angles" "0 336.02 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6416.3 400.9 0.5"
+"classname" "misc_model"
+}
+// entity 2294
+{
+"angles" "0 308.03 0"
+"modelscale" "1.11"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "7069.2 35.3 0.5"
+"classname" "misc_model"
+}
+// entity 2295
+{
+"angles" "0 164.54 0"
+"modelscale" "1.07"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "7360.2 386.8 0.5"
+"classname" "misc_model"
+}
+// entity 2296
+{
+"angles" "0 2.7 0"
+"modelscale" "0.81"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "7146.3 557.3 0.5"
+"classname" "misc_model"
+}
+// entity 2297
+{
+"angles" "0 143.83 0"
+"modelscale" "1.00"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "7171.5 551.5 0.5"
+"classname" "misc_model"
+}
+// entity 2298
+{
+"angles" "0 177.73 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6952.4 381.3 0.5"
+"classname" "misc_model"
+}
+// entity 2299
+{
+"angles" "0 54.19 -0"
+"modelscale" "0.84"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6848.1 315.4 0.5"
+"classname" "misc_model"
+}
+// entity 2300
+{
+"angles" "0 345.65 0"
+"modelscale" "1.14"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6870.2 449.9 0.5"
+"classname" "misc_model"
+}
+// entity 2301
+{
+"angles" "0 299.05 0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "7086.9 208.0 0.5"
+"classname" "misc_model"
+}
+// entity 2302
+{
+"angles" "0 0.07 0"
+"modelscale" "0.88"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "7469.9 375.9 0.5"
+"classname" "misc_model"
+}
+// entity 2303
+{
+"angles" "0 43.36 0"
+"modelscale" "1.14"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "7393.4 345.1 0.5"
+"classname" "misc_model"
+}
+// entity 2304
+{
+"angles" "0 227.98 0"
+"modelscale" "1.08"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "7756.3 249.9 0.5"
+"classname" "misc_model"
+}
+// entity 2305
+{
+"angles" "0 87.85 -0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "8773.3 435.4 0.5"
+"classname" "misc_model"
+}
+// entity 2306
+{
+"angles" "0 353.48 0"
+"modelscale" "1.15"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "8703.5 71.0 0.5"
+"classname" "misc_model"
+}
+// entity 2307
+{
+"angles" "0 179.21 0"
+"modelscale" "1.09"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "8426.2 276.2 0.5"
+"classname" "misc_model"
+}
+// entity 2308
+{
+"angles" "0 207.63 0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "8775.1 559.7 0.5"
+"classname" "misc_model"
+}
+// entity 2309
+{
+"angles" "0 151.95 0"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "8689.3 402.8 0.5"
+"classname" "misc_model"
+}
+// entity 2310
+{
+"angles" "0 310.42 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "8490.4 507.9 0.5"
+"classname" "misc_model"
+}
+// entity 2311
+{
+"angles" "0 182.95 0"
+"modelscale" "1.13"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "8361.9 507.1 0.5"
+"classname" "misc_model"
+}
+// entity 2312
+{
+"angles" "0 211.5 0"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "8217.0 410.7 0.5"
+"classname" "misc_model"
+}
+// entity 2313
+{
+"angles" "0 81.19 0"
+"modelscale" "0.91"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "8215.3 430.1 0.5"
+"classname" "misc_model"
+}
+// entity 2314
+{
+"angles" "0 192.24 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "8114.1 137.9 0.5"
+"classname" "misc_model"
+}
+// entity 2315
+{
+"angles" "0 32.2 0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "8049.2 289.5 0.5"
+"classname" "misc_model"
+}
+// entity 2316
+{
+"angles" "0 141.82 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "8000.1 478.1 0.5"
+"classname" "misc_model"
+}
+// entity 2317
+{
+"angles" "0 232.26 0"
+"modelscale" "1.19"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "8025.4 580.8 0.5"
+"classname" "misc_model"
+}
+// entity 2318
+{
+"angles" "0 85.64 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "7677.2 580.4 0.5"
+"classname" "misc_model"
+}
+// entity 2319
+{
+"angles" "0 49.17 0"
+"modelscale" "0.92"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "7640.7 369.2 0.5"
+"classname" "misc_model"
+}
+// entity 2320
+{
+"angles" "0 93.3 0"
+"modelscale" "1.16"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6906.4 449.8 0.5"
+"classname" "misc_model"
+}
+// entity 2321
+{
+"angles" "0 296.38 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6112.8 -1015.9 448.0"
+"classname" "misc_model"
+}
+// entity 2322
+{
+"angles" "0 291.53 -0"
+"modelscale" "1.19"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6001.1 -898.9 448.0"
+"classname" "misc_model"
+}
+// entity 2323
+{
+"angles" "0 113.86 0"
+"modelscale" "0.88"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6102.2 -964.0 448.0"
+"classname" "misc_model"
+}
+// entity 2324
+{
+"angles" "0 33.88 0"
+"modelscale" "1.08"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6061.9 -599.7 448.0"
+"classname" "misc_model"
+}
+// entity 2325
+{
+"angles" "0 2.78 0"
+"modelscale" "0.87"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5827.0 -879.9 448.0"
+"classname" "misc_model"
+}
+// entity 2326
+{
+"angles" "0 280.28 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5926.3 -732.8 448.0"
+"classname" "misc_model"
+}
+// entity 2327
+{
+"angles" "0 222.28 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "5906.7 -459.9 448.0"
+"classname" "misc_model"
+}
+// entity 2328
+{
+"angles" "0 109.52 0"
+"modelscale" "0.83"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5949.1 -464.9 448.0"
+"classname" "misc_model"
+}
+// entity 2329
+{
+"angles" "0 358.77 0"
+"modelscale" "1.08"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "5953.3 -529.2 448.0"
+"classname" "misc_model"
+}
+// entity 2330
+{
+"angles" "0 87.76 0"
+"modelscale" "1.10"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6021.8 -314.8 448.0"
+"classname" "misc_model"
+}
+// entity 2331
+{
+"angles" "0 224.56 0"
+"modelscale" "0.83"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5908.0 -160.5 448.0"
+"classname" "misc_model"
+}
+// entity 2332
+{
+"angles" "0 335.22 0"
+"modelscale" "1.16"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5986.0 -85.0 448.0"
+"classname" "misc_model"
+}
+// entity 2333
+{
+"angles" "0 43.74 0"
+"modelscale" "0.82"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6053.8 -310.9 448.0"
+"classname" "misc_model"
+}
+// entity 2334
+{
+"angles" "0 116.29 0"
+"modelscale" "0.84"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5794.9 -103.1 448.0"
+"classname" "misc_model"
+}
+// entity 2335
+{
+"angles" "0 285.17 0"
+"modelscale" "1.19"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6060.7 -144.6 448.0"
+"classname" "misc_model"
+}
+// entity 2336
+{
+"angles" "0 128.26 0"
+"modelscale" "0.82"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6095.0 33.3 448.0"
+"classname" "misc_model"
+}
+// entity 2337
+{
+"angles" "0 109.72 0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5937.7 39.8 448.0"
+"classname" "misc_model"
+}
+// entity 2338
+{
+"angles" "357.984 275.412 20.3692"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "5981.0 -1435.3 517.8"
+"classname" "misc_model"
+}
+// entity 2339
+{
+"angles" "340.15 295.882 -9.35529"
+"modelscale" "1.09"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6113.4 -1435.9 532.6"
+"classname" "misc_model"
+}
+// entity 2340
+{
+"angles" "350.068 297.985 17.9835"
+"modelscale" "0.80"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6013.7 -1903.4 530.0"
+"classname" "misc_model"
+}
+// entity 2341
+{
+"angles" "20.0938 191.392 3.96005"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "5985.5 -1724.6 519.4"
+"classname" "misc_model"
+}
+// entity 2342
+{
+"angles" "345.142 44.6918 -14.2344"
+"modelscale" "0.85"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6022.2 -1857.5 533.1"
+"classname" "misc_model"
+}
+// entity 2343
+{
+"angles" "359.879 89.6752 -20.4641"
+"modelscale" "0.81"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5886.4 -1905.0 482.5"
+"classname" "misc_model"
+}
+// entity 2344
+{
+"angles" "343.815 38.9429 -12.6947"
+"modelscale" "0.88"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5870.5 -2103.5 476.5"
+"classname" "misc_model"
+}
+// entity 2345
+{
+"angles" "341.351 25.2625 -8.58107"
+"modelscale" "1.13"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6061.0 -2201.3 547.6"
+"classname" "misc_model"
+}
+// entity 2346
+{
+"angles" "7.65443 111.109 -19.0362"
+"modelscale" "1.15"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6125.1 -2186.6 571.6"
+"classname" "misc_model"
+}
+// entity 2347
+{
+"angles" "19.2975 200.235 6.94567"
+"modelscale" "1.10"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6039.0 -2144.8 539.4"
+"classname" "misc_model"
+}
+// entity 2348
+{
+"angles" "9.64748 117.098 -18.1344"
+"modelscale" "0.80"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5975.4 -2316.2 515.7"
+"classname" "misc_model"
+}
+// entity 2349
+{
+"angles" "346.961 308.36 15.9115"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5885.4 -2441.1 482.1"
+"classname" "misc_model"
+}
+// entity 2350
+{
+"angles" "15.9749 140.096 -12.961"
+"modelscale" "1.07"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5952.5 -2594.5 507.1"
+"classname" "misc_model"
+}
+// entity 2351
+{
+"angles" "4.65816 257.388 19.9494"
+"modelscale" "0.82"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5941.7 -3729.3 503.1"
+"classname" "misc_model"
+}
+// entity 2352
+{
+"angles" "18.0452 209.188 9.81723"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5869.1 -3773.4 476.0"
+"classname" "misc_model"
+}
+// entity 2353
+{
+"angles" "342.379 328.335 10.5758"
+"modelscale" "1.04"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6025.8 -3662.1 534.5"
+"classname" "misc_model"
+}
+// entity 2354
+{
+"angles" "20.3864 185.226 1.82489"
+"modelscale" "0.84"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6135.4 -3425.5 575.4"
+"classname" "misc_model"
+}
+// entity 2355
+{
+"angles" "13.0259 128.311 -15.9225"
+"modelscale" "1.17"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "6120.8 -3577.3 570.0"
+"classname" "misc_model"
+}
+// entity 2356
+{
+"angles" "13.5262 130.138 -15.5029"
+"modelscale" "0.93"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5940.1 -3273.2 502.5"
+"classname" "misc_model"
+}
+// entity 2357
+{
+"angles" "0.756558 92.0279 -20.4511"
+"modelscale" "1.15"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5859.7 -3139.9 472.5"
+"classname" "misc_model"
+}
+// entity 2358
+{
+"angles" "359.777 89.4031 -20.4633"
+"modelscale" "1.04"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6001.5 -2866.8 525.4"
+"classname" "misc_model"
+}
+// entity 2359
+{
+"angles" "343.151 324.249 11.7871"
+"modelscale" "0.83"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "5904.5 -3222.2 489.2"
+"classname" "misc_model"
+}
+// entity 2360
+{
+"angles" "341.322 334.945 8.51469"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5987.2 -2759.5 520.1"
+"classname" "misc_model"
+}
+// entity 2361
+{
+"angles" "348.244 56.1057 -16.8707"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5957.6 -3814.7 509.0"
+"classname" "misc_model"
+}
+// entity 2362
+{
+"angles" "8.59528 246.106 18.6426"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "6023.7 -3909.1 533.7"
+"classname" "misc_model"
+}
+// entity 2363
+{
+"angles" "339.536 0.296207 -0.103562"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6111.4 -3375.4 566.4"
+"classname" "misc_model"
+}
+// entity 2364
+{
+"angles" "348.741 57.7589 -17.2006"
+"modelscale" "1.15"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "6126.8 -3433.1 572.2"
+"classname" "misc_model"
+}
+// entity 2365
+{
+"angles" "358.799 359.145 -54.5381"
+"modelscale" "0.87"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2180.8 -4030.1 355.5"
+"classname" "misc_model"
+}
+// entity 2366
+{
+"angles" "15.8435 168.342 52.9193"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "2253.5 -4029.7 354.9"
+"classname" "misc_model"
+}
+// entity 2367
+{
+"angles" "324.655 329.669 -44.6755"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "2657.1 -3957.7 253.8"
+"classname" "misc_model"
+}
+// entity 2368
+{
+"angles" "7.02917 5.0369 -54.2375"
+"modelscale" "1.05"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2759.4 -4039.9 369.2"
+"classname" "misc_model"
+}
+// entity 2369
+{
+"angles" "12.7689 170.714 53.5058"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3140.6 -4042.4 372.7"
+"classname" "misc_model"
+}
+// entity 2370
+{
+"angles" "333.254 338.971 -49.4941"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "3930.4 -3996.0 307.6"
+"classname" "misc_model"
+}
+// entity 2371
+{
+"angles" "351.358 353.787 -54.0772"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4524.7 -4068.2 409.0"
+"classname" "misc_model"
+}
+// entity 2372
+{
+"angles" "17.2535 12.7763 -52.6009"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4419.9 -4050.9 384.7"
+"classname" "misc_model"
+}
+// entity 2373
+{
+"angles" "0.051974 0.0370083 -54.5471"
+"modelscale" "0.91"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4119.3 -4041.6 371.6"
+"classname" "misc_model"
+}
+// entity 2374
+{
+"angles" "5.87591 4.20246 -54.3313"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5152.2 -3976.9 280.7"
+"classname" "misc_model"
+}
+// entity 2375
+{
+"angles" "45.8705 132.775 33.5873"
+"modelscale" "1.13"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5122.7 -4025.6 349.2"
+"classname" "misc_model"
+}
+// entity 2376
+{
+"angles" "19.2615 200.546 7.04806"
+"modelscale" "1.14"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5910.3 -3698.7 491.4"
+"classname" "misc_model"
+}
+// entity 2377
+{
+"angles" "340.44 200.744 41.4756"
+"modelscale" "1.20"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "5435.8 -4024.2 376.0"
+"classname" "misc_model"
+}
+// entity 2378
+{
+"angles" "331.631 348.822 -17.8543"
+"modelscale" "0.81"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "5490.7 -3965.2 346.8"
+"classname" "misc_model"
+}
+// entity 2379
+{
+"angles" "332.428 201.827 49.1297"
+"modelscale" "1.07"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4969.9 -3918.3 198.5"
+"classname" "misc_model"
+}
+// entity 2380
+{
+"angles" "13.9997 169.774 53.2882"
+"modelscale" "1.19"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5004.7 -3959.9 256.9"
+"classname" "misc_model"
+}
+// entity 2381
+{
+"angles" "0 176 0"
+"modelscale" "0.94"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5904.0 -62.8 448.0"
+"classname" "misc_model"
+}
+// entity 2382
+{
+"angles" "0 156.76 0"
+"modelscale" "0.83"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6065.3 -240.6 448.0"
+"classname" "misc_model"
+}
+// entity 2383
+{
+"angles" "0 209.53 0"
+"modelscale" "0.82"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6011.1 -473.2 448.0"
+"classname" "misc_model"
+}
+// entity 2384
+{
+"angles" "0 217.34 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6061.1 -201.1 448.0"
+"classname" "misc_model"
+}
+// entity 2385
+{
+"angles" "0 350.92 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6045.7 -262.0 448.0"
+"classname" "misc_model"
+}
+// entity 2386
+{
+"angles" "0 62.44 0"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5926.8 -285.1 448.0"
+"classname" "misc_model"
+}
+// entity 2387
+{
+"angles" "0 89.81 0"
+"modelscale" "1.16"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6011.2 -331.3 448.0"
+"classname" "misc_model"
+}
+// entity 2388
+{
+"angles" "0 281.23 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5977.4 -230.2 448.0"
+"classname" "misc_model"
+}
+// entity 2389
+{
+"angles" "0 269.15 0"
+"modelscale" "0.83"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5990.0 -405.8 448.0"
+"classname" "misc_model"
+}
+// entity 2390
+{
+"angles" "0 37.26 0"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6032.4 -238.3 448.0"
+"classname" "misc_model"
+}
+// entity 2391
+{
+"angles" "0 42.83 0"
+"modelscale" "0.94"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6119.7 -557.2 448.0"
+"classname" "misc_model"
+}
+// entity 2392
+{
+"angles" "0 315.3 0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6082.3 -644.2 448.0"
+"classname" "misc_model"
+}
+// entity 2393
+{
+"angles" "0 337.41 0"
+"modelscale" "0.81"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5819.5 -593.5 448.0"
+"classname" "misc_model"
+}
+// entity 2394
+{
+"angles" "0 340.64 0"
+"modelscale" "0.94"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5924.3 -587.5 448.0"
+"classname" "misc_model"
+}
+// entity 2395
+{
+"angles" "0 159.77 0"
+"modelscale" "0.82"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6067.9 -849.9 448.0"
+"classname" "misc_model"
+}
+// entity 2396
+{
+"angles" "0 81.72 0"
+"modelscale" "1.17"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5944.2 -1116.8 448.0"
+"classname" "misc_model"
+}
+// entity 2397
+{
+"angles" "0 210.86 0"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6065.7 -1089.4 448.0"
+"classname" "misc_model"
+}
+// entity 2398
+{
+"angles" "18.2839 55.43 -12.1986"
+"modelscale" "1.02"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6050.3 -1398.6 517.7"
+"classname" "misc_model"
+}
+// entity 2399
+{
+"angles" "353.879 344.498 -21.0293"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6083.2 -1341.8 494.9"
+"classname" "misc_model"
+}
+// entity 2400
+{
+"angles" "0 268.93 0"
+"modelscale" "0.95"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5929.4 -1130.5 448.0"
+"classname" "misc_model"
+}
+// entity 2401
+{
+"angles" "0 97.01 0"
+"modelscale" "0.86"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5837.1 -947.9 448.0"
+"classname" "misc_model"
+}
+// entity 2402
+{
+"angles" "349.309 82.7129 -55.4211"
+"modelscale" "1.17"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5771.4 -691.0 414.3"
+"classname" "misc_model"
+}
+// entity 2403
+{
+"angles" "0 120.38 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6098.5 -799.3 448.0"
+"classname" "misc_model"
+}
+// entity 2404
+{
+"angles" "0 187.89 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5942.2 -511.3 448.0"
+"classname" "misc_model"
+}
+// entity 2405
+{
+"angles" "0 172.96 0"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5932.1 -892.4 448.0"
+"classname" "misc_model"
+}
+// entity 2406
+{
+"angles" "0 328.31 0"
+"modelscale" "1.19"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6014.7 -813.9 448.0"
+"classname" "misc_model"
+}
+// entity 2407
+{
+"angles" "0 2.07 0"
+"modelscale" "1.10"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5921.1 -557.0 448.0"
+"classname" "misc_model"
+}
+// entity 2408
+{
+"angles" "0 280.59 0"
+"modelscale" "0.94"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5886.5 -553.2 448.0"
+"classname" "misc_model"
+}
+// entity 2409
+{
+"angles" "0 29.39 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5847.4 -889.7 448.0"
+"classname" "misc_model"
+}
+// entity 2410
+{
+"angles" "0 198.29 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5820.6 -1023.3 448.0"
+"classname" "misc_model"
+}
+// entity 2411
+{
+"angles" "0 179.12 0"
+"modelscale" "0.99"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5837.2 -859.5 448.0"
+"classname" "misc_model"
+}
+// entity 2412
+{
+"angles" "0 1.05 0"
+"modelscale" "1.02"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5882.9 -535.6 448.0"
+"classname" "misc_model"
+}
+// entity 2413
+{
+"angles" "0 103.68 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5962.3 -536.7 448.0"
+"classname" "misc_model"
+}
+// entity 2414
+{
+"angles" "0 47.69 0"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6029.3 -1118.7 448.0"
+"classname" "misc_model"
+}
+// entity 2415
+{
+"angles" "349.772 61.0869 -17.8212"
+"modelscale" "1.16"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5997.8 -1498.1 524.0"
+"classname" "misc_model"
+}
+// entity 2416
+{
+"angles" "20.0846 65.6791 -8.82222"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5943.3 -1311.1 482.6"
+"classname" "misc_model"
+}
+// entity 2417
+{
+"angles" "0 345.22 0"
+"modelscale" "0.94"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5893.3 -1079.5 448.0"
+"classname" "misc_model"
+}
+// entity 2418
+{
+"angles" "0 337.3 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6028.6 -1134.5 448.0"
+"classname" "misc_model"
+}
+// entity 2419
+{
+"angles" "0 163.09 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5910.7 -950.6 448.0"
+"classname" "misc_model"
+}
+// entity 2420
+{
+"angles" "0 134.83 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5941.2 -965.5 448.0"
+"classname" "misc_model"
+}
+// entity 2421
+{
+"angles" "0 105.95 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6049.0 -751.9 448.0"
+"classname" "misc_model"
+}
+// entity 2422
+{
+"angles" "0 168.78 0"
+"modelscale" "1.09"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6127.4 -815.0 448.0"
+"classname" "misc_model"
+}
+// entity 2423
+{
+"angles" "21.8399 87.2141 -1.03708"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5854.5 -1273.1 467.3"
+"classname" "misc_model"
+}
+// entity 2424
+{
+"angles" "4.03842 100.905 -20.0788"
+"modelscale" "1.00"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5847.8 -1475.4 468.1"
+"classname" "misc_model"
+}
+// entity 2425
+{
+"angles" "341.855 331.426 9.62633"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6088.5 -1677.9 557.9"
+"classname" "misc_model"
+}
+// entity 2426
+{
+"angles" "358.955 87.1993 -20.4389"
+"modelscale" "0.80"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6037.4 -1506.2 538.8"
+"classname" "misc_model"
+}
+// entity 2427
+{
+"angles" "19.2106 159.023 -7.19022"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6115.9 -1711.4 568.1"
+"classname" "misc_model"
+}
+// entity 2428
+{
+"angles" "355.722 78.4377 -20.0312"
+"modelscale" "0.88"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6000.2 -1792.7 525.0"
+"classname" "misc_model"
+}
+// entity 2429
+{
+"angles" "339.707 7.7362 -2.69756"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5930.6 -2382.7 499.0"
+"classname" "misc_model"
+}
+// entity 2430
+{
+"angles" "16.025 219.677 12.8984"
+"modelscale" "1.20"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5925.8 -2445.7 497.2"
+"classname" "misc_model"
+}
+// entity 2431
+{
+"angles" "18.8363 203.917 8.1487"
+"modelscale" "0.96"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6086.4 -2700.7 557.1"
+"classname" "misc_model"
+}
+// entity 2432
+{
+"angles" "345.024 315.794 14.1095"
+"modelscale" "1.19"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5900.2 -2473.9 487.6"
+"classname" "misc_model"
+}
+// entity 2433
+{
+"angles" "308.857 33.4946 -27.2627"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5773.6 -1717.7 417.7"
+"classname" "misc_model"
+}
+// entity 2434
+{
+"angles" "350.87 295.51 18.3936"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6044.3 -1747.0 541.4"
+"classname" "misc_model"
+}
+// entity 2435
+{
+"angles" "339.989 347.401 4.37389"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5861.9 -1615.5 473.3"
+"classname" "misc_model"
+}
+// entity 2436
+{
+"angles" "0 204.1 0"
+"modelscale" "0.82"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5831.3 -970.2 448.0"
+"classname" "misc_model"
+}
+// entity 2437
+{
+"angles" "9.12101 244.518 18.398"
+"modelscale" "0.94"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5848.2 -2601.4 468.2"
+"classname" "misc_model"
+}
+// entity 2438
+{
+"angles" "12.1098 125.096 -16.6222"
+"modelscale" "1.19"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5983.3 -2741.0 518.6"
+"classname" "misc_model"
+}
+// entity 2439
+{
+"angles" "19.2949 159.742 -6.95299"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5854.1 -2450.3 470.4"
+"classname" "misc_model"
+}
+// entity 2440
+{
+"angles" "346.228 48.9426 -15.2859"
+"modelscale" "0.91"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6127.0 -2295.9 572.3"
+"classname" "misc_model"
+}
+// entity 2441
+{
+"angles" "16.1651 140.964 -12.7207"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5962.2 -2622.1 510.8"
+"classname" "misc_model"
+}
+// entity 2442
+{
+"angles" "5.11145 103.869 -19.8424"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5916.4 -3059.9 493.7"
+"classname" "misc_model"
+}
+// entity 2443
+{
+"angles" "17.0072 145.048 -11.5544"
+"modelscale" "1.14"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5868.4 -2960.7 475.8"
+"classname" "misc_model"
+}
+// entity 2444
+{
+"angles" "5.52784 254.969 19.7346"
+"modelscale" "0.88"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6129.3 -3321.9 573.1"
+"classname" "misc_model"
+}
+// entity 2445
+{
+"angles" "339.553 2.50601 -0.875921"
+"modelscale" "0.87"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5978.6 -2965.5 516.9"
+"classname" "misc_model"
+}
+// entity 2446
+{
+"angles" "348.17 304.144 16.8198"
+"modelscale" "1.18"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5902.1 -3491.4 488.4"
+"classname" "misc_model"
+}
+// entity 2447
+{
+"angles" "20.0485 192.07 4.19241"
+"modelscale" "0.96"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5949.5 -3349.3 506.0"
+"classname" "misc_model"
+}
+// entity 2448
+{
+"angles" "347.989 304.759 16.6926"
+"modelscale" "0.86"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6025.5 -3846.5 534.4"
+"classname" "misc_model"
+}
+// entity 2449
+{
+"angles" "3.66601 260.114 20.1473"
+"modelscale" "1.09"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5945.0 -3561.2 504.4"
+"classname" "misc_model"
+}
+// entity 2450
+{
+"angles" "355.062 76.6133 -19.8846"
+"modelscale" "0.81"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6065.4 -3820.2 549.3"
+"classname" "misc_model"
+}
+// entity 2451
+{
+"angles" "304.254 9.37653 -7.77211"
+"modelscale" "0.80"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5792.9 -3693.8 446.4"
+"classname" "misc_model"
+}
+// entity 2452
+{
+"angles" "15.0205 224.024 14.0623"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5887.4 -3794.9 482.8"
+"classname" "misc_model"
+}
+// entity 2453
+{
+"angles" "340.744 20.5898 -7.06267"
+"modelscale" "1.17"
+"model" "jeepride_sprawl_grass_01"
+"origin" "6015.2 -3428.0 530.5"
+"classname" "misc_model"
+}
+// entity 2454
+{
+"angles" "340.112 345.792 4.92292"
+"modelscale" "1.14"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5993.2 -3464.1 522.3"
+"classname" "misc_model"
+}
+// entity 2455
+{
+"angles" "349.639 299.336 17.7456"
+"modelscale" "0.87"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5856.2 -3561.3 471.2"
+"classname" "misc_model"
+}
+// entity 2456
+{
+"angles" "15.3764 137.47 -13.6706"
+"modelscale" "0.80"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5931.6 -3388.3 499.3"
+"classname" "misc_model"
+}
+// entity 2457
+{
+"angles" "352.717 281.947 30.9266"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5791.0 -3842.0 446.1"
+"classname" "misc_model"
+}
+// entity 2458
+{
+"angles" "16.6328 143.18 -12.0949"
+"modelscale" "0.98"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5840.3 -4052.2 465.3"
+"classname" "misc_model"
+}
+// entity 2459
+{
+"angles" "1.23117 266.699 20.429"
+"modelscale" "1.01"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5879.4 -3746.9 479.9"
+"classname" "misc_model"
+}
+// entity 2460
+{
+"angles" "41.311 38.7406 -39.4475"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "4893.2 -4075.0 418.5"
+"classname" "misc_model"
+}
+// entity 2461
+{
+"angles" "13.2515 170.347 53.4231"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "4869.8 -4050.5 384.0"
+"classname" "misc_model"
+}
+// entity 2462
+{
+"angles" "13.2785 170.326 53.4184"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "4981.8 -4061.5 399.5"
+"classname" "misc_model"
+}
+// entity 2463
+{
+"angles" "322.939 212.532 43.3757"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "5222.2 -4070.3 411.9"
+"classname" "misc_model"
+}
+// entity 2464
+{
+"angles" "37.6592 146.665 42.8884"
+"modelscale" "1.01"
+"model" "jeepride_sprawl_grass_01"
+"origin" "4946.1 -4000.6 314.0"
+"classname" "misc_model"
+}
+// entity 2465
+{
+"angles" "309.968 301.838 -25.4494"
+"modelscale" "0.81"
+"model" "jeepride_sprawl_grass_01"
+"origin" "4580.2 -3978.2 282.6"
+"classname" "misc_model"
+}
+// entity 2466
+{
+"angles" "32.1203 26.5527 -46.7752"
+"modelscale" "0.86"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2666.4 -4013.9 332.7"
+"classname" "misc_model"
+}
+// entity 2467
+{
+"model" "com_trashchutebody"
+"origin" "-761.4 -3965.3 275.0"
+"classname" "misc_model"
+}
+// entity 2468
+{
+"model" "com_trashchutebottom"
+"origin" "-942.4 -3966.4 275.0"
+"classname" "misc_model"
+}
+// entity 2469
+{
+"model" "com_trashchutelegs"
+"origin" "-1352.8 -3721.7 275.0"
+"classname" "misc_model"
+}
+// entity 2470
+{
+"angles" "0 90 0"
+"model" "com_trashchuteslide"
+"origin" "-1248.2 -3763.9 371.0"
+"classname" "misc_model"
+}
+// entity 2471
+{
+"angles" "0 180 0"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "6095.6 -301.0 448.0"
+"classname" "misc_model"
+}
+// entity 2472
+{
+"angles" "0 180 0"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "6095.6 -1069.0 448.0"
+"classname" "misc_model"
+}
+// entity 2473
+{
+"angles" "0 180 0"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "6095.6 -1677.0 544.0"
+"classname" "misc_model"
+}
+// entity 2474
+{
+"angles" "0 180 0"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "6095.6 -2349.0 544.0"
+"classname" "misc_model"
+}
+// entity 2475
+{
+"angles" "0 180 0"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "6095.6 -3085.0 544.0"
+"classname" "misc_model"
+}
+// entity 2476
+{
+"angles" "0 180 0"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "6127.6 -3661.0 544.0"
+"classname" "misc_model"
+}
+// entity 2477
+{
+"angles" "9.35891e-006 90 -5"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "5872.9 -4059.6 449.4"
+"classname" "misc_model"
+}
+// entity 2478
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "5240.1 -4079.6 448.0"
+"classname" "misc_model"
+}
+// entity 2479
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "4488.1 -4079.6 448.0"
+"classname" "misc_model"
+}
+// entity 2480
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "3816.1 -4079.6 448.0"
+"classname" "misc_model"
+}
+// entity 2481
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "3208.1 -4103.6 448.0"
+"classname" "misc_model"
+}
+// entity 2482
+{
+"angles" "9.10502e-006 120 8.03588e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "2272.1 -4209.3 432.0"
+"classname" "misc_model"
+}
+// entity 2483
+{
+"angles" "0 20 0"
+"model" "cargocontainer_20ft_blue"
+"origin" "-5564.6 774.2 64.0"
+"classname" "misc_model"
+}
+// entity 2484
+{
+"angles" "0 325 0"
+"model" "cargocontainer_20ft_green"
+"origin" "-5664.1 1092.4 64.0"
+"classname" "misc_model"
+}
+// entity 2485
+{
+"angles" "0 15 0"
+"model" "cargocontainer_20ft_red"
+"origin" "-5710.5 1418.2 64.0"
+"classname" "misc_model"
+}
+// entity 2486
+{
+"angles" "0 340 0"
+"model" "cargocontainer_20ft_white"
+"origin" "-5715.1 1943.6 64.0"
+"classname" "misc_model"
+}
+// entity 2487
+{
+"classname" "misc_model"
+"origin" "-5640.2 1947.8 148.3"
+"model" "cargocontainer_20ft_green"
+"angles" "2.48205e-006 70 40"
+}
+// entity 2488
+{
+"model" "com_industrialtrashbin"
+"origin" "-1303.2 -3804.4 275.0"
+"classname" "misc_model"
+}
+// entity 2489
+{
+"model" "vehicle_semi_truck_trailer"
+"origin" "-1450.5 -3806.5 274.0"
+"classname" "misc_model"
+}
+// entity 2490
+{
+"angles" "0 30 0"
+"model" "cargocontainer_20ft_blue"
+"origin" "51.1 -3850.0 275.0"
+"classname" "misc_model"
+}
+// entity 2491
+{
+"angles" "0 330 0"
+"model" "cargocontainer_20ft_green"
+"origin" "562.0 -3851.1 275.0"
+"classname" "misc_model"
+}
+// entity 2492
+{
+"angles" "0 75 0"
+"model" "cargocontainer_20ft_red"
+"origin" "980.9 -3835.0 275.0"
+"classname" "misc_model"
+}
+// entity 2493
+{
+"model" "cargocontainer_20ft_white"
+"origin" "1400.0 -3763.9 275.0"
+"classname" "misc_model"
+}
+// entity 2494
+{
+"angles" "0 0 -30"
+"model" "ch_roadrock_04"
+"origin" "1904.9 -4111.1 384.7"
+"classname" "misc_model"
+}
+// entity 2495
+{
+"model" "ch_roadrock_07"
+"origin" "1806.0 -4096.0 281.5"
+"classname" "misc_model"
+}
+// entity 2496
+{
+"angles" "0 172.26 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2343.2 -4507.2 432.5"
+"classname" "misc_model"
+}
+// entity 2497
+{
+"angles" "0 126.13 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "2105.2 -4430.1 432.5"
+"classname" "misc_model"
+}
+// entity 2498
+{
+"angles" "0 160.27 0"
+"modelscale" "1.18"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2451.4 -4345.5 432.5"
+"classname" "misc_model"
+}
+// entity 2499
+{
+"angles" "0 54.99 -0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "2115.4 -4451.3 432.5"
+"classname" "misc_model"
+}
+// entity 2500
+{
+"angles" "0 12.32 0"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "2479.9 -4320.3 432.5"
+"classname" "misc_model"
+}
+// entity 2501
+{
+"angles" "0 189.31 0"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "2125.0 -4455.7 432.5"
+"classname" "misc_model"
+}
+// entity 2502
+{
+"angles" "0 153.85 0"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2443.8 -4304.9 432.5"
+"classname" "misc_model"
+}
+// entity 2503
+{
+"angles" "0 209.71 0"
+"modelscale" "0.93"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "2351.3 -4376.1 432.5"
+"classname" "misc_model"
+}
+// entity 2504
+{
+"angles" "0 206.11 0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2263.0 -4492.5 432.5"
+"classname" "misc_model"
+}
+// entity 2505
+{
+"angles" "0 277.19 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "2355.1 -4387.5 432.5"
+"classname" "misc_model"
+}
+// entity 2506
+{
+"angles" "0 244.63 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "2739.1 -4663.1 432.5"
+"classname" "misc_model"
+}
+// entity 2507
+{
+"angles" "0 53.34 0"
+"modelscale" "1.09"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2500.9 -4415.7 432.5"
+"classname" "misc_model"
+}
+// entity 2508
+{
+"angles" "0 24.11 0"
+"modelscale" "1.05"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2707.9 -4274.1 432.5"
+"classname" "misc_model"
+}
+// entity 2509
+{
+"angles" "0 347.85 0"
+"modelscale" "0.80"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2483.6 -4464.7 432.5"
+"classname" "misc_model"
+}
+// entity 2510
+{
+"angles" "0 67.89 -0"
+"modelscale" "1.12"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2783.7 -4527.4 432.5"
+"classname" "misc_model"
+}
+// entity 2511
+{
+"angles" "0 204.64 0"
+"modelscale" "0.91"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "2845.6 -4483.4 432.5"
+"classname" "misc_model"
+}
+// entity 2512
+{
+"angles" "0 130.4 0"
+"modelscale" "0.92"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "2658.2 -4475.4 432.5"
+"classname" "misc_model"
+}
+// entity 2513
+{
+"angles" "0 350.81 0"
+"modelscale" "0.81"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "2816.4 -4584.7 432.5"
+"classname" "misc_model"
+}
+// entity 2514
+{
+"angles" "0 223.59 0"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "2738.4 -4597.2 432.5"
+"classname" "misc_model"
+}
+// entity 2515
+{
+"angles" "0 287.85 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "3097.1 -4519.1 432.5"
+"classname" "misc_model"
+}
+// entity 2516
+{
+"angles" "0 328.48 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "2947.8 -4386.6 432.5"
+"classname" "misc_model"
+}
+// entity 2517
+{
+"angles" "0 158.89 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "3180.0 -4329.4 432.5"
+"classname" "misc_model"
+}
+// entity 2518
+{
+"angles" "0 166.46 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "3320.7 -4184.2 432.5"
+"classname" "misc_model"
+}
+// entity 2519
+{
+"angles" "0 173.6 0"
+"modelscale" "1.14"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "3568.7 -4380.2 432.5"
+"classname" "misc_model"
+}
+// entity 2520
+{
+"angles" "0 223.11 0"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "3633.5 -4438.4 432.5"
+"classname" "misc_model"
+}
+// entity 2521
+{
+"angles" "0 72.42 0"
+"modelscale" "1.16"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3428.8 -4577.6 432.5"
+"classname" "misc_model"
+}
+// entity 2522
+{
+"angles" "0 283.58 0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "3532.3 -4553.5 432.5"
+"classname" "misc_model"
+}
+// entity 2523
+{
+"angles" "0 348.57 0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3621.2 -4412.3 432.5"
+"classname" "misc_model"
+}
+// entity 2524
+{
+"angles" "0 317.14 0"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3758.7 -4240.7 432.5"
+"classname" "misc_model"
+}
+// entity 2525
+{
+"angles" "0 238.77 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3896.7 -4485.3 432.5"
+"classname" "misc_model"
+}
+// entity 2526
+{
+"angles" "0 152.56 0"
+"modelscale" "0.92"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "3721.2 -4584.1 432.5"
+"classname" "misc_model"
+}
+// entity 2527
+{
+"angles" "0 58.17 0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3833.6 -4253.4 432.5"
+"classname" "misc_model"
+}
+// entity 2528
+{
+"angles" "0 83.74 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "3892.5 -4500.3 432.5"
+"classname" "misc_model"
+}
+// entity 2529
+{
+"angles" "0 172.01 0"
+"modelscale" "1.11"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "3944.1 -4674.2 432.5"
+"classname" "misc_model"
+}
+// entity 2530
+{
+"angles" "0 6.57 -0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3864.8 -4341.8 432.5"
+"classname" "misc_model"
+}
+// entity 2531
+{
+"angles" "0 239.35 0"
+"modelscale" "0.85"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4261.4 -4732.8 432.5"
+"classname" "misc_model"
+}
+// entity 2532
+{
+"angles" "0 209.8 0"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "3934.6 -4524.4 432.5"
+"classname" "misc_model"
+}
+// entity 2533
+{
+"angles" "0 55.61 -0"
+"modelscale" "0.92"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4080.4 -4489.6 432.5"
+"classname" "misc_model"
+}
+// entity 2534
+{
+"angles" "0 215.06 0"
+"modelscale" "0.81"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4129.1 -4672.1 432.5"
+"classname" "misc_model"
+}
+// entity 2535
+{
+"angles" "0 217.28 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4539.5 -4564.8 432.5"
+"classname" "misc_model"
+}
+// entity 2536
+{
+"angles" "0 225.12 0"
+"modelscale" "0.80"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "4495.2 -4344.6 432.5"
+"classname" "misc_model"
+}
+// entity 2537
+{
+"angles" "0 167.3 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4772.3 -4700.3 432.5"
+"classname" "misc_model"
+}
+// entity 2538
+{
+"angles" "0 91.19 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4739.8 -4694.5 432.5"
+"classname" "misc_model"
+}
+// entity 2539
+{
+"angles" "0 76.39 -0"
+"modelscale" "0.81"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4701.9 -4563.6 432.5"
+"classname" "misc_model"
+}
+// entity 2540
+{
+"angles" "0 29.76 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "4902.6 -4694.5 432.5"
+"classname" "misc_model"
+}
+// entity 2541
+{
+"angles" "0 49.25 0"
+"modelscale" "1.04"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4786.7 -4656.3 432.5"
+"classname" "misc_model"
+}
+// entity 2542
+{
+"angles" "0 226.28 0"
+"modelscale" "1.18"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4861.8 -4542.0 432.5"
+"classname" "misc_model"
+}
+// entity 2543
+{
+"angles" "0 308.75 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5114.8 -4611.9 432.5"
+"classname" "misc_model"
+}
+// entity 2544
+{
+"angles" "0 40.11 0"
+"modelscale" "1.15"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5369.1 -4375.7 432.5"
+"classname" "misc_model"
+}
+// entity 2545
+{
+"angles" "0 265.16 0"
+"modelscale" "0.80"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5267.4 -4507.8 432.5"
+"classname" "misc_model"
+}
+// entity 2546
+{
+"angles" "0 43.3 -0"
+"modelscale" "1.00"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5767.9 -4428.4 432.5"
+"classname" "misc_model"
+}
+// entity 2547
+{
+"angles" "0 331.38 0"
+"modelscale" "1.17"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5753.6 -4244.4 432.5"
+"classname" "misc_model"
+}
+// entity 2548
+{
+"angles" "0 124.53 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "5857.2 -4395.7 432.5"
+"classname" "misc_model"
+}
+// entity 2549
+{
+"angles" "0 282.12 0"
+"modelscale" "1.05"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5977.1 -4630.7 432.5"
+"classname" "misc_model"
+}
+// entity 2550
+{
+"angles" "0 187.31 0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5710.0 -4397.2 432.5"
+"classname" "misc_model"
+}
+// entity 2551
+{
+"angles" "0 120.8 0"
+"modelscale" "1.20"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5955.2 -4178.4 432.5"
+"classname" "misc_model"
+}
+// entity 2552
+{
+"angles" "0 161.16 0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5458.0 -4357.4 432.5"
+"classname" "misc_model"
+}
+// entity 2553
+{
+"angles" "0 177.36 0"
+"modelscale" "0.84"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5421.0 -4171.8 432.5"
+"classname" "misc_model"
+}
+// entity 2554
+{
+"angles" "0 294.88 0"
+"modelscale" "1.08"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "5339.3 -4255.4 432.5"
+"classname" "misc_model"
+}
+// entity 2555
+{
+"angles" "0 307.74 0"
+"modelscale" "1.10"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5002.5 -4135.6 432.5"
+"classname" "misc_model"
+}
+// entity 2556
+{
+"angles" "0 210.56 0"
+"modelscale" "1.13"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5281.3 -4373.9 432.5"
+"classname" "misc_model"
+}
+// entity 2557
+{
+"angles" "0 192.49 0"
+"modelscale" "0.91"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "4987.9 -4197.1 432.5"
+"classname" "misc_model"
+}
+// entity 2558
+{
+"angles" "0 336.62 0"
+"modelscale" "1.18"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "5212.8 -4344.0 432.5"
+"classname" "misc_model"
+}
+// entity 2559
+{
+"angles" "0 206.16 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "5008.7 -4407.4 432.5"
+"classname" "misc_model"
+}
+// entity 2560
+{
+"angles" "0 243.76 0"
+"modelscale" "1.08"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "4894.7 -4209.9 432.5"
+"classname" "misc_model"
+}
+// entity 2561
+{
+"angles" "0 253.88 0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4762.6 -4262.3 432.5"
+"classname" "misc_model"
+}
+// entity 2562
+{
+"angles" "0 143.05 0"
+"modelscale" "1.14"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4801.9 -4478.0 432.5"
+"classname" "misc_model"
+}
+// entity 2563
+{
+"angles" "0 213.12 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4445.0 -4242.0 432.5"
+"classname" "misc_model"
+}
+// entity 2564
+{
+"angles" "0 32.08 0"
+"modelscale" "1.19"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4702.5 -4365.3 432.5"
+"classname" "misc_model"
+}
+// entity 2565
+{
+"angles" "0 110.61 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4626.5 -4512.5 432.5"
+"classname" "misc_model"
+}
+// entity 2566
+{
+"angles" "0 233.15 0"
+"modelscale" "1.05"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4438.9 -4400.9 432.5"
+"classname" "misc_model"
+}
+// entity 2567
+{
+"angles" "0 202.18 0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "4286.9 -4560.8 432.5"
+"classname" "misc_model"
+}
+// entity 2568
+{
+"angles" "0 285.97 0"
+"modelscale" "1.07"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4287.4 -4259.7 432.5"
+"classname" "misc_model"
+}
+// entity 2569
+{
+"angles" "0 193.81 0"
+"modelscale" "1.04"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "4071.1 -4472.0 432.5"
+"classname" "misc_model"
+}
+// entity 2570
+{
+"angles" "0 266.82 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "4323.5 -4394.0 432.5"
+"classname" "misc_model"
+}
+// entity 2571
+{
+"angles" "0 251.24 0"
+"modelscale" "1.11"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "3992.1 -4341.7 432.5"
+"classname" "misc_model"
+}
+// entity 2572
+{
+"angles" "0 149.51 0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "4158.6 -4573.0 432.5"
+"classname" "misc_model"
+}
+// entity 2573
+{
+"angles" "0 257.15 0"
+"modelscale" "0.84"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "4100.5 -4448.3 432.5"
+"classname" "misc_model"
+}
+// entity 2574
+{
+"angles" "0 6.23 0"
+"modelscale" "0.87"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3922.5 -4281.2 432.5"
+"classname" "misc_model"
+}
+// entity 2575
+{
+"angles" "0 17.98 0"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "3934.5 -4410.4 432.5"
+"classname" "misc_model"
+}
+// entity 2576
+{
+"angles" "0 284.41 0"
+"modelscale" "0.81"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "3921.4 -4386.6 432.5"
+"classname" "misc_model"
+}
+// entity 2577
+{
+"angles" "0 181.07 0"
+"modelscale" "1.13"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3409.6 -4475.6 432.5"
+"classname" "misc_model"
+}
+// entity 2578
+{
+"angles" "0 234.9 0"
+"modelscale" "1.20"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3352.9 -4647.1 432.5"
+"classname" "misc_model"
+}
+// entity 2579
+{
+"angles" "0 297.46 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "3372.7 -4493.8 432.5"
+"classname" "misc_model"
+}
+// entity 2580
+{
+"angles" "0 346.66 0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3676.6 -4637.1 432.5"
+"classname" "misc_model"
+}
+// entity 2581
+{
+"angles" "0 276.32 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_xl_a"
+"origin" "3310.2 -4622.3 432.5"
+"classname" "misc_model"
+}
+// entity 2582
+{
+"angles" "0 283.3 0"
+"modelscale" "1.08"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "3372.0 -4547.0 432.5"
+"classname" "misc_model"
+}
+// entity 2583
+{
+"angles" "0 164.85 0"
+"modelscale" "0.85"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "3535.7 -4760.8 432.5"
+"classname" "misc_model"
+}
+// entity 2584
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "1560.1 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2585
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "824.1 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2586
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "88.1 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2587
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "-647.9 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2588
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "-1383.9 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2589
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "-2151.9 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2590
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "-2951.9 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2591
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "-3815.9 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2592
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "-4647.9 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2593
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "-5223.9 -4735.6 624.0"
+"classname" "misc_model"
+}
+// entity 2594
+{
+"angles" "9.10502e-006 90 -1.28108e-013"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "2760.1 -4111.6 448.0"
+"classname" "misc_model"
+}
+// entity 2595
+{
+"angles" "9.10502e-006 180 -6.26767e-012"
+"model" "foliage_hedge_wall_group_flip_1"
+"origin" "1911.6 -4528.9 624.0"
+"classname" "misc_model"
+}
+// entity 2596
+{
+"angles" "0 310.1 0"
+"modelscale" "1.17"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1668.3 -4681.9 643.0"
+"classname" "misc_model"
+}
+// entity 2597
+{
+"angles" "0 17.32 -0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1743.3 -4172.0 643.0"
+"classname" "misc_model"
+}
+// entity 2598
+{
+"angles" "0 79.5 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1618.5 -4266.6 643.0"
+"classname" "misc_model"
+}
+// entity 2599
+{
+"angles" "0 58.64 0"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1606.5 -4244.8 643.0"
+"classname" "misc_model"
+}
+// entity 2600
+{
+"angles" "0 157.86 0"
+"modelscale" "0.93"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1638.7 -4453.8 643.0"
+"classname" "misc_model"
+}
+// entity 2601
+{
+"angles" "0 26.95 0"
+"modelscale" "1.19"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1601.7 -4322.4 643.0"
+"classname" "misc_model"
+}
+// entity 2602
+{
+"angles" "0 23.38 -0"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1350.0 -4444.4 643.0"
+"classname" "misc_model"
+}
+// entity 2603
+{
+"angles" "0 230.89 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1621.2 -4321.6 643.0"
+"classname" "misc_model"
+}
+// entity 2604
+{
+"angles" "0 148.57 0"
+"modelscale" "0.91"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1601.3 -4429.3 643.0"
+"classname" "misc_model"
+}
+// entity 2605
+{
+"angles" "0 119.48 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1161.1 -4416.8 643.0"
+"classname" "misc_model"
+}
+// entity 2606
+{
+"angles" "0 339.21 0"
+"modelscale" "1.00"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "1535.7 -4272.7 643.0"
+"classname" "misc_model"
+}
+// entity 2607
+{
+"angles" "0 58.14 0"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1118.9 -4471.3 643.0"
+"classname" "misc_model"
+}
+// entity 2608
+{
+"angles" "0 303.13 0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "1099.2 -4234.6 643.0"
+"classname" "misc_model"
+}
+// entity 2609
+{
+"angles" "0 76.06 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "1448.2 -4377.1 643.0"
+"classname" "misc_model"
+}
+// entity 2610
+{
+"angles" "0 181.71 0"
+"modelscale" "1.11"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1299.7 -4463.9 643.0"
+"classname" "misc_model"
+}
+// entity 2611
+{
+"angles" "0 223.43 0"
+"modelscale" "0.85"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "1401.9 -4457.1 643.0"
+"classname" "misc_model"
+}
+// entity 2612
+{
+"angles" "0 149.03 0"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1408.0 -4212.4 643.0"
+"classname" "misc_model"
+}
+// entity 2613
+{
+"angles" "0 202.89 0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1309.2 -4164.1 643.0"
+"classname" "misc_model"
+}
+// entity 2614
+{
+"angles" "0 356.96 0"
+"modelscale" "1.16"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1088.4 -4231.6 643.0"
+"classname" "misc_model"
+}
+// entity 2615
+{
+"angles" "0 105.26 0"
+"modelscale" "1.09"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1049.0 -4158.6 643.0"
+"classname" "misc_model"
+}
+// entity 2616
+{
+"angles" "0 1.91 0"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1152.8 -4416.7 643.0"
+"classname" "misc_model"
+}
+// entity 2617
+{
+"angles" "0 296.33 0"
+"modelscale" "1.12"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "1211.9 -4441.0 643.0"
+"classname" "misc_model"
+}
+// entity 2618
+{
+"angles" "0 43.27 -0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "1131.0 -4557.1 643.0"
+"classname" "misc_model"
+}
+// entity 2619
+{
+"angles" "0 22.22 -0"
+"modelscale" "1.16"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "972.7 -4361.8 643.0"
+"classname" "misc_model"
+}
+// entity 2620
+{
+"angles" "0 140.62 0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "1083.2 -4237.1 643.0"
+"classname" "misc_model"
+}
+// entity 2621
+{
+"angles" "0 248.06 0"
+"modelscale" "1.11"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "919.9 -4480.0 643.0"
+"classname" "misc_model"
+}
+// entity 2622
+{
+"angles" "0 149.14 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "794.8 -4427.1 643.0"
+"classname" "misc_model"
+}
+// entity 2623
+{
+"angles" "0 245.78 0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "698.6 -4230.1 643.0"
+"classname" "misc_model"
+}
+// entity 2624
+{
+"angles" "0 74.77 0"
+"modelscale" "0.88"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "718.3 -4559.4 643.0"
+"classname" "misc_model"
+}
+// entity 2625
+{
+"angles" "0 342.13 0"
+"modelscale" "0.82"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "691.5 -4510.8 643.0"
+"classname" "misc_model"
+}
+// entity 2626
+{
+"angles" "0 193.05 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "695.5 -4506.0 643.0"
+"classname" "misc_model"
+}
+// entity 2627
+{
+"angles" "0 348.14 0"
+"modelscale" "0.85"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "673.4 -4389.9 643.0"
+"classname" "misc_model"
+}
+// entity 2628
+{
+"angles" "0 106.02 0"
+"modelscale" "1.11"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "501.9 -4475.9 643.0"
+"classname" "misc_model"
+}
+// entity 2629
+{
+"angles" "0 166.98 0"
+"modelscale" "1.12"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "477.1 -4429.3 643.0"
+"classname" "misc_model"
+}
+// entity 2630
+{
+"angles" "0 218.1 0"
+"modelscale" "1.14"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "141.9 -4251.1 643.0"
+"classname" "misc_model"
+}
+// entity 2631
+{
+"angles" "0 187.74 0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "398.5 -4208.0 643.0"
+"classname" "misc_model"
+}
+// entity 2632
+{
+"angles" "0 354.74 0"
+"modelscale" "1.10"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "160.9 -4572.1 643.0"
+"classname" "misc_model"
+}
+// entity 2633
+{
+"angles" "0 148.94 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "114.1 -4308.0 643.0"
+"classname" "misc_model"
+}
+// entity 2634
+{
+"angles" "0 28.85 0"
+"modelscale" "0.82"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "187.9 -4557.1 643.0"
+"classname" "misc_model"
+}
+// entity 2635
+{
+"angles" "0 218.37 0"
+"modelscale" "1.16"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "329.0 -4459.8 643.0"
+"classname" "misc_model"
+}
+// entity 2636
+{
+"angles" "0 316.37 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "368.7 -4418.9 643.0"
+"classname" "misc_model"
+}
+// entity 2637
+{
+"angles" "0 29.33 0"
+"modelscale" "0.90"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "133.7 -4556.8 643.0"
+"classname" "misc_model"
+}
+// entity 2638
+{
+"angles" "0 8.84 0"
+"modelscale" "1.17"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "310.1 -4314.8 643.0"
+"classname" "misc_model"
+}
+// entity 2639
+{
+"angles" "0 288.03 0"
+"modelscale" "1.15"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "55.1 -4488.3 643.0"
+"classname" "misc_model"
+}
+// entity 2640
+{
+"angles" "0 82.71 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-160.9 -4294.2 643.0"
+"classname" "misc_model"
+}
+// entity 2641
+{
+"angles" "0 220.92 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-106.0 -4353.6 643.0"
+"classname" "misc_model"
+}
+// entity 2642
+{
+"angles" "0 215.74 0"
+"modelscale" "0.85"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-145.2 -4529.2 643.0"
+"classname" "misc_model"
+}
+// entity 2643
+{
+"angles" "0 192.41 0"
+"modelscale" "0.82"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-113.3 -4121.1 643.0"
+"classname" "misc_model"
+}
+// entity 2644
+{
+"angles" "0 174.6 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-207.2 -4361.4 643.0"
+"classname" "misc_model"
+}
+// entity 2645
+{
+"angles" "0 197.49 0"
+"modelscale" "1.10"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "16.6 -4207.3 643.0"
+"classname" "misc_model"
+}
+// entity 2646
+{
+"angles" "0 205.13 0"
+"modelscale" "1.07"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "3.8 -4267.2 643.0"
+"classname" "misc_model"
+}
+// entity 2647
+{
+"angles" "0 229 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-127.1 -4458.9 643.0"
+"classname" "misc_model"
+}
+// entity 2648
+{
+"angles" "0 103.98 0"
+"modelscale" "0.83"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-34.7 -4347.9 643.0"
+"classname" "misc_model"
+}
+// entity 2649
+{
+"angles" "0 9.19 0"
+"modelscale" "0.91"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-480.7 -4497.2 643.0"
+"classname" "misc_model"
+}
+// entity 2650
+{
+"angles" "0 306.99 0"
+"modelscale" "0.93"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-522.4 -4449.7 643.0"
+"classname" "misc_model"
+}
+// entity 2651
+{
+"angles" "0 233.56 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-509.6 -4267.1 643.0"
+"classname" "misc_model"
+}
+// entity 2652
+{
+"angles" "0 229.89 0"
+"modelscale" "1.13"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-578.0 -4304.3 643.0"
+"classname" "misc_model"
+}
+// entity 2653
+{
+"angles" "0 40.86 0"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-214.0 -4325.5 643.0"
+"classname" "misc_model"
+}
+// entity 2654
+{
+"angles" "0 42.08 0"
+"modelscale" "1.13"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-520.3 -4396.4 643.0"
+"classname" "misc_model"
+}
+// entity 2655
+{
+"angles" "0 35.42 0"
+"modelscale" "1.05"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-482.0 -4536.4 643.0"
+"classname" "misc_model"
+}
+// entity 2656
+{
+"angles" "0 45.9 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-444.6 -4404.7 643.0"
+"classname" "misc_model"
+}
+// entity 2657
+{
+"angles" "0 74.62 0"
+"modelscale" "0.91"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-369.4 -4533.8 643.0"
+"classname" "misc_model"
+}
+// entity 2658
+{
+"angles" "0 159.86 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-604.6 -4369.9 643.0"
+"classname" "misc_model"
+}
+// entity 2659
+{
+"angles" "0 167.73 0"
+"modelscale" "0.87"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-260.5 -4482.7 643.0"
+"classname" "misc_model"
+}
+// entity 2660
+{
+"angles" "0 283.58 0"
+"modelscale" "1.04"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-993.3 -4578.7 643.0"
+"classname" "misc_model"
+}
+// entity 2661
+{
+"angles" "0 173.71 0"
+"modelscale" "0.81"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-973.9 -4456.9 643.0"
+"classname" "misc_model"
+}
+// entity 2662
+{
+"angles" "0 354.2 0"
+"modelscale" "0.81"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-946.2 -4217.2 643.0"
+"classname" "misc_model"
+}
+// entity 2663
+{
+"angles" "0 103.27 0"
+"modelscale" "0.90"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1230.9 -4333.6 643.0"
+"classname" "misc_model"
+}
+// entity 2664
+{
+"angles" "0 320.76 0"
+"modelscale" "1.16"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-842.8 -4478.4 643.0"
+"classname" "misc_model"
+}
+// entity 2665
+{
+"angles" "0 275.8 0"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1222.3 -4553.6 643.0"
+"classname" "misc_model"
+}
+// entity 2666
+{
+"angles" "0 98.95 0"
+"modelscale" "0.92"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1210.4 -4384.8 643.0"
+"classname" "misc_model"
+}
+// entity 2667
+{
+"angles" "0 69.51 0"
+"modelscale" "1.14"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1402.8 -4534.7 643.0"
+"classname" "misc_model"
+}
+// entity 2668
+{
+"angles" "0 1.94 -0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-1519.8 -4338.6 643.0"
+"classname" "misc_model"
+}
+// entity 2669
+{
+"angles" "0 307.31 0"
+"modelscale" "0.83"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1238.1 -4489.6 643.0"
+"classname" "misc_model"
+}
+// entity 2670
+{
+"angles" "0 272.92 0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1484.1 -4440.8 643.0"
+"classname" "misc_model"
+}
+// entity 2671
+{
+"angles" "0 61.73 0"
+"modelscale" "0.80"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-1364.0 -4573.1 643.0"
+"classname" "misc_model"
+}
+// entity 2672
+{
+"angles" "0 67.05 -0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1345.0 -4398.1 643.0"
+"classname" "misc_model"
+}
+// entity 2673
+{
+"angles" "0 186.84 0"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1406.1 -4266.5 643.0"
+"classname" "misc_model"
+}
+// entity 2674
+{
+"angles" "0 345.96 0"
+"modelscale" "0.82"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-1550.2 -4206.5 643.0"
+"classname" "misc_model"
+}
+// entity 2675
+{
+"angles" "0 213.29 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-1507.7 -4625.2 643.0"
+"classname" "misc_model"
+}
+// entity 2676
+{
+"angles" "0 295.82 0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-1648.9 -4577.0 643.0"
+"classname" "misc_model"
+}
+// entity 2677
+{
+"angles" "0 308.41 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1975.4 -4184.7 643.0"
+"classname" "misc_model"
+}
+// entity 2678
+{
+"angles" "0 341.67 0"
+"modelscale" "1.14"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-1911.2 -4329.5 643.0"
+"classname" "misc_model"
+}
+// entity 2679
+{
+"angles" "0 310.15 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-1982.3 -4153.1 643.0"
+"classname" "misc_model"
+}
+// entity 2680
+{
+"angles" "0 218.51 0"
+"modelscale" "1.09"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1759.9 -4281.7 643.0"
+"classname" "misc_model"
+}
+// entity 2681
+{
+"angles" "0 84.08 0"
+"modelscale" "0.85"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-1981.5 -4392.9 643.0"
+"classname" "misc_model"
+}
+// entity 2682
+{
+"angles" "0 251.87 0"
+"modelscale" "0.90"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-1920.3 -4475.2 643.0"
+"classname" "misc_model"
+}
+// entity 2683
+{
+"angles" "0 32.98 0"
+"modelscale" "0.83"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2209.0 -4361.5 643.0"
+"classname" "misc_model"
+}
+// entity 2684
+{
+"angles" "0 308.35 0"
+"modelscale" "0.96"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2020.4 -4331.8 643.0"
+"classname" "misc_model"
+}
+// entity 2685
+{
+"angles" "0 162.95 0"
+"modelscale" "1.08"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2359.3 -4301.4 643.0"
+"classname" "misc_model"
+}
+// entity 2686
+{
+"angles" "0 19.77 -0"
+"modelscale" "0.83"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2112.2 -4154.9 643.0"
+"classname" "misc_model"
+}
+// entity 2687
+{
+"angles" "0 213.9 0"
+"modelscale" "1.10"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2251.5 -4406.1 643.0"
+"classname" "misc_model"
+}
+// entity 2688
+{
+"angles" "0 139.69 0"
+"modelscale" "0.92"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2384.5 -4582.5 643.0"
+"classname" "misc_model"
+}
+// entity 2689
+{
+"angles" "0 32.75 -0"
+"modelscale" "0.95"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2355.0 -4606.5 643.0"
+"classname" "misc_model"
+}
+// entity 2690
+{
+"angles" "0 159.05 0"
+"modelscale" "1.07"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2155.8 -4376.0 643.0"
+"classname" "misc_model"
+}
+// entity 2691
+{
+"angles" "0 264.1 0"
+"modelscale" "0.92"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2270.4 -4537.8 643.0"
+"classname" "misc_model"
+}
+// entity 2692
+{
+"angles" "0 265.07 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2599.4 -4486.1 643.0"
+"classname" "misc_model"
+}
+// entity 2693
+{
+"angles" "0 85.91 0"
+"modelscale" "0.86"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2551.4 -4405.1 643.0"
+"classname" "misc_model"
+}
+// entity 2694
+{
+"angles" "0 206.86 0"
+"modelscale" "0.93"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2317.6 -4194.5 643.0"
+"classname" "misc_model"
+}
+// entity 2695
+{
+"angles" "0 334.24 0"
+"modelscale" "1.18"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2644.8 -4404.1 643.0"
+"classname" "misc_model"
+}
+// entity 2696
+{
+"angles" "0 223.74 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2608.4 -4177.9 643.0"
+"classname" "misc_model"
+}
+// entity 2697
+{
+"angles" "0 68.72 0"
+"modelscale" "0.91"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2634.4 -4526.8 643.0"
+"classname" "misc_model"
+}
+// entity 2698
+{
+"angles" "0 66.56 -0"
+"modelscale" "1.00"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2578.8 -4441.8 643.0"
+"classname" "misc_model"
+}
+// entity 2699
+{
+"angles" "0 216.45 0"
+"modelscale" "0.82"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2463.8 -4363.9 643.0"
+"classname" "misc_model"
+}
+// entity 2700
+{
+"angles" "0 16.21 0"
+"modelscale" "0.88"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2460.6 -4536.8 643.0"
+"classname" "misc_model"
+}
+// entity 2701
+{
+"angles" "0 302.7 0"
+"modelscale" "1.12"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2854.2 -4481.3 643.0"
+"classname" "misc_model"
+}
+// entity 2702
+{
+"angles" "0 62.89 0"
+"modelscale" "1.15"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-2660.9 -4225.1 643.0"
+"classname" "misc_model"
+}
+// entity 2703
+{
+"angles" "0 288.28 0"
+"modelscale" "0.88"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2567.4 -4448.0 643.0"
+"classname" "misc_model"
+}
+// entity 2704
+{
+"angles" "0 310.8 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3264.1 -4377.4 643.0"
+"classname" "misc_model"
+}
+// entity 2705
+{
+"angles" "0 214.01 0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3264.5 -4531.3 643.0"
+"classname" "misc_model"
+}
+// entity 2706
+{
+"angles" "0 73.84 -0"
+"modelscale" "0.92"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-2908.9 -4296.3 643.0"
+"classname" "misc_model"
+}
+// entity 2707
+{
+"angles" "0 206.97 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3249.5 -4156.1 643.0"
+"classname" "misc_model"
+}
+// entity 2708
+{
+"angles" "0 157.08 0"
+"modelscale" "0.90"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-3305.5 -4603.0 643.0"
+"classname" "misc_model"
+}
+// entity 2709
+{
+"angles" "0 245.35 0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-3241.9 -4438.0 643.0"
+"classname" "misc_model"
+}
+// entity 2710
+{
+"angles" "0 90.12 0"
+"modelscale" "1.04"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-3410.4 -4468.0 643.0"
+"classname" "misc_model"
+}
+// entity 2711
+{
+"angles" "0 65.16 0"
+"modelscale" "1.17"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3343.1 -4310.2 643.0"
+"classname" "misc_model"
+}
+// entity 2712
+{
+"angles" "0 73 -0"
+"modelscale" "0.88"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-3471.3 -4574.5 643.0"
+"classname" "misc_model"
+}
+// entity 2713
+{
+"angles" "0 26.58 0"
+"modelscale" "1.13"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3584.8 -4412.7 643.0"
+"classname" "misc_model"
+}
+// entity 2714
+{
+"angles" "0 270.99 0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3462.4 -4624.0 643.0"
+"classname" "misc_model"
+}
+// entity 2715
+{
+"angles" "0 320.89 0"
+"modelscale" "1.13"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-3740.0 -4532.7 643.0"
+"classname" "misc_model"
+}
+// entity 2716
+{
+"angles" "0 21.5 -0"
+"modelscale" "1.16"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3497.6 -4426.4 643.0"
+"classname" "misc_model"
+}
+// entity 2717
+{
+"angles" "0 343.28 0"
+"modelscale" "0.98"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3815.4 -4413.6 643.0"
+"classname" "misc_model"
+}
+// entity 2718
+{
+"angles" "0 108.24 0"
+"modelscale" "0.82"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3972.0 -4625.9 643.0"
+"classname" "misc_model"
+}
+// entity 2719
+{
+"angles" "0 82.78 0"
+"modelscale" "0.90"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-3793.6 -4465.3 643.0"
+"classname" "misc_model"
+}
+// entity 2720
+{
+"angles" "0 334.31 0"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3824.7 -4475.7 643.0"
+"classname" "misc_model"
+}
+// entity 2721
+{
+"angles" "0 223.74 0"
+"modelscale" "1.05"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-3936.8 -4246.2 643.0"
+"classname" "misc_model"
+}
+// entity 2722
+{
+"angles" "0 39.84 -0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-3678.4 -4246.0 643.0"
+"classname" "misc_model"
+}
+// entity 2723
+{
+"angles" "0 342.81 0"
+"modelscale" "1.14"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3861.2 -4310.9 643.0"
+"classname" "misc_model"
+}
+// entity 2724
+{
+"angles" "0 219.11 0"
+"modelscale" "0.89"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-3758.5 -4386.0 643.0"
+"classname" "misc_model"
+}
+// entity 2725
+{
+"angles" "0 244.96 0"
+"modelscale" "1.04"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-3882.7 -4271.3 643.0"
+"classname" "misc_model"
+}
+// entity 2726
+{
+"angles" "0 330.5 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-4105.1 -4483.1 643.0"
+"classname" "misc_model"
+}
+// entity 2727
+{
+"angles" "0 278.26 0"
+"modelscale" "1.11"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-4102.0 -4267.3 643.0"
+"classname" "misc_model"
+}
+// entity 2728
+{
+"angles" "0 91.43 0"
+"modelscale" "1.16"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-4336.0 -4167.1 643.0"
+"classname" "misc_model"
+}
+// entity 2729
+{
+"angles" "0 65.51 0"
+"modelscale" "0.83"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-4494.7 -4301.8 643.0"
+"classname" "misc_model"
+}
+// entity 2730
+{
+"angles" "0 327.96 0"
+"modelscale" "0.99"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-4473.6 -4433.6 643.0"
+"classname" "misc_model"
+}
+// entity 2731
+{
+"angles" "0 298.04 0"
+"modelscale" "0.93"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-4515.9 -4215.6 643.0"
+"classname" "misc_model"
+}
+// entity 2732
+{
+"angles" "0 71.9 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-4784.7 -4489.6 643.0"
+"classname" "misc_model"
+}
+// entity 2733
+{
+"angles" "0 192.94 0"
+"modelscale" "0.97"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-4768.2 -4280.2 643.0"
+"classname" "misc_model"
+}
+// entity 2734
+{
+"angles" "0 288.29 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-4701.2 -4384.6 643.0"
+"classname" "misc_model"
+}
+// entity 2735
+{
+"angles" "0 45.26 0"
+"modelscale" "1.00"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-4771.1 -4207.4 643.0"
+"classname" "misc_model"
+}
+// entity 2736
+{
+"angles" "0 142.63 0"
+"modelscale" "1.15"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-5293.4 -4340.7 643.0"
+"classname" "misc_model"
+}
+// entity 2737
+{
+"angles" "0 156.4 0"
+"modelscale" "1.03"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-4851.0 -4371.4 643.0"
+"classname" "misc_model"
+}
+// entity 2738
+{
+"angles" "0 71.37 -0"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-5155.3 -4599.6 643.0"
+"classname" "misc_model"
+}
+// entity 2739
+{
+"angles" "0 45.64 0"
+"modelscale" "1.02"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-5332.8 -4234.7 643.0"
+"classname" "misc_model"
+}
+// entity 2740
+{
+"angles" "0 184.33 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-5346.6 -4536.5 643.0"
+"classname" "misc_model"
+}
+// entity 2741
+{
+"angles" "0 245.34 0"
+"modelscale" "0.85"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-5198.8 -4580.9 643.0"
+"classname" "misc_model"
+}
+// entity 2742
+{
+"angles" "0 204.8 0"
+"modelscale" "0.94"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-5339.9 -4365.5 643.0"
+"classname" "misc_model"
+}
+// entity 2743
+{
+"angles" "0 154.08 0"
+"modelscale" "1.01"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-5203.5 -4498.9 643.0"
+"classname" "misc_model"
+}
+// entity 2744
+{
+"angles" "0 163.7 0"
+"modelscale" "0.85"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-5197.7 -4470.1 643.0"
+"classname" "misc_model"
+}
+// entity 2745
+{
+"angles" "0 208.36 0"
+"modelscale" "0.83"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-4906.8 -4555.2 643.0"
+"classname" "misc_model"
+}
+// entity 2746
+{
+"angles" "0 102.22 0"
+"modelscale" "0.87"
+"model" "foliage_tree_grey_oak_lg_a"
+"origin" "-4849.4 -4260.9 643.0"
+"classname" "misc_model"
+}
+// entity 2747
+{
+"angles" "0 118.97 0"
+"modelscale" "1.06"
+"model" "foliage_tree_grey_oak_med_a_shadow"
+"origin" "-5117.5 -4258.6 643.0"
+"classname" "misc_model"
+}
+// entity 2748
+{
+"angles" "0 78.72 0"
+"modelscale" "1.08"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5618.8 -4515.2 643.0"
+"classname" "misc_model"
+}
+// entity 2749
+{
+"angles" "0 27.87 0"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5298.4 -4340.8 643.0"
+"classname" "misc_model"
+}
+// entity 2750
+{
+"angles" "0 34.29 0"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5585.0 -4592.2 643.0"
+"classname" "misc_model"
+}
+// entity 2751
+{
+"angles" "0 141.54 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5555.0 -4518.8 643.0"
+"classname" "misc_model"
+}
+// entity 2752
+{
+"angles" "0 330.58 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5352.4 -4500.1 643.0"
+"classname" "misc_model"
+}
+// entity 2753
+{
+"angles" "0 177.33 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5152.2 -4459.6 643.0"
+"classname" "misc_model"
+}
+// entity 2754
+{
+"angles" "0 212.38 0"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5374.4 -4439.6 643.0"
+"classname" "misc_model"
+}
+// entity 2755
+{
+"angles" "0 25.77 -0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5316.1 -4285.9 643.0"
+"classname" "misc_model"
+}
+// entity 2756
+{
+"angles" "0 110.72 0"
+"modelscale" "0.91"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5231.0 -4272.0 643.0"
+"classname" "misc_model"
+}
+// entity 2757
+{
+"angles" "0 344.85 0"
+"modelscale" "1.00"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5096.3 -4386.5 643.0"
+"classname" "misc_model"
+}
+// entity 2758
+{
+"angles" "0 303.79 0"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5306.3 -4330.4 643.0"
+"classname" "misc_model"
+}
+// entity 2759
+{
+"angles" "0 290.63 0"
+"modelscale" "0.86"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4904.6 -4332.1 643.0"
+"classname" "misc_model"
+}
+// entity 2760
+{
+"angles" "0 170.4 0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4968.8 -4229.1 643.0"
+"classname" "misc_model"
+}
+// entity 2761
+{
+"angles" "0 356.48 0"
+"modelscale" "1.08"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5248.6 -4367.4 643.0"
+"classname" "misc_model"
+}
+// entity 2762
+{
+"angles" "0 59.48 -0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4980.7 -4538.8 643.0"
+"classname" "misc_model"
+}
+// entity 2763
+{
+"angles" "0 206.95 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4816.8 -4574.0 643.0"
+"classname" "misc_model"
+}
+// entity 2764
+{
+"angles" "0 158.5 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4647.7 -4379.6 643.0"
+"classname" "misc_model"
+}
+// entity 2765
+{
+"angles" "0 294.41 0"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4676.2 -4249.2 643.0"
+"classname" "misc_model"
+}
+// entity 2766
+{
+"angles" "0 259.57 0"
+"modelscale" "1.09"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4662.3 -4499.1 643.0"
+"classname" "misc_model"
+}
+// entity 2767
+{
+"angles" "0 265.42 0"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4690.7 -4306.8 643.0"
+"classname" "misc_model"
+}
+// entity 2768
+{
+"angles" "0 316.79 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4757.1 -4120.5 643.0"
+"classname" "misc_model"
+}
+// entity 2769
+{
+"angles" "0 74.82 -0"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4401.8 -4505.1 643.0"
+"classname" "misc_model"
+}
+// entity 2770
+{
+"angles" "0 342.06 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4702.4 -4299.0 643.0"
+"classname" "misc_model"
+}
+// entity 2771
+{
+"angles" "0 252.56 0"
+"modelscale" "0.82"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4267.4 -4358.6 643.0"
+"classname" "misc_model"
+}
+// entity 2772
+{
+"angles" "0 138.2 0"
+"modelscale" "0.91"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4698.2 -4356.6 643.0"
+"classname" "misc_model"
+}
+// entity 2773
+{
+"angles" "0 33.63 0"
+"modelscale" "0.91"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4110.3 -4433.9 643.0"
+"classname" "misc_model"
+}
+// entity 2774
+{
+"angles" "0 21.84 -0"
+"modelscale" "1.02"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4076.1 -4469.2 643.0"
+"classname" "misc_model"
+}
+// entity 2775
+{
+"angles" "0 24.48 -0"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4233.1 -4522.2 643.0"
+"classname" "misc_model"
+}
+// entity 2776
+{
+"angles" "0 231.05 0"
+"modelscale" "0.80"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4069.0 -4287.4 643.0"
+"classname" "misc_model"
+}
+// entity 2777
+{
+"angles" "0 254.9 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4291.4 -4433.3 643.0"
+"classname" "misc_model"
+}
+// entity 2778
+{
+"angles" "0 181.06 0"
+"modelscale" "0.97"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4092.1 -4515.3 643.0"
+"classname" "misc_model"
+}
+// entity 2779
+{
+"angles" "0 280.89 0"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4189.7 -4363.4 643.0"
+"classname" "misc_model"
+}
+// entity 2780
+{
+"angles" "0 0.09 -0"
+"modelscale" "1.08"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4147.2 -4264.0 643.0"
+"classname" "misc_model"
+}
+// entity 2781
+{
+"angles" "0 343 0"
+"modelscale" "1.09"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3919.5 -4227.2 643.0"
+"classname" "misc_model"
+}
+// entity 2782
+{
+"angles" "0 175.23 0"
+"modelscale" "1.17"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4268.5 -4120.9 643.0"
+"classname" "misc_model"
+}
+// entity 2783
+{
+"angles" "0 92.61 0"
+"modelscale" "1.18"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4302.1 -4168.0 643.0"
+"classname" "misc_model"
+}
+// entity 2784
+{
+"angles" "0 71.38 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4233.0 -4419.2 643.0"
+"classname" "misc_model"
+}
+// entity 2785
+{
+"angles" "0 45.72 -0"
+"modelscale" "0.97"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4361.3 -4470.5 643.0"
+"classname" "misc_model"
+}
+// entity 2786
+{
+"angles" "0 267.25 0"
+"modelscale" "0.84"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4446.1 -4448.7 643.0"
+"classname" "misc_model"
+}
+// entity 2787
+{
+"angles" "0 354.96 0"
+"modelscale" "0.80"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4357.5 -4158.3 643.0"
+"classname" "misc_model"
+}
+// entity 2788
+{
+"angles" "0 114.78 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4501.6 -4194.3 643.0"
+"classname" "misc_model"
+}
+// entity 2789
+{
+"angles" "0 114.76 0"
+"modelscale" "0.96"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4512.3 -4340.2 643.0"
+"classname" "misc_model"
+}
+// entity 2790
+{
+"angles" "0 203.68 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4439.0 -4165.3 643.0"
+"classname" "misc_model"
+}
+// entity 2791
+{
+"angles" "0 300.56 0"
+"modelscale" "1.20"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4443.9 -4158.9 643.0"
+"classname" "misc_model"
+}
+// entity 2792
+{
+"angles" "0 77.56 -0"
+"modelscale" "0.86"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4812.4 -4156.4 643.0"
+"classname" "misc_model"
+}
+// entity 2793
+{
+"angles" "0 162.6 0"
+"modelscale" "0.84"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5116.6 -4362.3 643.0"
+"classname" "misc_model"
+}
+// entity 2794
+{
+"angles" "0 285.14 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4909.9 -4425.7 643.0"
+"classname" "misc_model"
+}
+// entity 2795
+{
+"angles" "0 284.68 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5218.5 -4451.4 643.0"
+"classname" "misc_model"
+}
+// entity 2796
+{
+"angles" "0 141.63 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4961.2 -4429.8 643.0"
+"classname" "misc_model"
+}
+// entity 2797
+{
+"angles" "0 24.34 0"
+"modelscale" "1.16"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5335.2 -4497.3 643.0"
+"classname" "misc_model"
+}
+// entity 2798
+{
+"angles" "0 92.28 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5024.6 -4303.0 643.0"
+"classname" "misc_model"
+}
+// entity 2799
+{
+"angles" "0 290.91 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5459.7 -4519.7 643.0"
+"classname" "misc_model"
+}
+// entity 2800
+{
+"angles" "0 349.85 0"
+"modelscale" "1.02"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5377.7 -4552.2 643.0"
+"classname" "misc_model"
+}
+// entity 2801
+{
+"angles" "0 52.81 0"
+"modelscale" "0.99"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5250.7 -4360.0 643.0"
+"classname" "misc_model"
+}
+// entity 2802
+{
+"angles" "0 137.76 0"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5559.2 -4517.4 643.0"
+"classname" "misc_model"
+}
+// entity 2803
+{
+"angles" "0 230.63 0"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5407.8 -4657.9 643.0"
+"classname" "misc_model"
+}
+// entity 2804
+{
+"angles" "0 304.07 0"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5565.6 -4695.3 643.0"
+"classname" "misc_model"
+}
+// entity 2805
+{
+"angles" "0 1.67 -0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5402.9 -4430.7 643.0"
+"classname" "misc_model"
+}
+// entity 2806
+{
+"angles" "0 216 0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5656.9 -4281.6 643.0"
+"classname" "misc_model"
+}
+// entity 2807
+{
+"angles" "0 284.51 0"
+"modelscale" "0.97"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5323.9 -4253.1 643.0"
+"classname" "misc_model"
+}
+// entity 2808
+{
+"angles" "0 357.48 0"
+"modelscale" "0.91"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5436.7 -4229.3 643.0"
+"classname" "misc_model"
+}
+// entity 2809
+{
+"angles" "0 149.07 0"
+"modelscale" "1.10"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-5125.3 -4275.0 643.0"
+"classname" "misc_model"
+}
+// entity 2810
+{
+"angles" "0 170.06 0"
+"modelscale" "1.08"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4947.6 -4255.9 643.0"
+"classname" "misc_model"
+}
+// entity 2811
+{
+"angles" "0 198.57 0"
+"modelscale" "0.87"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4755.8 -4543.9 643.0"
+"classname" "misc_model"
+}
+// entity 2812
+{
+"angles" "0 145.87 0"
+"modelscale" "0.96"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4484.2 -4567.5 643.0"
+"classname" "misc_model"
+}
+// entity 2813
+{
+"angles" "0 328.56 0"
+"modelscale" "0.87"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4616.7 -4374.9 643.0"
+"classname" "misc_model"
+}
+// entity 2814
+{
+"angles" "0 347.37 0"
+"modelscale" "0.98"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4441.0 -4375.8 643.0"
+"classname" "misc_model"
+}
+// entity 2815
+{
+"angles" "0 142.43 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4138.3 -4425.8 643.0"
+"classname" "misc_model"
+}
+// entity 2816
+{
+"angles" "0 69.15 0"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4428.5 -4274.3 643.0"
+"classname" "misc_model"
+}
+// entity 2817
+{
+"angles" "0 296.86 0"
+"modelscale" "1.09"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-4132.0 -4491.3 643.0"
+"classname" "misc_model"
+}
+// entity 2818
+{
+"angles" "0 146.73 0"
+"modelscale" "1.10"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3795.1 -4362.8 643.0"
+"classname" "misc_model"
+}
+// entity 2819
+{
+"angles" "0 291.61 0"
+"modelscale" "0.99"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3529.3 -4317.0 643.0"
+"classname" "misc_model"
+}
+// entity 2820
+{
+"angles" "0 157.79 0"
+"modelscale" "0.87"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3678.9 -4245.8 643.0"
+"classname" "misc_model"
+}
+// entity 2821
+{
+"angles" "0 135.24 0"
+"modelscale" "1.14"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3338.9 -4394.4 643.0"
+"classname" "misc_model"
+}
+// entity 2822
+{
+"angles" "0 336.43 0"
+"modelscale" "0.91"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3510.9 -4437.6 643.0"
+"classname" "misc_model"
+}
+// entity 2823
+{
+"angles" "0 193.7 0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3255.4 -4493.6 643.0"
+"classname" "misc_model"
+}
+// entity 2824
+{
+"angles" "0 61.28 0"
+"modelscale" "0.84"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3192.9 -4336.2 643.0"
+"classname" "misc_model"
+}
+// entity 2825
+{
+"angles" "0 59.98 0"
+"modelscale" "0.83"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3333.3 -4546.9 643.0"
+"classname" "misc_model"
+}
+// entity 2826
+{
+"angles" "0 177.98 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3486.1 -4460.0 643.0"
+"classname" "misc_model"
+}
+// entity 2827
+{
+"angles" "0 290.28 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3163.4 -4329.8 643.0"
+"classname" "misc_model"
+}
+// entity 2828
+{
+"angles" "0 330.92 0"
+"modelscale" "0.97"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3305.0 -4370.7 643.0"
+"classname" "misc_model"
+}
+// entity 2829
+{
+"angles" "0 129.82 0"
+"modelscale" "0.99"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3008.4 -4285.9 643.0"
+"classname" "misc_model"
+}
+// entity 2830
+{
+"angles" "0 184.25 0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2966.2 -4383.5 643.0"
+"classname" "misc_model"
+}
+// entity 2831
+{
+"angles" "0 76.79 0"
+"modelscale" "1.19"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2846.8 -4445.5 643.0"
+"classname" "misc_model"
+}
+// entity 2832
+{
+"angles" "0 73.61 0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-3027.9 -4158.3 643.0"
+"classname" "misc_model"
+}
+// entity 2833
+{
+"angles" "0 316.21 0"
+"modelscale" "0.81"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2865.9 -4305.4 643.0"
+"classname" "misc_model"
+}
+// entity 2834
+{
+"angles" "0 353.74 0"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2942.7 -4441.7 643.0"
+"classname" "misc_model"
+}
+// entity 2835
+{
+"angles" "0 348.46 0"
+"modelscale" "1.01"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2461.3 -4276.5 643.0"
+"classname" "misc_model"
+}
+// entity 2836
+{
+"angles" "0 187.58 0"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2579.8 -4598.9 643.0"
+"classname" "misc_model"
+}
+// entity 2837
+{
+"angles" "0 32.58 0"
+"modelscale" "1.01"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2211.9 -4409.0 643.0"
+"classname" "misc_model"
+}
+// entity 2838
+{
+"angles" "0 62.17 0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2104.3 -4393.6 643.0"
+"classname" "misc_model"
+}
+// entity 2839
+{
+"angles" "0 222.44 0"
+"modelscale" "0.87"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2174.5 -4427.7 643.0"
+"classname" "misc_model"
+}
+// entity 2840
+{
+"angles" "0 296.24 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2180.7 -4645.7 643.0"
+"classname" "misc_model"
+}
+// entity 2841
+{
+"angles" "0 182.02 0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2158.4 -4558.0 643.0"
+"classname" "misc_model"
+}
+// entity 2842
+{
+"angles" "0 109.22 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2407.7 -4325.7 643.0"
+"classname" "misc_model"
+}
+// entity 2843
+{
+"angles" "0 311.87 0"
+"modelscale" "1.16"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2300.6 -4478.9 643.0"
+"classname" "misc_model"
+}
+// entity 2844
+{
+"angles" "0 322.94 0"
+"modelscale" "1.18"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2097.8 -4532.8 643.0"
+"classname" "misc_model"
+}
+// entity 2845
+{
+"angles" "0 187.28 0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2255.4 -4464.4 643.0"
+"classname" "misc_model"
+}
+// entity 2846
+{
+"angles" "0 184.04 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1993.5 -4675.2 643.0"
+"classname" "misc_model"
+}
+// entity 2847
+{
+"angles" "0 211.53 0"
+"modelscale" "0.82"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2137.0 -4275.3 643.0"
+"classname" "misc_model"
+}
+// entity 2848
+{
+"angles" "0 184.51 0"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-2142.5 -4235.1 643.0"
+"classname" "misc_model"
+}
+// entity 2849
+{
+"angles" "0 341.98 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1911.1 -4500.0 643.0"
+"classname" "misc_model"
+}
+// entity 2850
+{
+"angles" "0 252.22 0"
+"modelscale" "0.82"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1963.6 -4547.1 643.0"
+"classname" "misc_model"
+}
+// entity 2851
+{
+"angles" "0 354.19 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1739.4 -4428.4 643.0"
+"classname" "misc_model"
+}
+// entity 2852
+{
+"angles" "0 343.28 0"
+"modelscale" "0.81"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1802.7 -4171.1 643.0"
+"classname" "misc_model"
+}
+// entity 2853
+{
+"angles" "0 322.44 0"
+"modelscale" "0.97"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1913.0 -4373.4 643.0"
+"classname" "misc_model"
+}
+// entity 2854
+{
+"angles" "0 318.13 0"
+"modelscale" "1.10"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1806.6 -4246.3 643.0"
+"classname" "misc_model"
+}
+// entity 2855
+{
+"angles" "0 229.85 0"
+"modelscale" "0.80"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1745.0 -4379.5 643.0"
+"classname" "misc_model"
+}
+// entity 2856
+{
+"angles" "0 182.57 0"
+"modelscale" "0.98"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1407.5 -4341.4 643.0"
+"classname" "misc_model"
+}
+// entity 2857
+{
+"angles" "0 236.44 0"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1717.7 -4459.1 643.0"
+"classname" "misc_model"
+}
+// entity 2858
+{
+"angles" "0 97.63 0"
+"modelscale" "0.83"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1574.0 -4470.7 643.0"
+"classname" "misc_model"
+}
+// entity 2859
+{
+"angles" "0 17.84 0"
+"modelscale" "0.91"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1471.7 -4381.0 643.0"
+"classname" "misc_model"
+}
+// entity 2860
+{
+"angles" "0 160.55 0"
+"modelscale" "0.88"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1274.9 -4273.2 643.0"
+"classname" "misc_model"
+}
+// entity 2861
+{
+"angles" "0 18.51 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1170.2 -4309.1 643.0"
+"classname" "misc_model"
+}
+// entity 2862
+{
+"angles" "0 197 0"
+"modelscale" "0.81"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1259.5 -4164.5 643.0"
+"classname" "misc_model"
+}
+// entity 2863
+{
+"angles" "0 243.82 0"
+"modelscale" "1.14"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1305.3 -4386.8 643.0"
+"classname" "misc_model"
+}
+// entity 2864
+{
+"angles" "0 76.68 0"
+"modelscale" "1.19"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1210.5 -4437.7 643.0"
+"classname" "misc_model"
+}
+// entity 2865
+{
+"angles" "0 275.52 0"
+"modelscale" "0.98"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-925.9 -4264.4 643.0"
+"classname" "misc_model"
+}
+// entity 2866
+{
+"angles" "0 101.36 0"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1081.3 -4432.6 643.0"
+"classname" "misc_model"
+}
+// entity 2867
+{
+"angles" "0 218.8 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1047.3 -4377.7 643.0"
+"classname" "misc_model"
+}
+// entity 2868
+{
+"angles" "0 199.04 0"
+"modelscale" "0.81"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-1195.6 -4369.1 643.0"
+"classname" "misc_model"
+}
+// entity 2869
+{
+"angles" "0 150.18 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-975.0 -4247.3 643.0"
+"classname" "misc_model"
+}
+// entity 2870
+{
+"angles" "0 137.91 0"
+"modelscale" "0.99"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-919.8 -4235.5 643.0"
+"classname" "misc_model"
+}
+// entity 2871
+{
+"angles" "0 202.36 0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-658.0 -4339.8 643.0"
+"classname" "misc_model"
+}
+// entity 2872
+{
+"angles" "0 110.48 0"
+"modelscale" "0.84"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-896.5 -4211.0 643.0"
+"classname" "misc_model"
+}
+// entity 2873
+{
+"angles" "0 247.1 0"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-888.1 -4318.2 643.0"
+"classname" "misc_model"
+}
+// entity 2874
+{
+"angles" "0 192.58 0"
+"modelscale" "0.88"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-719.3 -4198.3 643.0"
+"classname" "misc_model"
+}
+// entity 2875
+{
+"angles" "0 257.17 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-703.9 -4563.8 643.0"
+"classname" "misc_model"
+}
+// entity 2876
+{
+"angles" "0 69.37 0"
+"modelscale" "0.86"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-797.1 -4425.7 643.0"
+"classname" "misc_model"
+}
+// entity 2877
+{
+"angles" "0 288.28 0"
+"modelscale" "1.15"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-985.9 -4300.1 643.0"
+"classname" "misc_model"
+}
+// entity 2878
+{
+"angles" "0 300.53 0"
+"modelscale" "0.83"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-725.9 -4204.7 643.0"
+"classname" "misc_model"
+}
+// entity 2879
+{
+"angles" "0 283.27 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-559.5 -4365.6 643.0"
+"classname" "misc_model"
+}
+// entity 2880
+{
+"angles" "0 200.31 0"
+"modelscale" "0.96"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-636.3 -4529.0 643.0"
+"classname" "misc_model"
+}
+// entity 2881
+{
+"angles" "0 100.02 0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-337.9 -4332.2 643.0"
+"classname" "misc_model"
+}
+// entity 2882
+{
+"angles" "0 294.72 0"
+"modelscale" "1.17"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-309.0 -4524.7 643.0"
+"classname" "misc_model"
+}
+// entity 2883
+{
+"angles" "0 23.71 0"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-419.2 -4354.4 643.0"
+"classname" "misc_model"
+}
+// entity 2884
+{
+"angles" "0 317.41 0"
+"modelscale" "1.01"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-296.6 -4277.9 643.0"
+"classname" "misc_model"
+}
+// entity 2885
+{
+"angles" "0 325.17 0"
+"modelscale" "0.99"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-378.0 -4261.7 643.0"
+"classname" "misc_model"
+}
+// entity 2886
+{
+"angles" "0 77.43 0"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-201.6 -4471.7 643.0"
+"classname" "misc_model"
+}
+// entity 2887
+{
+"angles" "0 226.88 0"
+"modelscale" "1.14"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-314.0 -4244.5 643.0"
+"classname" "misc_model"
+}
+// entity 2888
+{
+"angles" "0 186.45 0"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "68.2 -4444.7 643.0"
+"classname" "misc_model"
+}
+// entity 2889
+{
+"angles" "0 16.83 -0"
+"modelscale" "1.02"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-42.6 -4229.7 643.0"
+"classname" "misc_model"
+}
+// entity 2890
+{
+"angles" "0 221.34 0"
+"modelscale" "1.14"
+"model" "jeepride_sprawl_grass_01"
+"origin" "-144.9 -4496.9 643.0"
+"classname" "misc_model"
+}
+// entity 2891
+{
+"angles" "0 339.23 0"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "68.8 -4153.4 643.0"
+"classname" "misc_model"
+}
+// entity 2892
+{
+"angles" "0 197.02 0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "230.4 -4380.0 643.0"
+"classname" "misc_model"
+}
+// entity 2893
+{
+"angles" "0 235.01 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "113.5 -4407.7 643.0"
+"classname" "misc_model"
+}
+// entity 2894
+{
+"angles" "0 104.76 0"
+"modelscale" "1.19"
+"model" "jeepride_sprawl_grass_01"
+"origin" "70.2 -4276.5 643.0"
+"classname" "misc_model"
+}
+// entity 2895
+{
+"angles" "0 339.18 0"
+"modelscale" "0.98"
+"model" "jeepride_sprawl_grass_01"
+"origin" "245.5 -4680.6 643.0"
+"classname" "misc_model"
+}
+// entity 2896
+{
+"angles" "0 150.03 0"
+"modelscale" "0.96"
+"model" "jeepride_sprawl_grass_01"
+"origin" "457.9 -4243.8 643.0"
+"classname" "misc_model"
+}
+// entity 2897
+{
+"angles" "0 293.29 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "613.4 -4459.2 643.0"
+"classname" "misc_model"
+}
+// entity 2898
+{
+"angles" "0 195.1 0"
+"modelscale" "0.80"
+"model" "jeepride_sprawl_grass_01"
+"origin" "355.5 -4315.7 643.0"
+"classname" "misc_model"
+}
+// entity 2899
+{
+"angles" "0 330.92 0"
+"modelscale" "0.88"
+"model" "jeepride_sprawl_grass_01"
+"origin" "482.9 -4425.0 643.0"
+"classname" "misc_model"
+}
+// entity 2900
+{
+"angles" "0 329.62 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "565.1 -4294.9 643.0"
+"classname" "misc_model"
+}
+// entity 2901
+{
+"angles" "0 29.04 -0"
+"modelscale" "1.16"
+"model" "jeepride_sprawl_grass_01"
+"origin" "410.6 -4352.8 643.0"
+"classname" "misc_model"
+}
+// entity 2902
+{
+"angles" "0 174.98 0"
+"modelscale" "0.81"
+"model" "jeepride_sprawl_grass_01"
+"origin" "626.8 -4231.8 643.0"
+"classname" "misc_model"
+}
+// entity 2903
+{
+"angles" "0 44.17 -0"
+"modelscale" "1.00"
+"model" "jeepride_sprawl_grass_01"
+"origin" "520.1 -4261.0 643.0"
+"classname" "misc_model"
+}
+// entity 2904
+{
+"angles" "0 94.85 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "801.3 -4314.8 643.0"
+"classname" "misc_model"
+}
+// entity 2905
+{
+"angles" "0 353.53 0"
+"modelscale" "1.09"
+"model" "jeepride_sprawl_grass_01"
+"origin" "925.1 -4319.4 643.0"
+"classname" "misc_model"
+}
+// entity 2906
+{
+"angles" "0 201.88 0"
+"modelscale" "1.16"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1151.8 -4416.9 643.0"
+"classname" "misc_model"
+}
+// entity 2907
+{
+"angles" "0 287.87 0"
+"modelscale" "0.86"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1148.4 -4363.1 643.0"
+"classname" "misc_model"
+}
+// entity 2908
+{
+"angles" "0 158.98 0"
+"modelscale" "0.95"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1337.5 -4337.4 643.0"
+"classname" "misc_model"
+}
+// entity 2909
+{
+"angles" "0 280.6 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1178.2 -4533.2 643.0"
+"classname" "misc_model"
+}
+// entity 2910
+{
+"angles" "0 29 -0"
+"modelscale" "1.19"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1224.0 -4419.5 643.0"
+"classname" "misc_model"
+}
+// entity 2911
+{
+"angles" "0 21.87 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1211.0 -4674.1 643.0"
+"classname" "misc_model"
+}
+// entity 2912
+{
+"angles" "0 298.32 0"
+"modelscale" "0.80"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1080.0 -4688.8 643.0"
+"classname" "misc_model"
+}
+// entity 2913
+{
+"angles" "0 296.18 0"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1157.1 -4587.9 643.0"
+"classname" "misc_model"
+}
+// entity 2914
+{
+"angles" "0 22.01 -0"
+"modelscale" "0.87"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1469.0 -4501.1 643.0"
+"classname" "misc_model"
+}
+// entity 2915
+{
+"angles" "0 3.51 0"
+"modelscale" "0.99"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1331.0 -4354.2 643.0"
+"classname" "misc_model"
+}
+// entity 2916
+{
+"angles" "0 170.93 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1608.9 -4436.2 643.0"
+"classname" "misc_model"
+}
+// entity 2917
+{
+"angles" "0 355.79 0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1589.9 -4649.3 643.0"
+"classname" "misc_model"
+}
+// entity 2918
+{
+"angles" "0 135.56 0"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1768.1 -4275.3 643.0"
+"classname" "misc_model"
+}
+// entity 2919
+{
+"angles" "0 38.58 0"
+"modelscale" "0.88"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1494.7 -4541.4 643.0"
+"classname" "misc_model"
+}
+// entity 2920
+{
+"angles" "0 270.7 0"
+"modelscale" "0.97"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1584.3 -4585.7 643.0"
+"classname" "misc_model"
+}
+// entity 2921
+{
+"angles" "0 1.17 0"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1618.8 -4308.9 643.0"
+"classname" "misc_model"
+}
+// entity 2922
+{
+"angles" "0 175.14 0"
+"modelscale" "1.17"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1518.2 -4432.2 643.0"
+"classname" "misc_model"
+}
+// entity 2923
+{
+"angles" "0 222.25 0"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1017.6 -4253.2 643.0"
+"classname" "misc_model"
+}
+// entity 2924
+{
+"angles" "0 7.81 -0"
+"modelscale" "1.08"
+"model" "jeepride_sprawl_grass_01"
+"origin" "978.7 -4400.0 643.0"
+"classname" "misc_model"
+}
+// entity 2925
+{
+"angles" "0 299.49 0"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1357.1 -4174.2 643.0"
+"classname" "misc_model"
+}
+// entity 2926
+{
+"angles" "0 341.01 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1511.5 -4203.6 643.0"
+"classname" "misc_model"
+}
+// entity 2927
+{
+"angles" "0 244.97 0"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1761.2 -4249.9 643.0"
+"classname" "misc_model"
+}
+// entity 2928
+{
+"angles" "0 158.57 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1502.1 -4142.1 643.0"
+"classname" "misc_model"
+}
+// entity 2929
+{
+"angles" "0 112.14 0"
+"modelscale" "1.20"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1407.2 -4218.9 643.0"
+"classname" "misc_model"
+}
+// entity 2930
+{
+"angles" "0 77.77 0"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1578.2 -4442.4 643.0"
+"classname" "misc_model"
+}
+// entity 2931
+{
+"angles" "0 301.67 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1292.7 -4278.3 643.0"
+"classname" "misc_model"
+}
+// entity 2932
+{
+"angles" "0 171.09 0"
+"modelscale" "0.83"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1180.9 -4293.7 643.0"
+"classname" "misc_model"
+}
+// entity 2933
+{
+"angles" "0 118.32 0"
+"modelscale" "1.13"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1170.5 -4358.1 643.0"
+"classname" "misc_model"
+}
+// entity 2934
+{
+"angles" "0 10.07 0"
+"modelscale" "0.94"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1340.9 -4495.7 643.0"
+"classname" "misc_model"
+}
+// entity 2935
+{
+"angles" "0 6.94 -0"
+"modelscale" "0.95"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1023.5 -4193.3 643.0"
+"classname" "misc_model"
+}
+// entity 2936
+{
+"angles" "0 277.8 0"
+"modelscale" "0.84"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1116.8 -4320.5 643.0"
+"classname" "misc_model"
+}
+// entity 2937
+{
+"angles" "0 31.93 0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1132.0 -4440.7 643.0"
+"classname" "misc_model"
+}
+// entity 2938
+{
+"angles" "0 87.28 -0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "944.0 -4302.8 643.0"
+"classname" "misc_model"
+}
+// entity 2939
+{
+"angles" "0 337.18 0"
+"modelscale" "0.95"
+"model" "jeepride_sprawl_grass_01"
+"origin" "1055.1 -4352.8 643.0"
+"classname" "misc_model"
+}
+// entity 2940
+{
+"angles" "0 345 0"
+"model" "cargocontainer_20ft_blue"
+"origin" "-4203.3 -2902.3 275.0"
+"classname" "misc_model"
+}
+// entity 2941
+{
+"angles" "0 285 0"
+"model" "cargocontainer_20ft_green"
+"origin" "-3842.8 -3264.3 275.0"
+"classname" "misc_model"
+}
+// entity 2942
+{
+"angles" "0 30 0"
+"model" "cargocontainer_20ft_red"
+"origin" "-3535.2 -3549.1 275.0"
+"classname" "misc_model"
+}
+// entity 2943
+{
+"angles" "0 315 0"
+"model" "cargocontainer_20ft_white"
+"origin" "-3188.6 -3795.2 275.0"
+"classname" "misc_model"
+}
+// entity 2944
+{
+"angles" "0 165 0"
+"model" "cargocontainer_20ft_blue"
+"origin" "-3767.2 -3808.2 275.0"
+"classname" "misc_model"
+}
+// entity 2945
+{
+"angles" "0 105 0"
+"model" "cargocontainer_20ft_green"
+"origin" "-4127.7 -3446.2 275.0"
+"classname" "misc_model"
+}
+// entity 2946
+{
+"angles" "0 210 0"
+"model" "cargocontainer_20ft_red"
+"origin" "-4435.3 -3161.4 275.0"
+"classname" "misc_model"
+}
+// entity 2947
+{
+"angles" "0 135 0"
+"model" "cargocontainer_20ft_white"
+"origin" "-4781.9 -2915.3 275.0"
+"classname" "misc_model"
+}
+// entity 2948
+{
+"angles" "0 45 0"
+"model" "cargocontainer_20ft_green"
+"origin" "-5319.6 -3886.1 275.0"
+"classname" "misc_model"
+}
+// entity 2949
+{
+"angles" "0 210 0"
+"model" "cargocontainer_20ft_green"
+"origin" "-5407.9 -2574.4 275.0"
+"classname" "misc_model"
+}
+// entity 2950
+{
+"angles" "0 120 0"
+"model" "cargocontainer_20ft_white"
+"origin" "-4581.8 -3755.3 275.0"
+"classname" "misc_model"
+}
+// entity 2951
+{
+"angles" "0 150 0"
+"model" "cargocontainer_20ft_blue"
+"origin" "-5207.3 -3296.2 275.0"
+"classname" "misc_model"
 }
