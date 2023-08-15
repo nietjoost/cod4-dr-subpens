@@ -10,6 +10,12 @@ The mod's gameplay encourages teamwork, coordination, and quick thinking, as Run
 
 ## How to play
 
+- Step 1: Create a Deathrun server (Search on Google)
+- Step 2: Download the latest mp_dr_subpens map folder
+- Step 3: Place map in Call of Duty 4\usermaps
+- Step 4: Place the map name (map mp_dr_subpens) in your server.cfg
+- Step 5: Start server
+
 ## Features
 
 - Multiple paths
@@ -30,9 +36,21 @@ The mod's gameplay encourages teamwork, coordination, and quick thinking, as Run
 
 | <img src="assets/github/screenshot_2.png?raw=true" /> |
 | :---------------------------------------------------: |
-|                        Radiant                        |
+|                        In-game                        |
 
 | <img src="assets/github/screenshot_3.png?raw=true" /> |
+| :---------------------------------------------------: |
+|                        In-game                        |
+
+| <img src="assets/github/screenshot_4.png?raw=true" /> |
+| :---------------------------------------------------: |
+|                        In-game                        |
+
+| <img src="assets/github/screenshot_5.png?raw=true" /> |
+| :---------------------------------------------------: |
+|                        In-game                        |
+
+| <img src="assets/github/screenshot_6.png?raw=true" /> |
 | :---------------------------------------------------: |
 |                        In-game                        |
 
