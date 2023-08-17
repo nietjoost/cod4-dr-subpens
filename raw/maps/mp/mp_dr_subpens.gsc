@@ -12,16 +12,18 @@ main()
 
     setdvar("g_speed" ,"210");
     setdvar("dr_jumpers_speed" ,"1");
-
     setdvar("r_specularcolorscale", "1" );
-
     setdvar("r_glowbloomintensity0",".1");
     setdvar("r_glowbloomintensity1",".1");
     setdvar("r_glowskybleedintensity0",".1");
 
+    setdvar("dr_afk_time","60");
+    setdvar("dr_afk_warn","45");
+
     // Custom vars
     level.door_old = false;
     level.player_in_room = false;
+    level.race_room_use = false;
 
     // Precache
     level._effect[ "frag_exp" ]	= loadfx( "explosions/grenadeExp_dirt" );
@@ -440,7 +442,7 @@ SetupKnifeRoom()
 
     if (level.player_in_room)
     {
-        level thread SetupSniperRoom();
+        level thread SetupKnifeRoom();
         player PlayerMessage("^1A room is already in-use.");
         return;
     }
@@ -493,7 +495,7 @@ SetupBounceRoom()
 
     if (level.player_in_room)
     {
-        level thread SetupSniperRoom();
+        level thread SetupBounceRoom();
         player PlayerMessage("^1A room is already in-use.");
         return;
     }
@@ -558,7 +560,7 @@ SetupWeaponRoom()
 
     if (level.player_in_room)
     {
-        level thread SetupSniperRoom();
+        level thread SetupWeaponRoom();
         player PlayerMessage("^1A room is already in-use.");
         return;
     }
@@ -600,7 +602,7 @@ SetupRaceRoom()
 
     if (level.player_in_room)
     {
-        level thread SetupSniperRoom();
+        level thread SetupRaceRoom();
         player PlayerMessage("^1A room is already in-use.");
         return;
     }
