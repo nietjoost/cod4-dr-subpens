@@ -62,6 +62,9 @@ main()
     level thread teleportpos1to2();
     level thread teleportpos2to1();
     level thread BounceTeleport();
+
+    // Finish Line
+    level thread WatchFinishLine();
 }
 
 // Play music
@@ -726,6 +729,19 @@ RaceTeleport()
         player SetOrigin(player.tp.origin);
         player SetPlayerAngles(player.tp.angles);
     }
+}
+
+// Finish line logic
+WatchFinishLine()
+{
+    // Get trigger
+    finishLine = GetEnt("finish_line", "targetname");
+
+    // Wait for use
+    finishLine waittill("trigger", player);
+
+    // Win message
+    iprintlnBold(player.name + " ^2finished first!");
 }
 
 // Utils functions
