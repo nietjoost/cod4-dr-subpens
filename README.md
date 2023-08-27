@@ -54,6 +54,10 @@ The mod's gameplay encourages teamwork, coordination, and quick thinking, as Run
 | :---------------------------------------------------: |
 |                        In-game                        |
 
+| <img src="assets/github/screenshot_7.png?raw=true" /> |
+| :---------------------------------------------------: |
+|                        In-game                        |
+
 ## Used Radiant modifications
 
 - [iw3xo-radiant](https://github.com/xoxor4d/iw3xo-radiant)
