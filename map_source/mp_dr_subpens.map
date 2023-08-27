@@ -24868,12 +24868,12 @@ iwmap 4
 "classname" "trigger_use"
 // brush 0
 {
- ( -5380 450 146 ) ( -5384 450 146 ) ( -5384 444 146 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -5384 444 256 ) ( -5384 450 256 ) ( -5380 450 256 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -5380 416 256 ) ( -5376 416 256 ) ( -5376 416 146 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -5364 438 256 ) ( -5364 444 256 ) ( -5364 444 146 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -5382 512 256 ) ( -5386 512 256 ) ( -5386 512 146 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -5388 450 256 ) ( -5388 444 256 ) ( -5388 444 146 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5300 450 146 ) ( -5304 450 146 ) ( -5304 444 146 ) trigger 64 64 80 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5304 444 256 ) ( -5304 450 256 ) ( -5300 450 256 ) trigger 64 64 80 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5300 416 256 ) ( -5296 416 256 ) ( -5296 416 146 ) trigger 64 64 80 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5270 437.5 256 ) ( -5270 443.5 256 ) ( -5270 443.5 146 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5302 512 256 ) ( -5306 512 256 ) ( -5306 512 146 ) trigger 64 64 80 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5296 450 256 ) ( -5296 444 256 ) ( -5296 444 146 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
 // entity 1362
@@ -25145,12 +25145,12 @@ iwmap 4
 "origin" "1066.000 -2285.800 144.000"
 // brush 0
 {
- ( -2864 -1780 144.5 ) ( -2864 -1764 144.5 ) ( -2880 -1764 144.5 ) trigger 64 64 711.96521 544.02856 -90 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2880 -1768 192 ) ( -2864 -1768 192 ) ( -2864 -1784 192 ) trigger 64 64 712.01825 543.92798 -90 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2888 -1772 192 ) ( -2888 -1788 192 ) ( -2888 -1788 176 ) trigger 64 -64 712 176 180 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2880 -1792 192 ) ( -2864 -1792 192 ) ( -2864 -1792 176 ) trigger 64 64 -544 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2856 -1784 192 ) ( -2856 -1768 192 ) ( -2856 -1768 176 ) trigger 64 -64 712 176 180 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2864 -1760 192 ) ( -2880 -1760 192 ) ( -2880 -1760 176 ) trigger 64 64 -544 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2968 -1780 144.5 ) ( -2968 -1764 144.5 ) ( -2984 -1764 144.5 ) trigger 64 64 711.96521 648.02856 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2984 -1768 192 ) ( -2968 -1768 192 ) ( -2968 -1784 192 ) trigger 64 64 712.01831 647.92798 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2976 -1788 192 ) ( -2976 -1804 192 ) ( -2976 -1804 176 ) trigger 64 -64 712 176 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2960 -1792 192 ) ( -2944 -1792 192 ) ( -2944 -1792 176 ) trigger 64 64 -648 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2944 -1784 192 ) ( -2944 -1768 192 ) ( -2944 -1768 176 ) trigger 64 -64 712 176 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2968 -1760 192 ) ( -2984 -1760 192 ) ( -2984 -1760 176 ) trigger 64 64 -648 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
 // entity 1401
@@ -25506,12 +25506,12 @@ iwmap 4
 "origin" "546.000 -2285.800 144.000"
 // brush 0
 {
- ( -2076 -2280 136 ) ( -2092 -2280 136 ) ( -2092 -2296 136 ) trigger 64 64 -3144 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2088 -2296 192 ) ( -2088 -2280 192 ) ( -2072 -2280 192 ) trigger 64 64 -3144 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2084 -2304 192 ) ( -2068 -2304 192 ) ( -2068 -2304 176 ) trigger 64 64 -3144 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2064 -2296 192 ) ( -2064 -2280 192 ) ( -2064 -2280 176 ) trigger 64 64 40 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2070 -2284.5 192 ) ( -2086 -2284.5 192 ) ( -2086 -2284.5 176 ) trigger 64 64 -3144 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -2096 -2280 192 ) ( -2096 -2296 192 ) ( -2096 -2296 176 ) trigger 64 64 40 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2076 -2336 136 ) ( -2092 -2336 136 ) ( -2092 -2352 136 ) trigger 64 64 -3144 16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2088 -2352 192 ) ( -2088 -2336 192 ) ( -2072 -2336 192 ) trigger 64 64 -3144 16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2084 -2408 192 ) ( -2068 -2408 192 ) ( -2068 -2408 176 ) trigger 64 64 -3144 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2064 -2352 192 ) ( -2064 -2336 192 ) ( -2064 -2336 176 ) trigger 64 64 -16 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2070 -2340.5 192 ) ( -2086 -2340.5 192 ) ( -2086 -2340.5 176 ) trigger 64 64 -3144 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2096 -2336 192 ) ( -2096 -2352 192 ) ( -2096 -2352 176 ) trigger 64 64 -16 -176 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
 // entity 1443
@@ -43793,5 +43793,597 @@ iwmap 4
 "angles" "4.34898e-007 90 -10"
 "model" "com_stepladder_large_closed"
 "origin" "-5616.3 -1010.3 143.4"
+"classname" "misc_model"
+}
+// entity 3791
+{
+"angles" "0 166.46 0"
+"modelscale" "1.01"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2483.1 183.1 0.0"
+"classname" "misc_model"
+}
+// entity 3792
+{
+"angles" "0 238.87 0"
+"modelscale" "0.83"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2628.4 109.1 0.0"
+"classname" "misc_model"
+}
+// entity 3793
+{
+"angles" "0 357.41 0"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2500.4 288.3 0.0"
+"classname" "misc_model"
+}
+// entity 3794
+{
+"angles" "0 88.5 0"
+"modelscale" "1.18"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2657.3 410.8 0.0"
+"classname" "misc_model"
+}
+// entity 3795
+{
+"angles" "0 121.59 0"
+"modelscale" "1.02"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2659.2 317.6 0.0"
+"classname" "misc_model"
+}
+// entity 3796
+{
+"angles" "0 209.92 0"
+"modelscale" "1.17"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2494.0 322.5 0.0"
+"classname" "misc_model"
+}
+// entity 3797
+{
+"angles" "0 321.19 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2376.2 445.1 0.0"
+"classname" "misc_model"
+}
+// entity 3798
+{
+"angles" "0 50.98 0"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2336.6 458.7 0.0"
+"classname" "misc_model"
+}
+// entity 3799
+{
+"angles" "0 270.67 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2291.8 410.2 0.0"
+"classname" "misc_model"
+}
+// entity 3800
+{
+"angles" "0 240.11 0"
+"modelscale" "0.94"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2089.7 616.8 0.0"
+"classname" "misc_model"
+}
+// entity 3801
+{
+"angles" "0 332.74 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2161.4 476.2 0.0"
+"classname" "misc_model"
+}
+// entity 3802
+{
+"angles" "0 269.83 0"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2523.3 635.4 0.0"
+"classname" "misc_model"
+}
+// entity 3803
+{
+"angles" "0 62.69 0"
+"modelscale" "0.98"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2335.2 416.9 0.0"
+"classname" "misc_model"
+}
+// entity 3804
+{
+"angles" "0 176.62 0"
+"modelscale" "1.19"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2332.9 418.0 0.0"
+"classname" "misc_model"
+}
+// entity 3805
+{
+"angles" "0 257.79 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2675.2 616.2 0.0"
+"classname" "misc_model"
+}
+// entity 3806
+{
+"angles" "0 347.42 0"
+"modelscale" "0.95"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2467.3 452.5 0.0"
+"classname" "misc_model"
+}
+// entity 3807
+{
+"angles" "0 63.25 0"
+"modelscale" "0.99"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2751.1 530.2 0.0"
+"classname" "misc_model"
+}
+// entity 3808
+{
+"angles" "0 309.95 0"
+"modelscale" "1.14"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2647.5 343.4 0.0"
+"classname" "misc_model"
+}
+// entity 3809
+{
+"angles" "0 330.76 0"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2790.1 621.6 0.0"
+"classname" "misc_model"
+}
+// entity 3810
+{
+"angles" "0 325.72 0"
+"modelscale" "1.11"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2682.5 499.3 0.0"
+"classname" "misc_model"
+}
+// entity 3811
+{
+"angles" "0 283.51 0"
+"modelscale" "1.09"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2676.6 522.4 0.0"
+"classname" "misc_model"
+}
+// entity 3812
+{
+"angles" "0 278.99 0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2969.3 611.2 0.0"
+"classname" "misc_model"
+}
+// entity 3813
+{
+"angles" "0 283.83 0"
+"modelscale" "1.14"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3033.4 331.5 0.0"
+"classname" "misc_model"
+}
+// entity 3814
+{
+"angles" "0 80.33 0"
+"modelscale" "0.98"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2775.9 405.2 0.0"
+"classname" "misc_model"
+}
+// entity 3815
+{
+"angles" "0 225.07 0"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2820.8 422.5 0.0"
+"classname" "misc_model"
+}
+// entity 3816
+{
+"angles" "0 171.96 0"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2715.9 432.4 0.0"
+"classname" "misc_model"
+}
+// entity 3817
+{
+"angles" "0 196.67 0"
+"modelscale" "1.10"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2918.7 425.5 0.0"
+"classname" "misc_model"
+}
+// entity 3818
+{
+"angles" "0 242.77 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2939.4 553.8 0.0"
+"classname" "misc_model"
+}
+// entity 3819
+{
+"angles" "0 307.74 0"
+"modelscale" "0.87"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3073.4 401.5 0.0"
+"classname" "misc_model"
+}
+// entity 3820
+{
+"angles" "0 102.97 0"
+"modelscale" "0.90"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3279.3 465.5 0.0"
+"classname" "misc_model"
+}
+// entity 3821
+{
+"angles" "0 210.17 0"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3203.3 404.4 0.0"
+"classname" "misc_model"
+}
+// entity 3822
+{
+"angles" "0 317.95 0"
+"modelscale" "0.96"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3040.2 481.1 0.0"
+"classname" "misc_model"
+}
+// entity 3823
+{
+"angles" "0 17.59 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3480.0 389.3 0.0"
+"classname" "misc_model"
+}
+// entity 3824
+{
+"angles" "0 88.58 0"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3364.7 446.1 0.0"
+"classname" "misc_model"
+}
+// entity 3825
+{
+"angles" "0 339.95 0"
+"modelscale" "0.94"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3430.7 627.3 -8.0"
+"classname" "misc_model"
+}
+// entity 3826
+{
+"angles" "0 303.59 0"
+"modelscale" "0.87"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3503.9 288.5 8.0"
+"classname" "misc_model"
+}
+// entity 3827
+{
+"angles" "0 260.05 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3561.4 601.4 0.0"
+"classname" "misc_model"
+}
+// entity 3828
+{
+"angles" "0 301.41 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3689.8 319.4 0.0"
+"classname" "misc_model"
+}
+// entity 3829
+{
+"angles" "0 206.5 0"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3765.2 548.8 0.0"
+"classname" "misc_model"
+}
+// entity 3830
+{
+"angles" "0 169.59 0"
+"modelscale" "0.95"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3833.8 606.3 0.0"
+"classname" "misc_model"
+}
+// entity 3831
+{
+"angles" "0 213.84 0"
+"modelscale" "0.88"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3912.1 272.8 0.0"
+"classname" "misc_model"
+}
+// entity 3832
+{
+"angles" "0 260.81 0"
+"modelscale" "1.01"
+"model" "jeepride_sprawl_grass_01"
+"origin" "4039.3 619.9 0.0"
+"classname" "misc_model"
+}
+// entity 3833
+{
+"angles" "0 272.18 0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3128.0 611.3 0.0"
+"classname" "misc_model"
+}
+// entity 3834
+{
+"angles" "0 239.84 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3387.1 526.4 0.0"
+"classname" "misc_model"
+}
+// entity 3835
+{
+"angles" "0 1.88 0"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3194.2 272.1 0.0"
+"classname" "misc_model"
+}
+// entity 3836
+{
+"angles" "0 176.37 0"
+"modelscale" "0.81"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3381.6 526.9 0.0"
+"classname" "misc_model"
+}
+// entity 3837
+{
+"angles" "0 176.38 0"
+"modelscale" "0.89"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3282.4 616.4 -1.0"
+"classname" "misc_model"
+}
+// entity 3838
+{
+"angles" "0 234.59 0"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3430.2 264.7 0.0"
+"classname" "misc_model"
+}
+// entity 3839
+{
+"angles" "0 295.8 0"
+"modelscale" "1.00"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3266.1 269.6 0.0"
+"classname" "misc_model"
+}
+// entity 3840
+{
+"angles" "0 28.86 0"
+"modelscale" "0.95"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3467.5 462.9 0.0"
+"classname" "misc_model"
+}
+// entity 3841
+{
+"angles" "0 112.09 0"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3639.4 384.0 0.0"
+"classname" "misc_model"
+}
+// entity 3842
+{
+"angles" "0 339.46 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3318.6 318.8 0.0"
+"classname" "misc_model"
+}
+// entity 3843
+{
+"angles" "0 53.77 0"
+"modelscale" "1.08"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3559.1 485.9 0.0"
+"classname" "misc_model"
+}
+// entity 3844
+{
+"angles" "0 281.63 0"
+"modelscale" "0.93"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3737.2 332.1 0.0"
+"classname" "misc_model"
+}
+// entity 3845
+{
+"angles" "0 243.74 0"
+"modelscale" "0.99"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3486.7 539.6 0.0"
+"classname" "misc_model"
+}
+// entity 3846
+{
+"angles" "0 93.98 0"
+"modelscale" "1.12"
+"model" "jeepride_sprawl_grass_01"
+"origin" "3721.9 449.5 0.0"
+"classname" "misc_model"
+}
+// entity 3847
+{
+"angles" "25.4584 334.943 -11.3633"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2084.6 255.4 77.0"
+"classname" "misc_model"
+}
+// entity 3848
+{
+"angles" "337.782 66.1297 9.4992"
+"modelscale" "1.05"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2045.0 252.0 90.2"
+"classname" "misc_model"
+}
+// entity 3849
+{
+"angles" "0 297.2 0"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2233.7 228.5 0.0"
+"classname" "misc_model"
+}
+// entity 3850
+{
+"angles" "6.51841 345.178 23.2195"
+"modelscale" "0.85"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2063.7 172.1 54.5"
+"classname" "misc_model"
+}
+// entity 3851
+{
+"angles" "0.752131 181.684 -24.0572"
+"modelscale" "0.92"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2187.8 84.2 15.3"
+"classname" "misc_model"
+}
+// entity 3852
+{
+"angles" "0 70.11 0"
+"modelscale" "1.17"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2223.6 -46.1 0.0"
+"classname" "misc_model"
+}
+// entity 3853
+{
+"angles" "347.341 30.1908 20.6407"
+"modelscale" "1.00"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2068.4 201.9 67.9"
+"classname" "misc_model"
+}
+// entity 3854
+{
+"angles" "0 236.17 0"
+"modelscale" "1.20"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2142.6 -34.0 0.0"
+"classname" "misc_model"
+}
+// entity 3855
+{
+"angles" "359.871 311.081 -35.3413"
+"modelscale" "1.03"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2089.3 403.1 59.1"
+"classname" "misc_model"
+}
+// entity 3856
+{
+"angles" "0 45.02 0"
+"modelscale" "1.18"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2039.1 586.9 0.0"
+"classname" "misc_model"
+}
+// entity 3857
+{
+"angles" "0 117.36 0"
+"modelscale" "1.07"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2695.5 -255.5 0.0"
+"classname" "misc_model"
+}
+// entity 3858
+{
+"angles" "0 270.05 0"
+"modelscale" "1.18"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2670.7 -484.8 0.0"
+"classname" "misc_model"
+}
+// entity 3859
+{
+"angles" "0 250.02 0"
+"modelscale" "0.80"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2581.3 -462.3 0.0"
+"classname" "misc_model"
+}
+// entity 3860
+{
+"angles" "0 253.38 0"
+"modelscale" "1.20"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2661.6 -379.2 0.0"
+"classname" "misc_model"
+}
+// entity 3861
+{
+"angles" "0 175.61 0"
+"modelscale" "1.14"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2709.1 -202.3 0.0"
+"classname" "misc_model"
+}
+// entity 3862
+{
+"angles" "0 255.54 0"
+"modelscale" "1.06"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2781.8 -310.7 0.0"
+"classname" "misc_model"
+}
+// entity 3863
+{
+"angles" "0 26.45 0"
+"modelscale" "1.04"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2731.5 -377.0 0.0"
+"classname" "misc_model"
+}
+// entity 3864
+{
+"angles" "0 331.7 0"
+"modelscale" "1.17"
+"model" "jeepride_sprawl_grass_01"
+"origin" "2517.9 -70.7 0.0"
 "classname" "misc_model"
 }
