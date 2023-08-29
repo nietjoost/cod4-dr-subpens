@@ -15794,6 +15794,24 @@ iwmap 4
  ( -2243.5 -3405 336 ) ( -2277.5 -3370.5 336 ) ( -2277.5 -3370.5 272 ) clip 45.490421 -64 5019.6729 0 180 0 lightmap_gray 16384 16384 0 0 0 0
  ( -2277.5 -3370.5 336 ) ( -2345.5 -3438 336 ) ( -2345.5 -3438 272 ) clip 45.490585 64 122.38755 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
+// brush 1401
+{
+ ( -4797 190.5 63.5 ) ( -4998 190.5 63.5 ) ( -4998 -11 63.5 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5006 -11 299.5 ) ( -5006 190.5 299.5 ) ( -4805 190.5 299.5 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4996 -7 131 ) ( -4795 -7 131 ) ( -4795 -7 63.5 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4798.5 -11 131 ) ( -4798.5 190.5 131 ) ( -4798.5 190.5 63.5 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4797 189.5 131 ) ( -4998 189.5 131 ) ( -4998 189.5 63.5 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4995 190 131 ) ( -4995 -11.5 131 ) ( -4995 -11.5 63.5 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1402
+{
+ ( -5268 212 63.5 ) ( -5366 213 63.5 ) ( -5367 155 63.5 ) clip 64 64 -1.8510026 64.998749 -0.70011914 1.3202056e-005 lightmap_gray 16384 16384 0 0 0 0
+ ( -5366.5 155 128.5 ) ( -5365.5 213 128.5 ) ( -5267.5 212 128.5 ) clip 64 64 -1.8510026 64.998749 -0.70011914 1.3202056e-005 lightmap_gray 16384 16384 0 0 0 0
+ ( -5367.5 155.5 131 ) ( -5269.5 154.5 131 ) ( -5269.5 154.5 63.5 ) clip 63.998726 64 -0.75 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5269 154 131 ) ( -5268 212 131 ) ( -5268 212 63.5 ) clip 63.997574 64 -0.58490622 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5267.5 211.5 131 ) ( -5365.5 212.5 131 ) ( -5365.5 212.5 63.5 ) clip 63.998726 64 -0.044443589 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5365 212.5 131 ) ( -5366 154.5 131 ) ( -5366 154.5 63.5 ) clip 63.997696 64 0.61245638 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
 }
 // entity 1
 {
@@ -44795,4 +44813,163 @@ iwmap 4
 "targetname" "fx4"
 "origin" "-748.5 -1230.0 44.5"
 "classname" "node_scripted"
+}
+// entity 3921
+{
+"model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
+"origin" "-4994.5 84.0 64.0"
+"classname" "misc_prefab"
+}
+// entity 3922
+{
+"angles" "0 270 0"
+"model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
+"origin" "-4904.0 189.0 64.0"
+"classname" "misc_prefab"
+}
+// entity 3923
+{
+"angles" "0 180 0"
+"model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
+"origin" "-4799.0 98.5 64.0"
+"classname" "misc_prefab"
+}
+// entity 3924
+{
+"classname" "misc_prefab"
+"origin" "-4889.5 -6.5 64.0"
+"model" "prefabs\\1 - my prefabs\\fence_subpens_war.map"
+"angles" "0 90 0"
+}
+// entity 3925
+{
+"angles" "0 180 0"
+"model" "prefabs\\trash\\trash_cardboardbox_group_1.map"
+"origin" "-4857.0 132.5 80.0"
+"classname" "misc_prefab"
+}
+// entity 3926
+{
+"angles" "0 321.3 0"
+"model" "prefabs\\trash\\trash_shoppingcart.map"
+"origin" "-4835.5 30.9 64.0"
+"classname" "misc_prefab"
+}
+// entity 3927
+{
+"model" "prefabs\\trash\\trash_bottles_and_cans_3.map"
+"origin" "-4931.5 157.5 78.5"
+"classname" "misc_prefab"
+}
+// entity 3928
+{
+"angles" "0 54.6 0"
+"model" "prefabs\\trash\\trash_cardboardbox_group_5.map"
+"origin" "-4956.7 28.5 91.5"
+"classname" "misc_prefab"
+}
+// entity 3929
+{
+"angles" "0 36.2 0"
+"model" "me_dumpster_close"
+"origin" "-4902.0 78.5 63.5"
+"classname" "misc_model"
+}
+// entity 3930
+{
+"angles" "0 3.79999 0"
+"model" "mil_barbedwire1"
+"origin" "-5342.7 280.6 78.0"
+"classname" "misc_model"
+}
+// entity 3931
+{
+"angles" "0 354.2 0"
+"model" "mil_barbedwire1"
+"origin" "-5347.7 130.6 78.0"
+"classname" "misc_model"
+}
+// entity 3932
+{
+"angles" "0 33.9 0"
+"model" "mil_barbedwire1"
+"origin" "-5345.4 -15.6 78.0"
+"classname" "misc_model"
+}
+// entity 3933
+{
+"angles" "0 334.9 0"
+"model" "prefabs\\trash\\trash_bottles_and_cans.map"
+"origin" "-4815.5 349.2 64.0"
+"classname" "misc_prefab"
+}
+// entity 3934
+{
+"angles" "0 21.8 0"
+"model" "prefabs\\trash\\trash_128x64d.map"
+"origin" "-4690.3 132.8 64.0"
+"classname" "misc_prefab"
+}
+// entity 3935
+{
+"classname" "misc_model"
+"model" "aftermath_rebar_group_03"
+"angles" "0 360 -172.3"
+"origin" "-5374.0 -267.0 111.6"
+"modelscale" "1.0"
+}
+// entity 3936
+{
+"classname" "misc_prefab"
+"model" "prefabs/misc_models/com_trashcan_metal_with_trash_script.map"
+"angles" "0 90 0"
+"origin" "-5356.6 -556.5 64.0"
+"modelscale" "1.0"
+}
+// entity 3937
+{
+"classname" "script_model"
+"model" "me_corrugated_metal4x8"
+"angles" "280 180 90"
+"origin" "-5372.1 -413.0 71.8"
+"modelscale" "1.0"
+}
+// entity 3938
+{
+"classname" "script_model"
+"model" "me_corrugated_metal4x8"
+"angles" "280.2 168.3 101.9"
+"origin" "-5372.1 -349.0 83.8"
+"modelscale" "1.0"
+}
+// entity 3939
+{
+"classname" "misc_prefab"
+"model" "prefabs/misc_models/com_pallet_destroyed_script.map"
+"angles" "90 350.4 170"
+"origin" "-5367.8 -462.6 88.0"
+"modelscale" "1.0"
+}
+// entity 3940
+{
+"classname" "misc_prefab"
+"model" "prefabs/misc_models/com_pallet_destroyed_script.map"
+"angles" "270 360 180"
+"origin" "-5368.1 -511.0 76.0"
+"modelscale" "1.0"
+}
+// entity 3941
+{
+"classname" "misc_prefab"
+"model" "prefabs/misc_models/com_trashcan_metal_with_trash_script.map"
+"angles" "0 90 0"
+"origin" "-5357.6 238.0 64.0"
+"modelscale" "1.0"
+}
+// entity 3942
+{
+"angles" "0 89.2 0"
+"model" "me_dumpster_close"
+"origin" "-5317.1 183.6 63.5"
+"classname" "misc_model"
 }
