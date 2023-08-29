@@ -44683,3 +44683,116 @@ iwmap 4
 "origin" "-4271.2 514.4 64.0"
 "classname" "misc_prefab"
 }
+// entity 3904
+{
+"model" "vehicle_uav_static"
+"origin" "-1482.6 10.1 64.0"
+"classname" "misc_model"
+}
+// entity 3905
+{
+"classname" "misc_model"
+"origin" "-508.5 -753.2 400.0"
+"model" "com_railpipe_med_bend"
+"angles" "0 180 0"
+}
+// entity 3906
+{
+"classname" "misc_model"
+"origin" "-499.0 -465.4 400.0"
+"model" "com_railpipe_med_01"
+"angles" "0 180 0"
+}
+// entity 3907
+{
+"classname" "misc_model"
+"origin" "-499.0 42.6 400.0"
+"model" "com_railpipe_med_01"
+"angles" "0 180 0"
+}
+// entity 3908
+{
+"classname" "misc_model"
+"origin" "-513.3 323.5 400.0"
+"model" "com_railpipe_med_bend"
+"angles" "0 270 0"
+}
+// entity 3909
+{
+"angles" "0 180 0"
+"targetname" "fx1"
+"origin" "-4289.5 151.0 208.0"
+"classname" "node_scripted"
+}
+// entity 3910
+{
+"targetname" "fx2"
+"origin" "2640.5 -2978.0 112.0"
+"classname" "node_scripted"
+}
+// entity 3911
+{
+"model" "com_barrel_russian_fuel_dirt"
+"origin" "-3245.6 -3592.3 275.0"
+"classname" "misc_model"
+}
+// entity 3912
+{
+"targetname" "fx3"
+"origin" "-3245.5 -3592.0 296.0"
+"classname" "node_scripted"
+}
+// entity 3913
+{
+"angles" "0 34 0"
+"model" "com_woodlog_24_96_b"
+"origin" "-3204.0 -3558.1 286.0"
+"classname" "misc_model"
+}
+// entity 3914
+{
+"angles" "0 346 0"
+"model" "com_woodlog_24_192_d"
+"origin" "-3316.0 -3568.0 290.0"
+"classname" "misc_model"
+}
+// entity 3915
+{
+"angles" "0 308 0"
+"model" "com_woodlog_24_192_a"
+"origin" "-3232.0 -3686.0 292.0"
+"classname" "misc_model"
+}
+// entity 3916
+{
+"angles" "0 120 0"
+"model" "com_bench"
+"origin" "-3463.1 -3564.1 276.0"
+"classname" "misc_model"
+}
+// entity 3917
+{
+"model" "com_barrel_benzin_dirt"
+"origin" "-749.4 -1230.4 19.0"
+"classname" "misc_model"
+}
+// entity 3918
+{
+"angles" "0 28.3 0"
+"model" "com_barrel_benzin_dirt_h"
+"origin" "-771.0 -1198.5 35.0"
+"classname" "misc_model"
+}
+// entity 3919
+{
+"angles" "0 329.3 0"
+"model" "com_barrel_biohazard_dirt_h"
+"origin" "-776.5 -1251.0 36.5"
+"classname" "misc_model"
+}
+// entity 3920
+{
+"targetname" "fx4"
+"origin" "-748.5 -1230.0 44.5"
+"classname" "node_scripted"
+}

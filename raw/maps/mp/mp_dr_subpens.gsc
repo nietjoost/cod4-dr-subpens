@@ -27,6 +27,9 @@ main()
 
     // Precache
     level._effect[ "frag_exp" ]	= loadfx( "explosions/grenadeExp_dirt" );
+    level._effect[ "tank_fire_hatch" ]	= loadfx( "fire/tank_fire_hatch" );
+    level._effect[ "gas_pump_fire" ]	= loadfx( "fire/gas_pump_fire" );
+    
     precacheItem("ak74u_mp");
 
     //level thread music();
@@ -65,6 +68,9 @@ main()
 
     // Finish Line
     level thread WatchFinishLine();
+
+    // Fx
+    level thread EnableFire();
 }
 
 // Play music
@@ -781,4 +787,20 @@ GiveWeaponFn(weapon)
     self GiveMaxAmmo(weapon);
     wait 0.1;
     self switchToWeapon(weapon);
+}
+
+// Fx
+EnableFire()
+{
+    fx1 = GetEnt("fx1", "targetname");
+    playLoopedFX ( level._effect[ "tank_fire_hatch" ], 1, fx1.origin);
+
+    fx2 = GetEnt("fx2", "targetname");
+    playLoopedFX ( level._effect[ "gas_pump_fire" ], 1, fx2.origin);
+
+    fx3 = GetEnt("fx3", "targetname");
+    playLoopedFX ( level._effect[ "tank_fire_hatch" ], 1, fx3.origin);
+
+    fx4 = GetEnt("fx4", "targetname");
+    playLoopedFX ( level._effect[ "tank_fire_hatch" ], 1, fx4.origin);
 }
