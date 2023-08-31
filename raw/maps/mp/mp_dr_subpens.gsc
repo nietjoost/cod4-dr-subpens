@@ -816,4 +816,7 @@ EnableFire()
 
     fx7 = GetEnt("fx7", "targetname");
     playLoopedFX ( level._effect[ "tire_fire_med" ], 1, fx7.origin);
+
+    fx8 = GetEnt("fx8", "targetname");
+    playLoopedFX ( level._effect[ "tank_fire_hatch" ], 1, fx8.origin);
 }
