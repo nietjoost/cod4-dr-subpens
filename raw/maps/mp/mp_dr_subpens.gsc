@@ -27,9 +27,11 @@ main()
 
     // Precache
     level._effect[ "frag_exp" ]	= loadfx( "explosions/grenadeExp_dirt" );
-    level._effect[ "tank_fire_hatch" ]	= loadfx( "fire/tank_fire_hatch" );
-    level._effect[ "gas_pump_fire" ]	= loadfx( "fire/gas_pump_fire" );
-    
+    level._effect[ "tank_fire_hatch" ] = loadfx( "fire/tank_fire_hatch" );
+    level._effect[ "gas_pump_fire" ] = loadfx( "fire/gas_pump_fire" );
+    level._effect[ "american_smoke_grenade_mp" ] = loadfx( "props/american_smoke_grenade_mp" );
+    level._effect[ "tire_fire_med" ] = loadfx( "fire/tire_fire_med" );
+
     precacheItem("ak74u_mp");
 
     //level thread music();
@@ -748,6 +750,8 @@ WatchFinishLine()
 
     // Win message
     iprintlnBold(player.name + " ^2finished first!");
+
+    playFX( level._effect[ "american_smoke_grenade_mp" ], player.origin);
 }
 
 // Utils functions
@@ -803,4 +807,13 @@ EnableFire()
 
     fx4 = GetEnt("fx4", "targetname");
     playLoopedFX ( level._effect[ "tank_fire_hatch" ], 1, fx4.origin);
+
+    fx5 = GetEnt("fx5", "targetname");
+    playLoopedFX ( level._effect[ "tank_fire_hatch" ], 1, fx5.origin);
+
+    fx6 = GetEnt("fx6", "targetname");
+    playLoopedFX ( level._effect[ "tank_fire_hatch" ], 1, fx6.origin);
+
+    fx7 = GetEnt("fx7", "targetname");
+    playLoopedFX ( level._effect[ "tire_fire_med" ], 1, fx7.origin);
 }
