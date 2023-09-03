@@ -34,7 +34,7 @@ main()
 
     precacheItem("ak74u_mp");
 
-    //level thread music();
+    level thread music();
     level thread messages();
     level thread startdoor();
 
@@ -107,6 +107,7 @@ SetupTrap1()
 {
     // Set trap settings
     trap1 = GetEnt("trap1", "targetname");
+    level thread AddTriggerToList(trap1);
     trap1ExplosionsLocations = GetEntArray("trap1ExplosionsLocations", "targetname");
     trap1ExplosionHurt = GetEntArray("trap1ExplosionHurt", "targetname");
 
@@ -143,6 +144,7 @@ SetupTrap2()
 {
     // Set trap settings
     trap2 = GetEnt("trap2", "targetname");
+    level thread AddTriggerToList(trap2);
     trap2Object1 = GetEnt("trap2Object1", "targetname");
     trap2Object2 = GetEnt("trap2Object2", "targetname");
     trap2Object3 = GetEnt("trap2Object3", "targetname");
@@ -175,6 +177,7 @@ SetupTrap3()
 {
     // Set trap settings
     trap3 = GetEnt("trap3", "targetname");
+    level thread AddTriggerToList(trap3);
     trap3Object1 = GetEnt("trap3Object1", "targetname");
     trap3Object2 = GetEnt("trap3Object2", "targetname");
     trap3Object3 = GetEnt("trap3Object3", "targetname");
@@ -205,6 +208,7 @@ SetupTrap4()
 {
     // Set trap settings
     trap4 = GetEnt("trap4", "targetname");
+    level thread AddTriggerToList(trap4);
     trap4ExplosionsLocations = GetEntArray("trap4ExplosionsLocations", "targetname");
     trap4ExplosionHurt = GetEntArray("trap4ExplosionHurt", "targetname");
 
@@ -256,6 +260,7 @@ SetupTrap5()
 {
     // Set trap settings
     trap5 = GetEnt("trap5", "targetname");
+    level thread AddTriggerToList(trap5);
     trap5Object1 = GetEnt("trap5Object1", "targetname");
 
     // Wait for use
@@ -285,6 +290,7 @@ SetupTrap6()
 {
     // Set trap settings
     trap6 = GetEnt("trap6", "targetname");
+    level thread AddTriggerToList(trap6);
     trap6Object1 = GetEntArray("trap6Object1", "targetname");
 
     // Wait for use
@@ -304,6 +310,7 @@ SetupTrap7()
 {
     // Set trap settings
     trap7 = GetEnt("trap7", "targetname");
+    level thread AddTriggerToList(trap7);
     trap7Object1 = GetEnt("trap7Object1", "targetname");
 
     // Wait for use
@@ -319,6 +326,7 @@ SetupTrap8()
 {
     // Set trap settings
     trap8 = GetEnt("trap8", "targetname");
+    level thread AddTriggerToList(trap8);
     trap8Object1 = GetEntArray("trap8Object1", "targetname");
 
     // Wait for use
@@ -791,6 +799,13 @@ GiveWeaponFn(weapon)
     self GiveMaxAmmo(weapon);
     wait 0.1;
     self switchToWeapon(weapon);
+}
+
+AddTriggerToList(trigger)
+{
+    if( !isDefined( level.trapTriggers ) )
+        level.trapTriggers = [];
+    level.trapTriggers[level.trapTriggers.size] = trigger;
 }
 
 // Fx
