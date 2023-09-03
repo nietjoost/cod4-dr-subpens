@@ -31586,7 +31586,7 @@ iwmap 4
 {
 "targetname" "raceRoomSpawn4"
 "angles" "0 180 0"
-"origin" "-2528.0 -3200.0 320.5"
+"origin" "-2528.0 -3200.0 326.5"
 "classname" "node_scripted"
 }
 // entity 2198
@@ -45404,4 +45404,39 @@ iwmap 4
 {
 "origin" "1042.5 236.0 203.0"
 "classname" "mp_global_intermission"
+}
+// entity 3999
+{
+"angles" "0 25.2 0"
+"model" "me_concrete_barrier"
+"origin" "-878.0 -1382.5 15.5"
+"classname" "misc_model"
+}
+// entity 4000
+{
+"angles" "0 333.9 0"
+"model" "me_concrete_barrier"
+"origin" "-657.0 -1621.0 15.5"
+"classname" "misc_model"
+}
+// entity 4001
+{
+"angles" "0 350.5 0"
+"model" "me_concrete_barrier"
+"origin" "-795.5 -1653.5 15.5"
+"classname" "misc_model"
+}
+// entity 4002
+{
+"angles" "270 300 2.26392e-005"
+"model" "me_refrigerator"
+"origin" "-887.1 -1104.6 20.0"
+"classname" "misc_model"
+}
+// entity 4003
+{
+"angles" "0 330 0"
+"model" "me_satellitedish"
+"origin" "-2424.8 -1166.3 256.0"
+"classname" "misc_model"
 }
