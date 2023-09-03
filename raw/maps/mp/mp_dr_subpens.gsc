@@ -10,15 +10,15 @@ main()
     game["allies_soldiertype"] = "desert";
     game["axis_soldiertype"] = "desert";
 
-    setdvar("g_speed" ,"210");
-    setdvar("dr_jumpers_speed" ,"1");
-    setdvar("r_specularcolorscale", "1" );
-    setdvar("r_glowbloomintensity0",".1");
-    setdvar("r_glowbloomintensity1",".1");
-    setdvar("r_glowskybleedintensity0",".1");
+    SetDvar("g_speed" ,"210");
+    SetDvar("dr_jumpers_speed" ,"1");
+    SetDvar("r_specularcolorscale", "1" );
+    SetDvar("r_glowbloomintensity0",".1");
+    SetDvar("r_glowbloomintensity1",".1");
+    SetDvar("r_glowskybleedintensity0",".1");
 
-    setdvar("dr_afk_time","60");
-    setdvar("dr_afk_warn","45");
+    SetDvar("dr_afk_time","60");
+    SetDvar("dr_afk_warn","45");
 
     // Custom vars
     level.door_old = false;
@@ -34,9 +34,10 @@ main()
 
     precacheItem("ak74u_mp");
 
-    level thread music();
-    level thread messages();
-    level thread startdoor();
+    // Start level functions
+    level thread Music();
+    level thread Messages();
+    level thread StartDoor();
 
     // Traps functions
     level thread SetupTrap1();
@@ -64,8 +65,8 @@ main()
     level thread SetupRaceRoom();
 
     // Teleport function
-    level thread teleportpos1to2();
-    level thread teleportpos2to1();
+    level thread TeleportPos1To2();
+    level thread TeleportPos2To1();
     level thread BounceTeleport();
 
     // Finish Line
@@ -75,29 +76,29 @@ main()
     level thread EnableFire();
 }
 
-// Play music
-music()
+// Play Music
+Music()
 {
     wait 4;
-    ambientPlay( "song1" );
+    AmbientPlay( "song1" );
 }
 
 // Start message
-messages()
+Messages()
 {
     wait 10;
-    iprintlnBold("^1Welcome to Sub Pens");
+    IprintlnBold("^1Welcome to Sub Pens");
     wait 1;
 }
 
 // Open start door
-startdoor()
+StartDoor()
 {
-    startDoor = getent("startdoor","targetname");
+    startDoor = GetEnt("startdoor","targetname");
     {
         wait 15;
-        startDoor moveZ(-400, 5);
-        iprintlnbold("^8Start door opened.");
+        startDoor MoveZ(-400, 5);
+        IprintlnBold("^8Start door opened.");
         wait 2;
     }
 }
@@ -125,8 +126,8 @@ SetupTrap1()
     // Start trap
     for (i = 0; i < trap1ExplosionsLocations.size; i++)
     {
-        playFX ( level._effect[ "frag_exp" ], trap1ExplosionsLocations[i].origin);	
-	    trap1ExplosionsLocations[i] playsound("clusterbomb_explode_default");
+        PlayFX ( level._effect[ "frag_exp" ], trap1ExplosionsLocations[i].origin);	
+	    trap1ExplosionsLocations[i] PlaySound("clusterbomb_explode_default");
         trap1ExplosionHurt[i].dmg = 100;
 
         wait 0.1;
@@ -151,22 +152,22 @@ SetupTrap2()
 
     // Wait for use
     trap2 waittill("trigger", player);
-    trap2 delete();
+    trap2 Delete();
     player PlayerMessage("You activated trap 2");
 
     // Start trap
     duration = 0.5;
     for(;;)
 	{
-  		trap2Object1 rotateYaw(360,duration);
+  		trap2Object1 RotateYaw(360,duration);
 		wait ((duration)-0.1);
         wait 1;
 
-        trap2Object2 rotateYaw(360,duration);
+        trap2Object2 RotateYaw(360,duration);
 		wait ((duration)-0.1);
         wait 1;
 
-        trap2Object3 rotateYaw(360,duration);
+        trap2Object3 RotateYaw(360,duration);
 		wait ((duration)-0.1);
         wait 1;
 	}
@@ -185,20 +186,20 @@ SetupTrap3()
 
     // Wait for use
     trap3 waittill("trigger", player);
-    trap3 delete();
+    trap3 Delete();
     player PlayerMessage("You activated trap 3");
 
     // Start trap
     duration = 1;
     for(;;)
 	{
-  		trap3Object1 rotateRoll(360,duration);
-        trap3Object3 rotateRoll(360,duration);
+  		trap3Object1 RotateRoll(360,duration);
+        trap3Object3 RotateRoll(360,duration);
 		wait ((duration)-0.1);
         wait 1;
 
-        trap3Object2 rotateRoll(360,duration);
-        trap3Object4 rotateRoll(360,duration);
+        trap3Object2 RotateRoll(360,duration);
+        trap3Object4 RotateRoll(360,duration);
 		wait ((duration)-0.1);
         wait 1;
 	}
@@ -226,7 +227,7 @@ SetupTrap4()
     // Start trap
     for (i = 0; i < trap4ExplosionsLocations.size; i++)
     {
-        trap4ExplosionsLocations[i] moveZ(10, 1);
+        trap4ExplosionsLocations[i] MoveZ(10, 1);
     }
 
     wait 3;
@@ -236,8 +237,8 @@ SetupTrap4()
     
     for (i = 0; i < trap4ExplosionsLocations.size; i++)
     {
-        playFX ( level._effect[ "frag_exp" ], trap4ExplosionsLocations[i].origin);	
-	    trap4ExplosionsLocations[i] playsound("clusterbomb_explode_default");
+        PlayFX ( level._effect[ "frag_exp" ], trap4ExplosionsLocations[i].origin);	
+	    trap4ExplosionsLocations[i] PlaySound("clusterbomb_explode_default");
     }
 
     wait 0.1;
@@ -248,7 +249,7 @@ SetupTrap4()
 
     for (i = 0; i < trap4ExplosionsLocations.size; i++)
     {
-        trap4ExplosionsLocations[i] moveZ(-10, 1);
+        trap4ExplosionsLocations[i] MoveZ(-10, 1);
     }
 
     // Reset trap use
@@ -265,22 +266,22 @@ SetupTrap5()
 
     // Wait for use
     trap5 waittill("trigger", player);
-    trap5 delete();
+    trap5 Delete();
     player PlayerMessage("You activated trap 5");
 
     // Start trap
     duration = 1;
     for(;;)
 	{
-        trap5Object1 moveZ(200, duration);
+        trap5Object1 MoveZ(200, duration);
         wait duration + 0.5;
 
-        trap5Object1 moveZ(-200, duration);
+        trap5Object1 MoveZ(-200, duration);
         wait duration + 0.5;
 
         wait duration + 0.5;
 
-  		trap5Object1 rotateYaw(360,duration);
+  		trap5Object1 RotateYaw(360,duration);
 
         wait 3.5;
 	}
@@ -295,7 +296,7 @@ SetupTrap6()
 
     // Wait for use
     trap6 waittill("trigger", player);
-    trap6 delete();
+    trap6 Delete();
     player PlayerMessage("You activated trap 6");
 
     // Start trap
@@ -315,11 +316,11 @@ SetupTrap7()
 
     // Wait for use
     trap7 waittill("trigger", player);
-    trap7 delete();
+    trap7 Delete();
     player PlayerMessage("You activated trap 7");
 
     // Start trap
-    trap7Object1 delete();
+    trap7Object1 Delete();
 }
 
 SetupTrap8()
@@ -331,7 +332,7 @@ SetupTrap8()
 
     // Wait for use
     trap8 waittill("trigger", player);
-    trap8 delete();
+    trap8 Delete();
     player PlayerMessage("You activated trap 8");
 
     // Start trap
@@ -348,9 +349,9 @@ MoveObjectUpAndDown()
 
     for (;;)
     {
-        self moveZ(300, duration);
+        self MoveZ(300, duration);
         wait 1;
-        self moveZ(-300, duration);
+        self MoveZ(-300, duration);
         wait 1;
     }
 }
@@ -375,22 +376,22 @@ SetupOldRoom()
     }
 
     // Setting before start
-    doorOldTrigger delete();
+    doorOldTrigger Delete();
     level.door_old = true;
-    level.roomSniperTrigger delete();
-    level.roomKnifeTrigger delete();
-    level.roomBounceTrigger delete();
-    level.roomWeaponTrigger delete();
-    level.roomRaceTrigger delete();
+    level.roomSniperTrigger Delete();
+    level.roomKnifeTrigger Delete();
+    level.roomBounceTrigger Delete();
+    level.roomWeaponTrigger Delete();
+    level.roomRaceTrigger Delete();
 
     // Message
-    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1OLD");
+    IprintlnBold("^5" + player.name + " ^7has chosen the room ^1OLD");
     player PlayerMessage("You have chosen the room ^1OLD");
 
     // Start old room
     for (i = 0; i < doorOldObjects.size; i++)
     {
-        doorOldObjects[i] moveZ(-400, 5);
+        doorOldObjects[i] MoveZ(-400, 5);
     }
 }
 
@@ -418,7 +419,7 @@ SetupSniperRoom()
     level.player_in_room = true;
 
     // Message
-    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1SNIPER");
+    IprintlnBold("^5" + player.name + " ^7has chosen the room ^1SNIPER");
     player PlayerMessage("You have chosen the room ^1SNIPER");
 
     // Start sniper room
@@ -470,7 +471,7 @@ SetupKnifeRoom()
     level.player_in_room = true;
 
     // Message
-    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1KNIFE");
+    IprintlnBold("^5" + player.name + " ^7has chosen the room ^1KNIFE");
     player PlayerMessage("You have chosen the room ^1KNIFE");
 
     // Start sniper room
@@ -494,7 +495,7 @@ SpawnWeaponRoomLogic(weapon)
     self giveWeapon(weapon);
     self GiveMaxAmmo(weapon);
     wait 0.1;
-    self switchToWeapon(weapon);
+    self SwitchToWeapon(weapon);
     self RoomCountDown(weapon);
 }
 
@@ -523,7 +524,7 @@ SetupBounceRoom()
     level.player_in_room = true;
 
     // Message
-    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1BOUNCE");
+    IprintlnBold("^5" + player.name + " ^7has chosen the room ^1BOUNCE");
     player PlayerMessage("You have chosen the room ^1BOUNCE");
 
     // Start sniper room
@@ -559,7 +560,7 @@ PickupSniper()
         player GiveMaxAmmo("m40a3_mp");
         player GiveMaxAmmo( "remington700_mp" );
         wait 0.1;
-        player switchToWeapon("m40a3_mp");
+        player SwitchToWeapon("m40a3_mp");
     }
 }
 
@@ -588,7 +589,7 @@ SetupWeaponRoom()
     level.player_in_room = true;
 
     // Message
-    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1weapon");
+    IprintlnBold("^5" + player.name + " ^7has chosen the room ^1weapon");
     player PlayerMessage("You have chosen the room ^1weapon");
 
     // Start sniper room
@@ -642,7 +643,7 @@ SetupRaceRoom()
     level.player_in_room = true;
 
     // Message
-    iprintlnBold("^5" + player.name + " ^7has chosen the room ^1weapon");
+    IprintlnBold("^5" + player.name + " ^7has chosen the room ^1weapon");
     player PlayerMessage("You have chosen the room ^1weapon");
 
     // Start sniper room
@@ -693,7 +694,7 @@ SetupRaceRoom()
 }
 
 // Teleport functions
-teleportpos1to2()
+TeleportPos1To2()
 {
     teleportpos1to2Trigger = GetEnt("teleportpos1to2Trigger", "targetname");
     teleportpos1to2Object = GetEnt("teleportpos1to2Object", "targetname");
@@ -707,7 +708,7 @@ teleportpos1to2()
     }
 }
 
-teleportpos2to1()
+TeleportPos2To1()
 {
     teleportpos2to1Trigger = GetEnt("teleportpos2to1Trigger", "targetname");
     teleportpos2to1Object = GetEnt("teleportpos2to1Object", "targetname");
@@ -757,9 +758,9 @@ WatchFinishLine()
     finishLine waittill("trigger", player);
 
     // Win message
-    iprintlnBold(player.name + " ^2finished first!");
+    IprintlnBold(player.name + " ^2finished first!");
 
-    playFX( level._effect[ "american_smoke_grenade_mp" ], player.origin);
+    PlayFX( level._effect[ "american_smoke_grenade_mp" ], player.origin);
 }
 
 // Utils functions
@@ -773,13 +774,13 @@ RoomCountDown(weapon)
 {
     self FreezeControls(true);
     self SetOrigin(self.origin + (0,0,20));
-    self iprintlnBold("^13");
+    self IprintlnBold("^13");
     wait 1;
-    self iprintlnBold("^62");
+    self IprintlnBold("^62");
     wait 1;
-    self iprintlnBold("^51");
+    self IprintlnBold("^51");
     wait 1;
-    self iprintlnBold("^2GO!");
+    self IprintlnBold("^2GO!");
     self FreezeControls(false);
     wait 0.1;
     self SwitchToWeapon(weapon); 
@@ -798,7 +799,7 @@ GiveWeaponFn(weapon)
     self GiveWeapon(weapon);
     self GiveMaxAmmo(weapon);
     wait 0.1;
-    self switchToWeapon(weapon);
+    self SwitchToWeapon(weapon);
 }
 
 AddTriggerToList(trigger)
